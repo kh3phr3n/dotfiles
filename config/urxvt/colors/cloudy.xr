@@ -1,0 +1,29 @@
+! URxvt colors
+URxvt.foreground: #525252
+URxvt.background: #F0F0F0
+
+! Black
+URxvt.color0  : #CB4B16
+URxvt.color8  : #CB4B16
+! Red
+URxvt.color1  : #DC322F
+URxvt.color9  : #DC322F
+! Green
+URxvt.color2  : #859900
+URxvt.color10 : #859900
+! Yellow
+URxvt.color3  : #B58900
+URxvt.color11 : #B58900
+! Blue
+URxvt.color4  : #268BD2
+URxvt.color12 : #268BD2
+! Magenta
+URxvt.color5  : #D33682
+URxvt.color13 : #D33682
+! Cyan
+URxvt.color6  : #2AA198
+URxvt.color14 : #2AA198
+! White
+URxvt.color7  : #93A1A1
+URxvt.color15 : #93A1A1
+

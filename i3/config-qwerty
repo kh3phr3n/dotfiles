@@ -1,0 +1,162 @@
+# i3 config file (v4)
+# Please see http://i3wm.org/docs/userguide.html for a complete reference!
+
+# Super key (Alt)
+set $mod Mod1
+# Floating windows
+floating_modifier $mod
+# Hide edge borders
+hide_edge_borders both
+# New layout containers
+workspace_layout tabbed
+# Font for window titles
+font pango:Consolas bold 14
+
+# Split horizontal/vertical
+bindsym $mod+h split h
+bindsym $mod+v split v
+
+# Enter fullscreen mode
+bindsym $mod+f fullscreen
+
+# Kill focused window
+bindsym $mod+Shift+q kill
+
+# Focus child/parent
+bindsym $mod+c focus child
+bindsym $mod+a focus parent
+
+# Toggle border styles
+bindsym $mod+u border none
+bindsym $mod+t border normal
+bindsym $mod+y border pixel 2
+
+# Change focus
+bindsym $mod+j focus left
+bindsym $mod+k focus down
+bindsym $mod+l focus up
+bindsym $mod+semicolon focus right
+# Alternatively
+bindsym $mod+Left focus left
+bindsym $mod+Down focus down
+bindsym $mod+Up focus up
+bindsym $mod+Right focus right
+
+# Move focused window
+bindsym $mod+Shift+j move left
+bindsym $mod+Shift+k move down
+bindsym $mod+Shift+l move up
+bindsym $mod+Shift+semicolon move right
+# Alternatively
+bindsym $mod+Shift+Left move left
+bindsym $mod+Shift+Down move down
+bindsym $mod+Shift+Up move up
+bindsym $mod+Shift+Right move right
+
+# Change container layout
+bindsym $mod+w layout tabbed
+bindsym $mod+s layout stacking
+bindsym $mod+e layout toggle split
+
+# Side buttons move the window
+bindsym button9 move left
+bindsym button8 move right
+# Right button toggles floating
+bindsym $mod+button3 floating toggle
+# Middle button kills the window
+bindsym --whole-window $mod+button2 kill
+
+# Change/Toggle focus tiling/floating windows
+bindsym $mod+space focus mode_toggle
+bindsym $mod+Shift+space floating toggle
+
+# Switch to workspace
+bindsym $mod+1 workspace 1
+bindsym $mod+2 workspace 2
+bindsym $mod+3 workspace 3
+bindsym $mod+4 workspace 4
+bindsym $mod+5 workspace 5
+bindsym $mod+6 workspace 6
+bindsym $mod+7 workspace 7
+bindsym $mod+8 workspace 8
+bindsym $mod+9 workspace 9
+bindsym $mod+0 workspace 10
+
+# Move focused container to workspace
+bindsym $mod+Shift+1 move container to workspace 1
+bindsym $mod+Shift+2 move container to workspace 2
+bindsym $mod+Shift+3 move container to workspace 3
+bindsym $mod+Shift+4 move container to workspace 4
+bindsym $mod+Shift+5 move container to workspace 5
+bindsym $mod+Shift+6 move container to workspace 6
+bindsym $mod+Shift+7 move container to workspace 7
+bindsym $mod+Shift+8 move container to workspace 8
+bindsym $mod+Shift+9 move container to workspace 9
+bindsym $mod+Shift+0 move container to workspace 10
+
+# Reload the configuration file
+bindsym $mod+Shift+c reload
+# Restart i3 inplace (preserves your layout/session, can be used to upgrade i3)
+bindsym $mod+Shift+r restart
+# Exit i3 (logs you out of your X session)
+bindsym $mod+Shift+e exec "i3-nagbar -t warning -m 'Do you really want to exit i3?' -b 'Yes, exit i3' 'i3-msg exit'"
+
+# Start a terminal
+bindsym $mod+Return exec i3-sensible-terminal
+# Lock screen session
+bindsym $mod+F9 exec --no-startup-id i3lock --color=000000
+# Start dmenu (a program launcher)
+bindsym $mod+d exec --no-startup-id dmenu_run -b -p '>>>' -fn 'Consolas-14:style=Bold' -nb '#222222' -nf '#888888' -sb '#33aadd' -sf '#ffffff'
+
+# Resize window (you can also use the mouse for that)
+mode "resize" {
+    # Back to normal: Enter or Escape
+    bindsym Return mode "default"
+    bindsym Escape mode "default"
+
+    # These bindings trigger as soon as you enter the resize mode
+    bindsym j resize shrink width 10 px or 10 ppt
+    bindsym k resize grow height 10 px or 10 ppt
+    bindsym l resize shrink height 10 px or 10 ppt
+    bindsym semicolon resize grow width 10 px or 10 ppt
+
+    # Same bindings, but for the arrow keys
+    bindsym Left resize shrink width 10 px or 10 ppt
+    bindsym Down resize grow height 10 px or 10 ppt
+    bindsym Up resize shrink height 10 px or 10 ppt
+    bindsym Right resize grow width 10 px or 10 ppt
+}
+# Bind resize mode
+bindsym $mod+r mode "resize"
+
+# Start i3bar to display a workspace bar
+bar {
+    position top
+    status_command i3blocks
+    colors {
+        separator  #222222
+        background #222222
+        statusline #dddddd
+        active_workspace   #333333 #333333 #ffffff
+        urgent_workspace   #2f343a #900000 #ffffff
+        focused_workspace  #33aadd #33aadd #ffffff
+        inactive_workspace #333333 #333333 #888888
+    }
+}
+
+# Archlinux light colors
+client.urgent           #2f343a #900000 #ffffff #900000
+client.focused          #33aadd #33aadd #ffffff #dddddd
+client.unfocused        #333333 #333333 #888888 #292d2e
+client.focused_inactive #333333 #333333 #888888 #292d2e
+
+# Specific actions
+for_window [class="^Gvim$"] border none
+
+# Start applications
+exec --no-startup-id xrdb ~/.Xresources &
+exec --no-startup-id start-pulseaudio-x11 &
+exec --no-startup-id xset dpms 3600 3600 3600 &
+exec --no-startup-id compton -b > /dev/null 2>&1 &
+exec --no-startup-id feh --bg-scale $HOME/Pictures/background.png &
+

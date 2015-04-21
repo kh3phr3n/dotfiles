@@ -1,0 +1,87 @@
+# File: ~/.config/i3blocks/config
+
+[kernel-label]
+color=#33AADD
+separator=false
+full_text= Linux
+
+[kernel]
+color=#FFFFFF
+interval=once
+command=uname -r
+
+[load-label]
+color=#33AADD
+separator=false
+full_text= Load
+
+[load]
+color=#FFFFFF
+interval=1
+command=/usr/libexec/i3blocks/load_average
+
+[cpu-label]
+color=#33AADD
+separator=false
+full_text= Cpu
+
+[cpu]
+color=#FFFFFF
+interval=1
+command=/usr/libexec/i3blocks/cpu_usage
+
+[ram-label]
+color=#33AADD
+separator=false
+full_text= Ram
+
+[ram]
+color=#FFFFFF
+interval=1
+command=free | awk '/Mem/{printf("%.2f%"), $3/$2*100}'
+
+[sda1-label]
+color=#33AADD
+separator=false
+full_text= Sda1
+
+[sda1]
+color=#FFFFFF
+interval=60
+command=df /dev/sda1 | awk '(NR>1) {print $5}'
+
+[sda3-label]
+color=#33AADD
+separator=false
+full_text= Sda3
+
+[sda3]
+color=#FFFFFF
+interval=60
+command=df /dev/sda3 | awk '(NR>1) {print $5}'
+
+[date-label]
+color=#33AADD
+separator=false
+full_text= Date
+
+[date]
+color=#FFFFFF
+interval=1
+command=date '+%d/%m %H:%M:%S'
+
+[updates-label]
+color=#33AADD
+separator=false
+full_text=
+
+[updates]
+color=#33AADD
+interval=60
+command=checkupdates | wc -l
+
+[network]
+color=#35BF5C
+interval=30
+command=[[ $(connmanctl state) =~ 'online' ]] && echo ' Online' || echo ' Offline'
+

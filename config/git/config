@@ -1,0 +1,44 @@
+# File: ~/.config/git/config
+# Description: Git configuration file
+# Documentation: https://git-scm.herokuapp.com/docs/git-config
+
+[user]
+name = kh3phr3n
+signingkey = B3D12B30
+email = rc.dev@tuxico.com
+
+[core]
+editor = vim
+
+[merge]
+tool = vimdiff
+
+[web]
+browser = firefox
+
+[push]
+default = matching
+
+[color]
+grep = auto
+diff = auto
+status = auto
+branch = auto
+interactive = auto
+
+[alias]
+df = diff
+pl = pull
+sh = show
+ss = stash
+bl = blame
+cl = clone
+me = merge
+br = branch
+ci = commit
+co = checkout
+po = push origin
+ds = diff --stat
+st = status -s -b
+lg = log --graph --pretty=format:'%Cred%h%Creset -%C(yellow)%d%Creset %s %Cgreen(%cr) %C(bold blue)<%an>%Creset'
+
