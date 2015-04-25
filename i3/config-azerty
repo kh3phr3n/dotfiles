@@ -153,11 +153,13 @@ client.focused_inactive #333333 #333333 #888888 #292d2e
 # Specific actions
 for_window [class="^Gvim$"] border none
 
+# System settings
+exec --no-startup-id xrdb ~/.Xresources
+exec --no-startup-id xset dpms 3600 3600 3600
+exec --no-startup-id setxkbmap -layout fr -option caps:swapescape
+
 # Start applications
-exec --no-startup-id xrdb ~/.Xresources &
 exec --no-startup-id start-pulseaudio-x11 &
-exec --no-startup-id xset dpms 3600 3600 3600 &
 exec --no-startup-id compton -b > /dev/null 2>&1 &
 exec --no-startup-id feh --bg-scale $HOME/Pictures/background.png &
-exec --no-startup-id setxkbmap -layout fr -option caps:swapescape &
 

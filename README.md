@@ -10,8 +10,8 @@ Arch Linux dotfiles
 
 ##### Fix GVim borders (.gtkrc-2.0)
 
-* Tomorrow: #fafafa
-* Tomorrow Night: #1d1f21
+* Today, Tomorrow: #fafafa
+* Today, Tomorrow (Night): #1d1f21
 
 ##### Debian color scheme (.i3/config)
     colors {
