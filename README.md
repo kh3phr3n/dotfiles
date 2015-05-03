@@ -1,5 +1,4 @@
-Arch Linux dotfiles
-===================
+# Arch Linux dotfiles
 
 ##### Cursor themes
 
@@ -71,4 +70,9 @@ Arch Linux dotfiles
     client.focused_inactive #333333 #333333 #888888 #292d2e
 
     # Dmenu colors: -nb '#222222' -nf '#888888' -sb '#33aadd' -sf '#ffffff'
+
+## Informations
+
+* [i3wm faq](https://faq.i3wm.org/questions/)
+* [i3wm documentation](http://i3wm.org/docs/)
 
