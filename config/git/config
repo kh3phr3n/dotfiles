@@ -34,11 +34,14 @@ ss = stash
 bl = blame
 cl = clone
 me = merge
+re = reset
 br = branch
 ci = commit
 co = checkout
 po = push origin
 ds = diff --stat
+rs = reset --soft
+rh = reset --hard
 st = status -s -b
 lg = log --graph --pretty=format:'%Cred%h%Creset -%C(yellow)%d%Creset %s %Cgreen(%cr) %C(bold blue)<%an>%Creset'
 
