@@ -9,6 +9,7 @@
 
 ##### Fix GVim borders (.gtkrc-2.0)
 
+* Today Material: #263238
 * Today, Tomorrow: #fafafa
 * Today, Tomorrow (Night): #1d1f21
 
