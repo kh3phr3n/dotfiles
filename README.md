@@ -9,6 +9,8 @@
 
 ##### Fix GVim borders (.gtkrc-2.0)
 
+* Solarized dark: #002b36
+* Solarized light: #fdf6e3
 * Today Material: #263238
 * Today, Tomorrow: #fafafa
 * Today, Tomorrow (Night): #1d1f21
