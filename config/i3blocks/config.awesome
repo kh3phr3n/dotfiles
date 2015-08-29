@@ -18,7 +18,7 @@ full_text= Load
 [load]
 color=#FFFFFF
 interval=1
-command=/usr/libexec/i3blocks/load_average
+command=/usr/lib/i3blocks/load_average
 
 [cpu-label]
 color=#33AADD
@@ -28,7 +28,7 @@ full_text= Cpu
 [cpu]
 color=#FFFFFF
 interval=1
-command=/usr/libexec/i3blocks/cpu_usage
+command=/usr/lib/i3blocks/cpu_usage
 
 [ram-label]
 color=#33AADD
