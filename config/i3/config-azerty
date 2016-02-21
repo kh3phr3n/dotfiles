@@ -109,7 +109,7 @@ bindsym $mod+F9 exec --no-startup-id i3lock --color=000000
 bindsym $mod+d exec --no-startup-id dmenu_run -b -p '>>>' -fn 'Consolas-14:style=Bold' -nb '#222222' -nf '#888888' -sb '#33aadd' -sf '#ffffff'
 
 # Resize window (you can also use the mouse for that)
-mode "resize" {
+mode "  " {
     # Back to normal: Enter or Escape
     bindsym Return mode "default"
     bindsym Escape mode "default"
@@ -127,7 +127,7 @@ mode "resize" {
     bindsym Right resize grow width 10 px or 10 ppt
 }
 # Bind resize mode
-bindsym $mod+r mode "resize"
+bindsym $mod+r mode "  "
 
 # Start i3bar to display a workspace bar
 bar {
@@ -138,14 +138,14 @@ bar {
         background #222222
         statusline #dddddd
         active_workspace   #333333 #333333 #ffffff
-        urgent_workspace   #2f343a #900000 #ffffff
+        urgent_workspace   #222222 #222222 #cc6666
         focused_workspace  #33aadd #33aadd #ffffff
         inactive_workspace #333333 #333333 #888888
     }
 }
 
 # Archlinux light colors
-client.urgent           #2f343a #900000 #ffffff #900000
+client.urgent           #cc6666 #cc6666 #ffffff #cc6666
 client.focused          #33aadd #33aadd #ffffff #dddddd
 client.unfocused        #333333 #333333 #888888 #292d2e
 client.focused_inactive #333333 #333333 #888888 #292d2e
