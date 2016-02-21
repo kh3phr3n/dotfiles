@@ -61,3 +61,8 @@ URxvt.font: xft:consolas:size=15,xft:monospace:size=15
 URxvt.boldFont: xft:consolas:size=15,xft:monospace:size=15
 URxvt.boldItalicFont: xft:consolas:italic:size=15,xft:monospace:italic:size=15
 
+! URxvt font settings (bold)
+! URxvt.font: xft:consolas:bold:size=15,xft:monospace:bold:size=15
+! URxvt.boldFont: xft:consolas:bold:size=15,xft:monospace:bold:size=15
+! URxvt.boldItalicFont: xft:consolas:bold:italic:size=15,xft:monospace:bold:italic:size=15
+
