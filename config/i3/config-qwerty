@@ -16,9 +16,6 @@ font pango:Consolas bold 14
 bindsym $mod+h split h
 bindsym $mod+v split v
 
-# Enter fullscreen mode
-bindsym $mod+f fullscreen
-
 # Kill focused window
 bindsym $mod+Shift+q kill
 
@@ -66,7 +63,9 @@ bindsym $mod+button3 floating toggle
 # Middle button kills the window
 bindsym --whole-window $mod+button2 kill
 
-# Change/Toggle focus tiling/floating windows
+# Enter fullscreen mode
+bindsym $mod+f fullscreen toggle
+# Toggle tiling/floating windows
 bindsym $mod+space focus mode_toggle
 bindsym $mod+Shift+space floating toggle
 
