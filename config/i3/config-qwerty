@@ -13,7 +13,7 @@ workspace_layout tabbed
 font pango:Consolas bold 14
 
 # Split horizontal/vertical
-bindsym $mod+h split h
+bindsym $mod+g split h
 bindsym $mod+v split v
 
 # Kill focused window
