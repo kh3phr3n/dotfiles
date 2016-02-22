@@ -29,10 +29,10 @@ bindsym $mod+t border normal
 bindsym $mod+y border pixel 2
 
 # Change focus
-bindsym $mod+j focus left
-bindsym $mod+k focus down
-bindsym $mod+l focus up
-bindsym $mod+m focus right
+bindsym $mod+h focus left
+bindsym $mod+j focus down
+bindsym $mod+k focus up
+bindsym $mod+l focus right
 # Alternatively
 bindsym $mod+Left focus left
 bindsym $mod+Down focus down
@@ -40,10 +40,10 @@ bindsym $mod+Up focus up
 bindsym $mod+Right focus right
 
 # Move focused window
-bindsym $mod+Shift+j move left
-bindsym $mod+Shift+k move down
-bindsym $mod+Shift+l move up
-bindsym $mod+Shift+m move right
+bindsym $mod+Shift+h move left
+bindsym $mod+Shift+j move down
+bindsym $mod+Shift+k move up
+bindsym $mod+Shift+l move right
 # Alternatively
 bindsym $mod+Shift+Left move left
 bindsym $mod+Shift+Down move down
@@ -114,10 +114,10 @@ mode "  " {
     bindsym Escape mode "default"
 
     # These bindings trigger as soon as you enter the resize mode
-    bindsym j resize shrink width 10 px or 10 ppt
-    bindsym k resize grow height 10 px or 10 ppt
-    bindsym l resize shrink height 10 px or 10 ppt
-    bindsym m resize grow width 10 px or 10 ppt
+    bindsym h resize shrink width 10 px or 10 ppt
+    bindsym j resize grow height 10 px or 10 ppt
+    bindsym k resize shrink height 10 px or 10 ppt
+    bindsym l resize grow width 10 px or 10 ppt
 
     # Same bindings, but for the arrow keys
     bindsym Left resize shrink width 10 px or 10 ppt
