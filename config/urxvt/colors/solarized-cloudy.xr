@@ -1,6 +1,6 @@
 ! URxvt colors
 URxvt.foreground: #525252
-URxvt.background: #F0F0F0
+URxvt.background: #E9E9E9
 
 ! Black
 URxvt.color0  : #CB4B16

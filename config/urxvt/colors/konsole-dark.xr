@@ -3,8 +3,8 @@ URxvt.foreground: #839496
 URxvt.background: #2B303B
 
 ! Black
-URxvt.color0  : #000000
-URxvt.color8  : #000000
+URxvt.color0  : #1C1C1C
+URxvt.color8  : #1C1C1C
 ! Red
 URxvt.color1  : #7D4C4C
 URxvt.color9  : #7D4C4C
