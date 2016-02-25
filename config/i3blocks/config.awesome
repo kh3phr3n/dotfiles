@@ -68,7 +68,7 @@ full_text= Date
 [date]
 color=#FFFFFF
 interval=1
-command=date '+%d/%m %H:%M:%S'
+command=date '+%a %m/%d %H:%M:%S'
 
 [updates-label]
 color=#33AADD
