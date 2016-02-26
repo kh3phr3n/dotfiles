@@ -60,14 +60,6 @@ bindsym $mod+f fullscreen toggle
 bindsym $mod+space focus mode_toggle
 bindsym $mod+Shift+space floating toggle
 
-# Side buttons move the window
-bindsym button9 move left
-bindsym button8 move right
-# Right button toggles floating
-bindsym $mod+button3 floating toggle
-# Middle button kills the window
-bindsym --whole-window $mod+button2 kill
-
 # Switch to workspace
 bindsym $mod+1 workspace 1
 bindsym $mod+2 workspace 2
