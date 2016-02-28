@@ -96,7 +96,7 @@ bindsym $mod+Return exec i3-sensible-terminal
 # Lock screen session
 bindsym $mod+F9 exec --no-startup-id i3lock --color=000000
 # Start dmenu (a program launcher)
-bindsym $mod+d exec --no-startup-id dmenu_run -b -p '>>>' -fn 'Consolas-14:style=Bold' -nb '#222222' -nf '#888888' -sb '#33aadd' -sf '#ffffff'
+bindsym $mod+d exec --no-startup-id dmenu_run -b -p ' run:' -fn 'Consolas-14:style=Bold' -nb '#222222' -nf '#888888' -sb '#33aadd' -sf '#ffffff'
 
 # Resize window (you can also use the mouse for that)
 mode "  " {
