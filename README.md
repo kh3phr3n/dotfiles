@@ -1,5 +1,9 @@
 # Arch Linux dotfiles
 
+##### Screenshot
+
+![i3wm-screenshot](http://static.tuxico.com/i3wm/preview.png)
+
 ##### Cursor themes
 
 * $HOME/.icons/default/index.theme
