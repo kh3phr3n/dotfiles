@@ -8,7 +8,7 @@ full_text= Linux
 [kernel]
 color=#FFFFFF
 interval=once
-command=uname -r
+command=uname -r | cut -d- -f1-2
 
 [load-label]
 color=#33AADD
@@ -68,7 +68,7 @@ full_text= Date
 [date]
 color=#FFFFFF
 interval=1
-command=date '+%a %m/%d %H:%M:%S'
+command=date '+%a %m/%d/%y %H:%M:%S'
 
 [updates-label]
 color=#33AADD
