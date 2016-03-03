@@ -142,7 +142,6 @@ Makefile.in
 
 CMakeCache.txt
 CMakeFiles
-Makefile
 cmake_install.cmake
 install_manifest.txt
 
@@ -197,7 +196,6 @@ install_manifest.txt
 moc_*.cpp
 qrc_*.cpp
 ui_*.h
-Makefile*
 *-build-*
 
 # QtCreator
