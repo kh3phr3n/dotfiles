@@ -22,7 +22,7 @@ hide_edge_borders both
 workspace_layout tabbed
 
 # Windows titles font
-font pango:Consolas bold 14
+font pango:Consolas Bold 14
 
 # Split horizontal/vertical
 bindsym $mod+g split h
@@ -43,6 +43,7 @@ bindsym $mod+h focus left
 bindsym $mod+j focus down
 bindsym $mod+k focus up
 bindsym $mod+l focus right
+
 # Alternatively
 bindsym $mod+Left  focus left
 bindsym $mod+Down  focus down
@@ -54,6 +55,7 @@ bindsym $mod+Shift+h move left
 bindsym $mod+Shift+j move down
 bindsym $mod+Shift+k move up
 bindsym $mod+Shift+l move right
+
 # Alternatively
 bindsym $mod+Shift+Left  move left
 bindsym $mod+Shift+Down  move down
