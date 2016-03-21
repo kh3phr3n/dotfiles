@@ -67,6 +67,10 @@ bindsym $mod+z layout tabbed
 bindsym $mod+s layout stacking
 bindsym $mod+e layout toggle split
 
+# Scratchpad workspace
+bindsym $mod+p scratchpad show
+bindsym $mod+Shift+p move scratchpad
+
 # Toggle tiling/floating windows
 bindsym $mod+f fullscreen toggle
 bindsym $mod+space focus mode_toggle
