@@ -4,7 +4,7 @@
 # Super key (Alt)
 set $mod Mod1
 
-# Workspaces labels
+# Workspace labels
 set $workspace1 1
 set $workspace2 2
 set $workspace3 3
@@ -16,12 +16,13 @@ set $workspace8 8
 set $workspace9 9
 set $workspace10 10
 
-# Windows settings
+# Window settings
+new_float pixel 2
 floating_modifier $mod
 hide_edge_borders both
 workspace_layout tabbed
 
-# Windows titles font
+# Window titles font
 font pango:Consolas Bold 14
 
 # Split horizontal/vertical
