@@ -4,7 +4,7 @@
 ! Reread/Merge settings: xrdb -merge ~/.Xresources
 
 ! URxvt color scheme
-# include "/home/kh3phr3n/.config/urxvt/colors/solarized-cloudy.xr"
+# include "/home/kh3phr3n/.config/urxvt/colors/solarized-cloudy"
 
 ! Global font settings
 Xft.rgba: rgb
