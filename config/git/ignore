@@ -181,7 +181,9 @@ install_manifest.txt
 *.hex
 
 # Debug files
+*.su
 *.dSYM/
+.gdb_history
 
 # Qt.gitignore
 # ------------
