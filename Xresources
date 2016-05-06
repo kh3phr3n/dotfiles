@@ -3,15 +3,10 @@
 ! Reread settings: xrdb ~/.Xresources
 ! Reread/Merge settings: xrdb -merge ~/.Xresources
 
+! Font settings
+# include "/home/kh3phr3n/.config/xft/config"
+
 ! URxvt settings
 # include "/home/kh3phr3n/.config/urxvt/config"
 # include "/home/kh3phr3n/.config/urxvt/colors/solarized-cloudy"
-
-! Font settings
-Xft.rgba: rgb
-Xft.hinting: true
-Xft.autohint: false
-Xft.antialias: true
-Xft.lcdfilter: lcdlight
-Xft.hintstyle: hintslight
 

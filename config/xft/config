@@ -1,0 +1,11 @@
+! File: ~/.config/xft/config
+! Description: Xft configuration file
+
+! Main settings
+Xft.rgba: rgb
+Xft.hinting: true
+Xft.autohint: false
+Xft.antialias: true
+Xft.lcdfilter: lcdlight
+Xft.hintstyle: hintslight
+
