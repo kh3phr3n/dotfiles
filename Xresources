@@ -4,9 +4,9 @@
 ! Reread/Merge settings: xrdb -merge ~/.Xresources
 
 ! Font settings
-# include "/home/kh3phr3n/.config/xft/config"
+# include "/home/kh3phr3n/.config/xrdb/xft/config"
 
 ! URxvt settings
-# include "/home/kh3phr3n/.config/urxvt/config"
-# include "/home/kh3phr3n/.config/urxvt/colors/solarized-cloudy"
+# include "/home/kh3phr3n/.config/xrdb/urxvt/config"
+# include "/home/kh3phr3n/.config/xrdb/urxvt/colors/solarized-cloudy"
 
