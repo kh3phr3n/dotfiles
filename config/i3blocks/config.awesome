@@ -68,7 +68,7 @@ full_text= Date
 [date]
 color=#FFFFFF
 interval=1
-command=date '+%a %m/%d/%y %H:%M:%S'
+command=date '+%a %d %b %H:%M:%S'
 
 [updates-label]
 color=#33AADD
@@ -77,7 +77,7 @@ full_text=
 
 [updates]
 color=#33AADD
-interval=60
+interval=3600
 command=checkupdates | wc -l
 
 [network]
