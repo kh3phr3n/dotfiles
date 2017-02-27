@@ -6,10 +6,10 @@
 
 ##### Cursor themes
 
-* $HOME/.icons/default/index.theme
-* /usr/share/icons/default/index.theme
-
-`ln -s /usr/share/icons/Oxygen_White/cursors ~/.icons/default/cursors`
+```
+$ sudo cp ~/.icons/default/index.theme /usr/share/icons/default
+$ ln -s /usr/share/icons/Oxygen_White/cursors ~/.icons/default/cursors
+```
 
 ## Informations
 
