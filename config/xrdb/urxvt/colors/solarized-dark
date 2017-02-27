@@ -1,29 +1,29 @@
-! URxvt colors
-URxvt.foreground: #839496
-URxvt.background: #002B36
+! Xresources colors
+*foreground: #839496
+*background: #002B36
 
 ! Black
-URxvt.color0  : #073642
-URxvt.color8  : #073642
+*color0:  #073642
+*color8:  #073642
 ! Red
-URxvt.color1  : #DC322F
-URxvt.color9  : #DC322F
+*color1:  #DC322F
+*color9:  #DC322F
 ! Green
-URxvt.color2  : #859900
-URxvt.color10 : #859900
+*color2:  #859900
+*color10: #859900
 ! Yellow
-URxvt.color3  : #B58900
-URxvt.color11 : #B58900
+*color3:  #B58900
+*color11: #B58900
 ! Blue
-URxvt.color4  : #268BD2
-URxvt.color12 : #268BD2
+*color4:  #268BD2
+*color12: #268BD2
 ! Magenta
-URxvt.color5  : #D33682
-URxvt.color13 : #D33682
+*color5:  #D33682
+*color13: #D33682
 ! Cyan
-URxvt.color6  : #2AA198
-URxvt.color14 : #2AA198
+*color6:  #2AA198
+*color14: #2AA198
 ! White
-URxvt.color7  : #EEE8D5
-URxvt.color15 : #EEE8D5
+*color7:  #EEE8D5
+*color15: #EEE8D5
 
