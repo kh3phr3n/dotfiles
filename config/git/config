@@ -9,6 +9,7 @@ email = rc.dev@tuxico.com
 
 [core]
 editor = vim
+pager = diff-highlight | less
 
 [merge]
 tool = vimdiff
