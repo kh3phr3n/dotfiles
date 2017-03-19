@@ -3,8 +3,8 @@
 *background: #E9E9E9
 
 ! Black
-*color0:  #CB4B16
-*color8:  #CB4B16
+*color0:  #073642
+*color8:  #073642
 ! Red
 *color1:  #DC322F
 *color9:  #DC322F
@@ -24,6 +24,6 @@
 *color6:  #2AA198
 *color14: #2AA198
 ! White
-*color7:  #93A1A1
-*color15: #93A1A1
+*color7:  #EEE8D5
+*color15: #EEE8D5
 
