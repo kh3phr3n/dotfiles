@@ -156,6 +156,7 @@ client.focused_inactive #333333 #333333 #888888 #292d2e
 
 # Specific actions
 for_window [class="^Gvim$"] border none
+for_window [class=".*"] title_format "  %title"
 
 # System settings
 exec --no-startup-id xrdb ~/.Xresources
