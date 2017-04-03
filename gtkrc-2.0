@@ -18,7 +18,7 @@ gtk-toolbar-icon-size=GTK_ICON_SIZE_SMALL_TOOLBAR
 
 # Global Theme
 gtk-theme-name="Arc"
-gtk-font-name="Segoe UI 13"
+gtk-font-name="Roboto Regular 13"
 gtk-cursor-theme-name="Oxygen_White"
 gtk-icon-theme-name="evolvere-blue-folders-vivid-sunken"
 
