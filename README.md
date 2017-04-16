@@ -2,7 +2,7 @@
 
 ##### Screenshot
 
-![i3wm-screenshot](http://static.tuxico.com/i3wm/preview.png)
+![i3wm-screenshot](https://static.tuxico.com/i3wm/preview.png)
 
 ##### Cursor themes
 
