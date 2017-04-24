@@ -18,6 +18,7 @@ set $workspace10 10
 
 # Window settings
 new_float pixel 2
+new_window pixel 2
 floating_modifier $mod
 hide_edge_borders both
 workspace_layout tabbed
@@ -155,7 +156,6 @@ client.unfocused        #333333 #333333 #888888 #292d2e
 client.focused_inactive #333333 #333333 #888888 #292d2e
 
 # Specific actions
-for_window [class="^Gvim$"] border none
 for_window [class=".*"] title_format "<span font='Iosevka Term Medium 14'>  %title</span>"
 
 # System settings
