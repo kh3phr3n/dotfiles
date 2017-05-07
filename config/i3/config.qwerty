@@ -18,7 +18,7 @@ set $workspace10 10
 
 # Window settings
 new_float pixel 2
-new_window pixel 2
+new_window pixel 0
 floating_modifier $mod
 hide_edge_borders both
 workspace_layout tabbed
