@@ -18,7 +18,7 @@ set $workspace10 10
 
 # Window settings
 new_float pixel 2
-new_window pixel 0
+# new_window pixel 2
 floating_modifier $mod
 hide_edge_borders both
 workspace_layout tabbed
@@ -168,5 +168,5 @@ exec --no-startup-id start-pulseaudio-x11 &
 exec --no-startup-id compton -b > /dev/null 2>&1 &
 
 # (Re)Start applications
-exec_always --no-startup-id feh --bg-scale $HOME/Pictures/background.png &
+exec_always --no-startup-id feh --bg-scale $HOME/.background.png &
 
