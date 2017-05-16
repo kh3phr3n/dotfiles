@@ -22,7 +22,3 @@ gtk-font-name="Roboto Regular 13"
 gtk-cursor-theme-name="Oxygen_White"
 gtk-icon-theme-name="evolvere-blue-folders-vivid-sunken"
 
-# Fix gvim background
-style "vimfix" { bg[NORMAL] = "#e9e9e9" }
-widget "vim-main-window.*GtkForm" style "vimfix"
-
