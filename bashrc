@@ -6,10 +6,6 @@
 # Flow control
 stty -ixon
 
-# Tab completion
-complete -cf man
-complete -cf sudo
-
 # Environment variables
 export EDITOR='vim'
 export TERM='xterm-256color'
@@ -19,9 +15,6 @@ export TERM='xterm-256color'
 
 # Custom aliases
 [[ -f ~/.bash_aliases ]] && source ~/.bash_aliases
-
-# Git Auto completion
-[[ -x /usr/bin/git ]] && source /usr/share/git/completion/git-completion.bash
 
 # Colored man pages
 man ()
