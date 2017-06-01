@@ -4,8 +4,8 @@
 
 [user]
 name = kh3phr3n
-signingkey = B3D12B30
 email = rc.dev@tuxico.com
+signingkey = 170FFC6CB3D12B30
 
 [core]
 editor = vim
