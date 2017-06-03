@@ -3,7 +3,7 @@
 
 ! Main settings
 URxvt.depth: 32
-URxvt.letterSpace: 0
+URxvt.letterSpace: -1
 URxvt.saveLines: 1000
 URxvt.geometry: 102x31
 URxvt.scrollBar: false
