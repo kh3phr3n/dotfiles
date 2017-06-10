@@ -16,45 +16,43 @@ alias df='df -h'
 alias du='du -h'
 alias ds='du -s'
 
-# Pacman
-alias pcm='pacman'
+# Package utilities
+alias pkg='pacman'
 alias aur='cower -vc'
 
-# Miscs
-alias sudo='sudo '
-alias hclear='history -c'
-
 # Remove packages
-alias remove='pcm -R'
-alias remove-all='pcm -Rscn'
+alias remove='pkg -R'
+alias remove-all='pkg -Rscn'
 
 # Install packages
-alias install-local='pcm -U'
-alias install-online='pcm -S'
+alias install-local='pkg -U'
+alias install-online='pkg -S'
 
 # Search packages
 alias search-aur='aur -s'
-alias search-local='pcm -Qs'
-alias search-online='pcm -Ss'
+alias search-local='pkg -Qs'
+alias search-online='pkg -Ss'
 
-# Packages informations
+# Package informations
 alias show-aur='aur -i'
-alias show-local='pcm -Qi'
-alias show-online='pcm -Si'
-alias which-files='pcm -Ql'
-alias which-package='pcm -Qo'
+alias show-local='pkg -Qi'
+alias show-online='pkg -Si'
+alias which-files='pkg -Ql'
+alias which-package='pkg -Qo'
 
 # Update and Upgrade system
 alias update-aur='aur -u'
-alias update-system='pcm -Sy'
-alias upgrade-system='pcm -Syu'
+alias update-system='pkg -Sy'
+alias upgrade-system='pkg -Syu'
 
-# Clean cache packages (Caution)
-alias clean-cache='pcm -Sc'
-alias clean-cache-hard='pcm -Scc'
+# Clean cache packages
+alias clean-cache='paccache -rk1'
+alias clean-cache-all='paccache -rk0'
 
-# System administration commands
+# System administration
+alias sudo='sudo '
 alias trim='fstrim -av'
+alias hclr='history -cw'
 alias xread='xrdb ~/.Xresources'
 alias mklinux='mkinitcpio -p linux'
 alias srcinfo='makepkg --printsrcinfo > .SRCINFO'
