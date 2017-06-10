@@ -8,6 +8,7 @@ stty -ixon
 
 # Environment variables
 export EDITOR='vim'
+export GITPROMPT='1'
 export TERM='xterm-256color'
 
 # Python virtual envs
@@ -15,6 +16,9 @@ export TERM='xterm-256color'
 
 # Custom aliases
 [[ -f ~/.bash_aliases ]] && source ~/.bash_aliases
+
+# Git prompt
+[[ "$GITPROMPT" -ne 0 ]] && source /usr/share/git/completion/git-prompt.sh
 
 # Colored man pages
 man ()
@@ -34,7 +38,7 @@ man ()
 setPrompt ()
 {
     # Initialize PS1
-    PS1=""
+    PS1=''
     # Regular colors
     local off='\[\e[0m\]'
     local red='\[\e[0;31m\]'
@@ -44,14 +48,12 @@ setPrompt ()
     local yellow='\[\e[0;33m\]'
     local purple='\[\e[0;35m\]'
 
-    # Define '\w' colors
-    [[ "$UID" -eq 0 ]] && local cwd=${red} || local cwd=${green}
-
+    # Check Git branch
+    [[ "$GITPROMPT" -ne 0 ]] && local branch=$(__git_ps1 ":%s")
     # Check-Add Python virtual environments
     [[ "$VIRTUAL_ENV" != "" ]] && PS1+="${cyan}(${VIRTUAL_ENV##*/})${off} "
-
-    # Finalize PS1 (User, Directory, Prompt symbols: $/#)
-    PS1+="${blue}\u${off} ${purple}in${off} ${cwd}\w${off} ${yellow}\\\$${off} "
+    # Finalize PS1 (User, Directory, Branch, Prompt symbols: $/#)
+    PS1+="${blue}\u${off} ${purple}in${off} ${green}\w${off}${cyan}${branch}${off} ${yellow}\\\$${off} "
 }
 
 PROMPT_COMMAND=setPrompt
