@@ -11,14 +11,11 @@ export EDITOR='vim'
 export GITPROMPT='1'
 export TERM='xterm-256color'
 
-# Python virtual envs
-[[ -d ~/.venvs ]] && export VENVS=$HOME/.venvs
-
 # Custom aliases
 [[ -f ~/.bash_aliases ]] && source ~/.bash_aliases
 
 # Git prompt
-[[ "$GITPROMPT" -ne 0 ]] && source /usr/share/git/completion/git-prompt.sh
+[[ ${GITPROMPT} != 0 ]] && source /usr/share/git/completion/git-prompt.sh
 
 # Colored man pages
 man ()
@@ -49,9 +46,9 @@ setPrompt ()
     local purple='\[\e[0;35m\]'
 
     # Check Git branch
-    [[ "$GITPROMPT" -ne 0 ]] && local branch=$(__git_ps1 ":%s")
-    # Check-Add Python virtual environments
-    [[ "$VIRTUAL_ENV" != "" ]] && PS1+="${cyan}(${VIRTUAL_ENV##*/})${off} "
+    [[ ${GITPROMPT} != 0 ]] && local branch=$(__git_ps1 ":%s")
+    # Check Python virtual environments
+    [[ ${VIRTUAL_ENV} != "" ]] && PS1+="${cyan}(${VIRTUAL_ENV##*/})${off} "
     # Finalize PS1 (User, Directory, Branch, Prompt symbols: $/#)
     PS1+="${blue}\u${off} ${purple}in${off} ${green}\w${off}${cyan}${branch:-}${off} ${yellow}\\\$${off} "
 }
