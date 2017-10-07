@@ -3,7 +3,7 @@
 
 ! Main settings
 URxvt.depth: 32
-URxvt.letterSpace: -1
+URxvt.letterSpace: 0
 URxvt.imLocale: en_US.UTF-8
 
 ! Borders
@@ -46,6 +46,6 @@ URxvt.url-launcher: firefox
 URxvt.perl-ext-common: default,matcher,selection-to-clipboard
 
 ! Regular fonts
-URxvt.font: xft:Iosevka Term:Regular:size=14,xft:Monospace:Regular:size=14
-URxvt.boldFont: xft:Iosevka Term:Regular:size=14,xft:Monospace:Regular:size=14
+URxvt.font: xft:Iosevka Term:Regular:size=17,xft:Monospace:Regular:size=17
+URxvt.boldFont: xft:Iosevka Term:Regular:size=17,xft:Monospace:Regular:size=17
 

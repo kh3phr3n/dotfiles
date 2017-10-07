@@ -24,7 +24,7 @@ hide_edge_borders both
 workspace_layout tabbed
 
 # Window titles font
-font pango:Iosevka Term Bold 14
+font pango:Iosevka Term Medium 17
 
 # Split horizontal/vertical
 bindsym $mod+g split h
@@ -113,7 +113,7 @@ bindsym $mod+Shift+e exec "i3-nagbar -t warning -m 'Do you really want to exit i
 
 # Locker, Launcher
 bindsym $mod+F9 exec --no-startup-id i3lock --color=000000
-bindsym $mod+d exec --no-startup-id dmenu_run -b -p ' run:' -fn 'Iosevka Term-14:style=Bold' -nb '#222222' -nf '#888888' -sb '#33AADD' -sf '#FFFFFF'
+bindsym $mod+d exec --no-startup-id dmenu_run -b -p ' run:' -fn 'Iosevka Term-17:style=Medium' -nb '#222222' -nf '#888888' -sb '#33AADD' -sf '#FFFFFF'
 
 # Resize window
 mode "  " {
@@ -159,7 +159,7 @@ client.unfocused        #333333 #333333 #888888 #292D2E
 client.focused_inactive #333333 #333333 #888888 #292D2E
 
 # Specific actions
-for_window [class=".*"] title_format "<span font='Iosevka Term Medium 14'>  %title</span>"
+for_window [class=".*"] title_format "<span font='Iosevka Term Medium 17'>  %title</span>"
 
 # System settings
 exec --no-startup-id xrdb ~/.Xresources
