@@ -49,6 +49,10 @@ alias upgrade-system='pkg -Syu'
 alias clean-cache='paccache -rk1'
 alias clean-cache-all='paccache -rk0'
 
+# Cleanup
+alias rmpyc='find . -name "*.pyc" -type f -delete'
+alias rmdss='find . -name "*.DS_Store" -type f -delete'
+
 # System administration
 alias sudo='sudo '
 alias trim='fstrim -av'
@@ -57,8 +61,5 @@ alias xread='xrdb ~/.Xresources'
 alias mklinux='mkinitcpio -p linux'
 alias srcinfo='makepkg --printsrcinfo > .SRCINFO'
 alias grubcfg='grub-mkconfig -o /boot/grub/grub.cfg'
-
-# Cleanup
-alias rmpyc='find . -name "*.pyc" -type f -delete'
-alias rmdss='find . -name "*.DS_Store" -type f -delete'
+alias mirrors='reflector --sort=rate --latest=15 --protocol=https --save=/etc/pacman.d/mirrorlist'
 
