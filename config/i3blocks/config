@@ -40,15 +40,15 @@ color=#FFFFFF
 interval=1
 command=free | awk '/Mem/{printf("%.2f%"), $3/$2*100}'
 
-[sda1-label]
+[luks-label]
 color=#33AADD
 separator=false
-full_text= Sda1
+full_text= r00t
 
-[sda1]
+[luks]
 color=#FFFFFF
 interval=60
-command=df /dev/sda1 | awk '(NR>1) {print $5}'
+command=df /dev/mapper/r00t | awk '(NR>1) {print $5}'
 
 [date-label]
 color=#33AADD
