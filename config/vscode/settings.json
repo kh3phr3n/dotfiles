@@ -1,0 +1,33 @@
+{
+    "editor.colorDecorators": false,
+    "editor.fontFamily": "'Iosevka Term Medium'",
+    "editor.fontSize": 15,
+    "editor.formatOnPaste": true,
+    "editor.hover": false,
+    "editor.minimap.enabled": false,
+    "editor.renderIndentGuides": false,
+    "editor.renderWhitespace": "boundary",
+    "files.trimTrailingWhitespace": true,
+    "javascript.suggestionActions.enabled": false,
+    "keyboard.dispatch": "keyCode",
+    "telemetry.enableCrashReporter": false,
+    "telemetry.enableTelemetry": false,
+    "terminal.external.linuxExec": "urxvt",
+    "terminal.integrated.fontSize": 14,
+    "terminal.integrated.fontWeightBold": "normal",
+    "vim.useCtrlKeys": false,
+    "window.menuBarVisibility": "toggle",
+    "window.zoomLevel": 2.5,
+    "workbench.activityBar.visible": false,
+    "workbench.colorTheme": "One Dark Pro",
+
+    "vscode_custom_css.imports": [
+        "file:///home/kh3phr3n/.config/Code/User/styles.css"
+    ],
+    "workbench.colorCustomizations": {
+        "statusBar.debuggingBackground": "#CC6633",
+        "statusBar.debuggingForeground": "#FFFFFF",
+        "statusBar.debuggingBorder": "#AD562B"
+    }
+}
+

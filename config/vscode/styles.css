@@ -1,0 +1,27 @@
+.monaco-workbench > .part.editor > .content .welcomePage .commands li button > span,
+.monaco-workbench > .part.editor > .content .welcomePage .commands li button h3,
+.monaco-workbench > .part.editor > .content .welcomePage .caption,
+.monaco-panel-view .panel > .panel-header,
+.monaco-select-box,
+.monaco-shell,
+.search-box,
+.input
+{
+    font-family: Roboto, sans-serif;
+    font-weight: 500;
+}
+
+.monaco-editor .suggest-widget:not(.frozen) .monaco-highlighted-label .highlight,
+.monaco-editor .parameter-hints-widget .signature .parameter.active,
+.parameter-hints-widget,
+.suggest-widget
+{
+    font-weight: 400;
+}
+
+.debug-viewlet .scope
+{
+    font-weight: 500;
+    font-size: 12px;
+}
+
