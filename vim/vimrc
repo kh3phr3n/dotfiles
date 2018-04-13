@@ -234,7 +234,7 @@ if has('autocmd')
 
     " HTML-CSS settings
     autocmd FileType htm,html setlocal filetype=html.htmldjango
-    autocmd FileType css,html setlocal tabstop=2 softtabstop=2 shiftwidth=2
+    autocmd FileType css,html setlocal tabstop=4 softtabstop=4 shiftwidth=4
 endif
 
 " Include user's local Vim config
