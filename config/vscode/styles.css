@@ -19,6 +19,12 @@
     font-weight: 400;
 }
 
+.monaco-editor .detected-link-active,
+.monaco-editor .detected-link
+{
+    text-decoration: none;
+}
+
 .debug-viewlet .scope
 {
     font-weight: 500;

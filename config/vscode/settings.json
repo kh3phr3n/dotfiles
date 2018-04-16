@@ -1,7 +1,7 @@
 {
     "editor.colorDecorators": false,
     "editor.fontFamily": "'Iosevka Term Medium'",
-    "editor.fontSize": 15,
+    "editor.fontSize": 14,
     "editor.formatOnPaste": true,
     "editor.hover": false,
     "editor.minimap.enabled": false,
