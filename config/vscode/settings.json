@@ -6,7 +6,7 @@
     "editor.hover": false,
     "editor.minimap.enabled": false,
     "editor.renderIndentGuides": false,
-    "editor.renderWhitespace": "boundary",
+    "editor.renderWhitespace": "none",
     "files.trimTrailingWhitespace": true,
     "javascript.suggestionActions.enabled": false,
     "keyboard.dispatch": "keyCode",
@@ -20,6 +20,8 @@
     "window.zoomLevel": 2.5,
     "workbench.activityBar.visible": false,
     "workbench.colorTheme": "One Dark Pro",
+    "workbench.editor.showTabs": false,
+    "workbench.statusBar.visible": false,
 
     "vscode_custom_css.imports": [
         "file:///home/kh3phr3n/.config/Code/User/styles.css"
