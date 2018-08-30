@@ -8,7 +8,7 @@ full_text= Linux
 [kernel]
 color=#FFFFFF
 interval=once
-command=uname -r | cut -d- -f1-2
+command=uname -r | cut -d- -f1
 
 [load-label]
 color=#33AADD
