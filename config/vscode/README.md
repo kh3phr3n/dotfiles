@@ -3,6 +3,7 @@
 ##### User and Workspace Settings
 
 ```
+$HOME/.config/Code/User/keybindings.json
 $HOME/.config/Code/User/settings.json
 $HOME/.config/Code/User/styles.css
 ```
