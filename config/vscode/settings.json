@@ -1,5 +1,8 @@
 {
     "breadcrumbs.enabled": false,
+    "debug.internalConsoleOptions": "openOnSessionStart",
+    "debug.openDebug": "openOnDebugBreak",
+    "debug.toolBarLocation": "docked",
     "editor.colorDecorators": false,
     "editor.fontFamily": "'Iosevka Term Medium'",
     "editor.fontSize": 14,
