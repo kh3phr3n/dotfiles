@@ -12,6 +12,7 @@
     { "key": "ctrl+shift+delete",    "command": "editor.action.fontZoomReset" },
 
     { "key": "ctrl+meta+b",          "command": "breadcrumbs.toggle" },
-    { "key": "ctrl+meta+s",          "command": "workbench.action.toggleStatusbarVisibility" }
+    { "key": "ctrl+meta+s",          "command": "workbench.action.toggleStatusbarVisibility" },
+    { "key": "ctrl+l",               "command": "workbench.debug.panel.action.clearReplAction" }
 ]
 
