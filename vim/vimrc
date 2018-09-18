@@ -7,7 +7,7 @@ if filereadable(expand('~/.vim/vimrc.plugins'))
 endif
 
 " Light theme
-colorscheme solarized-cloudy
+colorscheme today-material
 
 " Cursor shapes
 let &t_SI="\<Esc>[6 q"
