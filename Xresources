@@ -6,5 +6,5 @@
 ! Settings
 # include "/home/kh3phr3n/.config/xrdb/xft/config"
 # include "/home/kh3phr3n/.config/xrdb/urxvt/config"
-# include "/home/kh3phr3n/.config/xrdb/colors/solarized-cloudy"
+# include "/home/kh3phr3n/.config/xrdb/colors/konsole-one"
 
