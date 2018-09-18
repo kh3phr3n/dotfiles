@@ -4,34 +4,34 @@
 [options]
 allow_bold = false
 mouse_autohide = true
-font = Iosevka Term 17
+font = Iosevka Term Medium 17
 
 [colors]
-foreground = #586E75
-background = #E9E9E9
+foreground = #AAAAAA
+background = #282C34
 
 # Black
-color0  = #073642
-color8  = #073642
+color0  = #495162
+color8  = #495162
 # Red
-color1  = #DC322F
-color9  = #DC322F
+color1  = #7D4C4C
+color9  = #7D4C4C
 # Green
-color2  = #859900
-color10 = #859900
+color2  = #5F9159
+color10 = #5F9159
 # Yellow
-color3  = #B58900
-color11 = #B58900
+color3  = #7A7D4B
+color11 = #7A7D4B
 # Blue
-color4  = #268BD2
-color12 = #268BD2
+color4  = #4C727D
+color12 = #4C727D
 # Magenta
-color5  = #D33682
-color13 = #D33682
+color5  = #6D4C7D
+color13 = #6D4C7D
 # Cyan
-color6  = #2AA198
-color14 = #2AA198
+color6  = #55ABAB
+color14 = #55ABAB
 # White
-color7  = #EEE8D5
-color15 = #EEE8D5
+color7  = #7D7D7D
+color15 = #7D7D7D
 
