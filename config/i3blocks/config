@@ -50,6 +50,16 @@ color=#33AADD
 interval=600
 command=checkupdates | wc -l
 
+[battery-label]
+color=#33AADD
+separator=false
+full_text=
+
+[battery]
+color=#33AADD
+interval=600
+command=acpi -b | cut -d, -f2 | sed 's/^[ ]//
+
 [network]
 color=#35BF5C
 interval=30
