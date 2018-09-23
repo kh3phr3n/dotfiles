@@ -62,5 +62,6 @@ alias mklinux='mkinitcpio -p linux'
 alias request='http -s paraiso-dark'
 alias srcinfo='makepkg --printsrcinfo > .SRCINFO'
 alias grubcfg='grub-mkconfig -o /boot/grub/grub.cfg'
+alias grubefi='grub-install --target=x86_64-efi --efi-directory=/boot/efi --bootloader-id=GRUB'
 alias mirrors='reflector --sort=rate --latest=15 --protocol=https --save=/etc/pacman.d/mirrorlist'
 
