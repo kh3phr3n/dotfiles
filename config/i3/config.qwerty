@@ -1,8 +1,9 @@
 # i3 config file (v4)
 # Please see http://i3wm.org/docs/userguide.html
 
-# Super key (Alt)
-set $mod Mod1
+# Super key (Win)
+# set $mod Mod1
+set $mod Mod4
 
 # Workspace labels
 set $workspace1 1
@@ -18,7 +19,6 @@ set $workspace10 10
 
 # Window settings
 new_float pixel 2
-# new_window pixel 2
 floating_modifier $mod
 hide_edge_borders both
 workspace_layout tabbed
