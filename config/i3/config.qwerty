@@ -113,7 +113,7 @@ bindsym $mod+Shift+e exec "i3-nagbar -t warning -m 'Do you really want to exit i
 
 # Locker, Launcher
 bindsym $mod+F9 exec --no-startup-id i3lock --color=000000
-bindsym $mod+d exec --no-startup-id dmenu_run -b -p ' run:' -fn 'Iosevka Term-17:style=Medium' -nb '#1D1F23' -nf '#888888' -sb '#33AADD' -sf '#EEEEEE'
+bindsym $mod+d exec --no-startup-id dmenu_run -b -p ' run:' -fn 'Iosevka Term-17:style=Medium' -nb '#21252B' -nf '#888888' -sb '#33AADD' -sf '#EEEEEE'
 
 # Resize window
 mode "  " {
@@ -142,11 +142,11 @@ bar {
     status_command i3blocks
 
     colors {
-        separator  #1D1F23
-        background #1D1F23
-        statusline #1D1F23
+        separator  #21252B
+        background #21252B
+        statusline #21252B
         active_workspace   #282C34 #282C34 #EEEEEE
-        urgent_workspace   #1D1F23 #1D1F23 #7D4C4C
+        urgent_workspace   #21252B #21252B #7D4C4C
         focused_workspace  #33AADD #33AADD #EEEEEE
         inactive_workspace #282C34 #282C34 #888888
     }
