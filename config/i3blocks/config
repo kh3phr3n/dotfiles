@@ -6,7 +6,7 @@ separator=false
 full_text= Cpu
 
 [cpu]
-color=#FFFFFF
+color=#EEEEEE
 interval=1
 command=/usr/lib/i3blocks/cpu_usage
 
@@ -16,7 +16,7 @@ separator=false
 full_text= Ram
 
 [ram]
-color=#FFFFFF
+color=#EEEEEE
 interval=1
 command=free | awk '/Mem/{printf("%.2f%"), $3/$2*100}'
 
@@ -26,7 +26,7 @@ separator=false
 full_text= r00t
 
 [luks]
-color=#FFFFFF
+color=#EEEEEE
 interval=60
 command=df /dev/mapper/r00t | awk '(NR>1) {print $5}'
 
@@ -36,7 +36,7 @@ separator=false
 full_text= Date
 
 [date]
-color=#FFFFFF
+color=#EEEEEE
 interval=1
 command=date '+%a %d %b %H:%M'
 
