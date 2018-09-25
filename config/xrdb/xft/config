@@ -2,7 +2,7 @@
 ! Description: Xft configuration file
 
 ! Main settings
-Xft.dpi: 96
+Xft.dpi: 166
 Xft.rgba: rgb
 Xft.hinting: true
 Xft.autohint: false

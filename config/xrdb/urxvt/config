@@ -46,10 +46,10 @@ URxvt.url-launcher: chromium
 URxvt.perl-ext-common: default,matcher,selection-to-clipboard
 
 ! Regular fonts
-! URxvt.font: xft:Iosevka Term:Regular:size=17,xft:Monospace:Regular:size=17
-! URxvt.boldFont: xft:Iosevka Term:Regular:size=17,xft:Monospace:Regular:size=17
+! URxvt.font: xft:Iosevka Term:Regular:size=12,xft:Monospace:Regular:size=12
+! URxvt.boldFont: xft:Iosevka Term:Regular:size=12,xft:Monospace:Regular:size=12
 
 ! Medium fonts
-URxvt.font: xft:Iosevka Term:Medium:size=17,xft:Monospace:Medium:size=17
-URxvt.boldFont: xft:Iosevka Term:Medium:size=17,xft:Monospace:Medium:size=17
+URxvt.font: xft:Iosevka Term:Medium:size=12,xft:Monospace:Medium:size=12
+URxvt.boldFont: xft:Iosevka Term:Medium:size=12,xft:Monospace:Medium:size=12
 

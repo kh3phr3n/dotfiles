@@ -4,7 +4,7 @@
 [options]
 allow_bold = false
 mouse_autohide = true
-font = Iosevka Term Medium 17
+font = Iosevka Term Medium 12
 
 [colors]
 foreground = #AAAAAA
