@@ -162,7 +162,6 @@ for_window [class=".*"] title_format "<span font='Iosevka Term Medium 17'>  %
 
 # System settings
 exec --no-startup-id xrdb ~/.Xresources
-exec --no-startup-id xset s 0 0 dpms 0 0 0 -dpms
 exec --no-startup-id setxkbmap -layout fr -option caps:swapescape
 
 # Start applications
