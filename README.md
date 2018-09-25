@@ -1,8 +1,16 @@
 # Arch Linux dotfiles
 
-##### Screenshot
+##### Ranger
 
-![i3wm-screenshot](https://static.tuxico.com/i3wm/preview.png)
+![ranger](https://static.tuxico.com/i3wm/preview-ranger.png)
+
+##### URxvt
+
+![urxvt](https://static.tuxico.com/i3wm/preview-urxvt.png)
+
+##### VSCode
+
+![vscode](https://static.tuxico.com/i3wm/preview-vscode.png)
 
 ##### Cursor themes
 
