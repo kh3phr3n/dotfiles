@@ -112,7 +112,7 @@ bindsym $mod+Shift+e exec "i3-nagbar -t warning -m 'Do you really want to exit i
 
 # Locker, Launcher
 bindsym $mod+F9 exec --no-startup-id i3lock --color=000000
-bindsym $mod+d exec --no-startup-id dmenu_run -b -p ' run:' -fn 'Iosevka Term-12:style=Medium' -nb '#21252B' -nf '#888888' -sb '#33AADD' -sf '#EEEEEE'
+bindsym $mod+d exec --no-startup-id dmenu_run -b -p ' run:' -fn 'Iosevka Term-12:style=Medium' -nb '#21252B' -nf '#999999' -sb '#33AADD' -sf '#EEEEEE'
 
 # Resize window
 mode "  " {
@@ -147,15 +147,15 @@ bar {
         active_workspace   #282C34 #282C34 #EEEEEE
         urgent_workspace   #21252B #21252B #7D4C4C
         focused_workspace  #33AADD #33AADD #EEEEEE
-        inactive_workspace #282C34 #282C34 #888888
+        inactive_workspace #282C34 #282C34 #999999
     }
 }
 
 # Archlinux light colors
 client.urgent           #282C34 #21252B #7D4C4C #495162
-client.focused          #282C34 #21252B #888888 #495162
-client.unfocused        #282C34 #21252B #323841 #495162
-client.focused_inactive #282C34 #21252B #323841 #495162
+client.focused          #282C34 #21252B #999999 #495162
+client.unfocused        #282C34 #21252B #383E4C #495162
+client.focused_inactive #282C34 #21252B #383E4C #495162
 
 # Specific actions
 for_window [class=".*"] title_format "<span font='Iosevka Term Medium 12'>  %title</span>"
