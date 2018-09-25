@@ -152,10 +152,10 @@ bar {
 }
 
 # Archlinux light colors
-client.urgent           #CC6666 #CC6666 #FFFFFF #CC6666
-client.focused          #33AADD #33AADD #FFFFFF #DDDDDD
-client.unfocused        #333333 #333333 #888888 #292D2E
-client.focused_inactive #333333 #333333 #888888 #292D2E
+client.urgent           #282C34 #21252B #7D4C4C #495162
+client.focused          #282C34 #21252B #888888 #495162
+client.unfocused        #282C34 #21252B #323841 #495162
+client.focused_inactive #282C34 #21252B #323841 #495162
 
 # Specific actions
 for_window [class=".*"] title_format "<span font='Iosevka Term Medium 12'>  %title</span>"
