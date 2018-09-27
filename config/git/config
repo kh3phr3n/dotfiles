@@ -14,11 +14,11 @@ pager = diff-highlight | less
 [merge]
 tool = vimdiff
 
-[web]
-browser = firefox
-
 [push]
 default = matching
+
+[web]
+browser = chromium
 
 [color]
 grep = auto
