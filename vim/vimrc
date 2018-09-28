@@ -126,6 +126,8 @@ nnoremap <F5> :GitGutterToggle<CR>
 nnoremap <F6> :IndentLinesToggle<CR>
 " Toggle listchars symbols
 nnoremap <F7> :set list!<CR>
+" Toggle termguicolors mode
+nnoremap <F8> :set termguicolors!<CR>
 
 " Toggle fold using mouse
 nnoremap <2-LeftMouse> za
