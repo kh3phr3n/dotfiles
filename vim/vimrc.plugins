@@ -37,3 +37,5 @@ Plug 'pangloss/vim-javascript'
 " End process
 call plug#end()
 
+" vim: set ft=vim
+

@@ -7,8 +7,8 @@ if filereadable(expand('~/.vim/vimrc.plugins'))
 endif
 
 " Dark theme
-if filereadable(expand('~/.vim/onedark.ui'))
-    source ~/.vim/onedark.ui
+if filereadable(expand('~/.vim/vimrc.onedark'))
+    source ~/.vim/vimrc.onedark
 endif
 
 " Cursor shapes
