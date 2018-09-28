@@ -20,6 +20,7 @@ Plug 'tpope/vim-obsession'
 Plug 'davidhalter/jedi-vim'
 Plug 'justmao945/vim-clang'
 Plug 'scrooloose/syntastic'
+Plug 'joshdick/onedark.vim'
 Plug 'raimondi/delimitmate'
 Plug 'tpope/vim-commentary'
 Plug 'kh3phr3n/vim-gitbranch'
@@ -32,10 +33,6 @@ Plug 'itspriddle/vim-stripper'
 Plug 'hail2u/vim-css3-syntax'
 Plug 'othree/html5-syntax.vim'
 Plug 'pangloss/vim-javascript'
-
-" Vim colors
-Plug 'kh3phr3n/today-theme'
-Plug 'kh3phr3n/solarized-theme'
 
 " End process
 call plug#end()

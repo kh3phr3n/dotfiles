@@ -6,8 +6,10 @@ if filereadable(expand('~/.vim/vimrc.plugins'))
     source ~/.vim/vimrc.plugins
 endif
 
-" Light theme
-colorscheme today-material
+" Dark theme
+if filereadable(expand('~/.vim/onedark.ui'))
+    source ~/.vim/onedark.ui
+endif
 
 " Cursor shapes
 let &t_SI="\<Esc>[6 q"
