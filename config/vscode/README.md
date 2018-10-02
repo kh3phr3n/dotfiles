@@ -3,9 +3,9 @@
 ##### User and Workspace Settings
 
 ```
-$HOME/.config/Code/User/keybindings.json
-$HOME/.config/Code/User/settings.json
-$HOME/.config/Code/User/styles.css
+$HOME/.config/Code - OSS/User/keybindings.json
+$HOME/.config/Code - OSS/User/settings.json
+$HOME/.vscode-oss/styles.css
 ```
 
 ##### Extensions (Tools)

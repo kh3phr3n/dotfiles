@@ -32,7 +32,7 @@
     "workbench.statusBar.visible": false,
 
     "vscode_custom_css.imports": [
-        "file:///home/kh3phr3n/.config/Code/User/styles.css"
+        "file:///home/kh3phr3n/.vscode-oss/styles.css"
     ],
     "workbench.colorCustomizations": {
         "statusBar.debuggingBackground": "#CC6633",
