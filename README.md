@@ -2,15 +2,15 @@
 
 ##### Ranger
 
-![ranger](https://static.tuxico.com/i3wm/preview-ranger.png)
+![ranger](https://static.tuxico.com/dotfiles/ranger/preview.png)
 
 ##### URxvt
 
-![urxvt](https://static.tuxico.com/i3wm/preview-urxvt.png)
+![urxvt](https://static.tuxico.com/dotfiles/urxvt/preview.png)
 
 ##### VSCode
 
-![vscode](https://static.tuxico.com/i3wm/preview-vscode.png)
+![vscode](https://static.tuxico.com/dotfiles/vscode/preview.png)
 
 ##### Cursor themes
 
