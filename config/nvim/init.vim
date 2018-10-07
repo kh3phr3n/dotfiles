@@ -1,12 +1,12 @@
 " File: ~/.config/nvim/init.vim
 " Description: Nvim configuration file
 
-" Nvim plugin manager (vim-plug)
+" Plugin manager (vim-plug)
 if filereadable(expand('~/.config/nvim/init.plugins'))
     source ~/.config/nvim/init.plugins
 endif
 
-" Dark theme
+" One Dark theme
 if filereadable(expand('~/.config/nvim/init.onedark'))
     source ~/.config/nvim/init.onedark
 endif
@@ -89,18 +89,16 @@ set statusline+=%=L%l/%L:C%c\ %P
 nnoremap <F1> :NERDTreeToggle<CR>
 " Toggle Tagbar panel
 nnoremap <F2> :TagbarToggle<CR>
-" Toggle NeoComplete auto
-" nnoremap <F3> :NeoCompleteToggle<CR>
 " Toggle Syntastic checker
-nnoremap <F4> :SyntasticToggleMode<CR>
+nnoremap <F3> :SyntasticToggleMode<CR>
 " Toggle GitGutter signs
-nnoremap <F5> :GitGutterToggle<CR>
+nnoremap <F4> :GitGutterToggle<CR>
 " Toggle indentLine guides
-nnoremap <F6> :IndentLinesToggle<CR>
+nnoremap <F5> :IndentLinesToggle<CR>
 " Toggle listchars symbols
-nnoremap <F7> :set list!<CR>
+nnoremap <F6> :set list!<CR>
 " Toggle termguicolors mode
-nnoremap <F8> :set termguicolors!<CR>
+nnoremap <F7> :set termguicolors!<CR>
 
 " Toggle fold using mouse
 nnoremap <2-LeftMouse> za
@@ -142,11 +140,6 @@ let g:NERDTreeStatusline='%t'
 let g:tagbar_width=35
 let g:tagbar_compact=1
 let g:tagbar_iconchars=['▸', '▾']
-
-" Clang options
-let g:clang_auto=0
-let g:clang_c_completeopt='menuone'
-let g:clang_cpp_completeopt='menuone'
 
 " GitGutter options
 let g:gitgutter_enabled=0
