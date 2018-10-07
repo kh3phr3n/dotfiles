@@ -3,13 +3,8 @@
 # If not running interactively, don't do anything
 [[ $- != *i* ]] && return
 
-# Flow control
-stty -ixon
-
-# Environment variables
-export EDITOR='vim'
-export GITPROMPT='1'
-export TERM='xterm-256color'
+# XON flow control
+[[ -x /usr/bin/stty ]] && stty -ixon
 
 # Custom aliases
 [[ -f ~/.bash_aliases ]] && source ~/.bash_aliases

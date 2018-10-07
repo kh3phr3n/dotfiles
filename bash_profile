@@ -1,5 +1,10 @@
 # File: ~/.bash_profile
 
+# Environment variables
+export VISUAL='nvim'
+export EDITOR='nvim'
+export GITPROMPT='1'
+
 # Run ssh-agent
 [[ -d ~/.ssh ]] && eval $(ssh-agent)
 
