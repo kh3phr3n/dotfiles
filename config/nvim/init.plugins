@@ -1,9 +1,8 @@
-" File: ~/.vim/vimrc.plugins
-" Description: Vim 3rd-party plugins
-" Information: https://github.com/junegunn/vim-plug
+" File: ~/.config/nvim/init.plugins
+" Description: Nvim 3rd-party plugins
 
 " Initialize vim-plug manager
-call plug#begin('~/.vim/plugins')
+call plug#begin('~/.config/nvim/plugins')
 
 " Vim snippets
 Plug 'sirver/ultisnips'
@@ -26,7 +25,6 @@ Plug 'tpope/vim-commentary'
 Plug 'kh3phr3n/vim-gitbranch'
 Plug 'kh3phr3n/python-syntax'
 Plug 'airblade/vim-gitgutter'
-Plug 'shougo/neocomplete.vim'
 Plug 'itspriddle/vim-stripper'
 
 " Vim web

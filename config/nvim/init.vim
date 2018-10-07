@@ -1,14 +1,14 @@
-" File: ~/.vim/vimrc
-" Description: Vim configuration file
+" File: ~/.config/nvim/init.vim
+" Description: Nvim configuration file
 
-" Vim plugin manager (vim-plug)
-if filereadable(expand('~/.vim/vimrc.plugins'))
-    source ~/.vim/vimrc.plugins
+" Nvim plugin manager (vim-plug)
+if filereadable(expand('~/.config/nvim/init.plugins'))
+    source ~/.config/nvim/init.plugins
 endif
 
 " Dark theme
-if filereadable(expand('~/.vim/vimrc.onedark'))
-    source ~/.vim/vimrc.onedark
+if filereadable(expand('~/.config/nvim/init.onedark'))
+    source ~/.config/nvim/init.onedark
 endif
 
 " Cursor shapes
@@ -209,20 +209,6 @@ let g:UltiSnipsUsePythonVersion=3
 let g:UltiSnipsExpandTrigger='<Tab>'
 let g:UltiSnipsJumpForwardTrigger='<Tab>'
 let g:UltiSnipsJumpBackwardTrigger='<S-Tab>'
-
-" NeoComplete options
-let g:neocomplete#enable_at_startup=0
-let g:neocomplete#enable_smart_case=1
-let g:neocomplete#enable_auto_select=1
-
-" Define force_omni_input_patterns
-if !exists('g:neocomplete#force_omni_input_patterns')
-    let g:neocomplete#force_omni_input_patterns={}
-endif
-
-" Records keyword patterns to Omni completion
-let g:neocomplete#force_omni_input_patterns.python=
-\ '\%([^. \t]\.\|^\s*@\|^\s*from\s.\+import \|^\s*from \|^\s*import \)\w*'
 
 " Section: Autocommands
 " ---------------------
