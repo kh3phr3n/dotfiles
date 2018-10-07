@@ -160,14 +160,14 @@ client.focused_inactive #282C34 #21252B #3B4048 #495162
 # Specific actions
 for_window [class=".*"] title_format "<span font='Iosevka Term Medium 12'>  %title</span>"
 
-# System settings
-exec --no-startup-id xrdb ~/.Xresources
-exec --no-startup-id setxkbmap -layout fr -option caps:swapescape
-
 # Start applications
 exec --no-startup-id start-pulseaudio-x11 &
 exec --no-startup-id compton -b > /dev/null 2>&1 &
 
 # (Re)Start applications
 exec_always --no-startup-id feh --bg-scale $HOME/.background.png &
+
+# System settings
+exec --no-startup-id xrdb ~/.Xresources
+exec --no-startup-id setxkbmap -layout fr -option caps:swapescape,compose:rctrl,terminate:ctrl_alt_bksp
 
