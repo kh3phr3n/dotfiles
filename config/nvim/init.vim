@@ -21,28 +21,14 @@ let &t_EI="\<Esc>[2 q"
 
 " Enable listchars
 set list
-" Cursor position
-set ruler
 " Enable mouse
 set mouse=a
-" Fast terminal
-set ttyfast
 " Highlight brackets
 set showmatch
-
-" File actions
-set autoread
+" Autowrite changes
 set autowrite
-
-" Search features
-set hlsearch
-set incsearch
-set ignorecase
-
 " No screen redraw
 set lazyredraw
-" Enable status line
-set laststatus=2
 " Fix cursor lag
 set ttimeoutlen=0
 " Keep cursor position
@@ -51,7 +37,6 @@ set nostartofline
 set termguicolors
 
 " No backup files
-set viminfo=
 set nobackup
 set noswapfile
 set nowritebackup
@@ -60,11 +45,8 @@ set nowritebackup
 set number
 set numberwidth=1
 
-" Indentation
-set expandtab
-set autoindent
-
 " 4 real spaces
+set expandtab
 set tabstop=4
 set shiftwidth=4
 set softtabstop=4
@@ -73,9 +55,6 @@ set softtabstop=4
 set nowrap
 set whichwrap=<,>,[,]
 
-" Toggle paste mode
-set pastetoggle=<F12>
-
 " No folds closed
 set foldlevel=99
 set foldmethod=indent
@@ -83,22 +62,16 @@ set foldmethod=indent
 " File encoding
 set encoding=utf-8
 set fileencoding=utf-8
-
-" End-of-line formats
 set fileformats=unix,dos,mac
-" Fold and vertical symbols
-set fillchars=fold:\ ,vert:\|
-
-" Command-line completion
-set wildmenu
-set wildmode=longest:full,full
 
 " Popup menu
 set pumheight=15
 set completeopt=longest,menuone
 
-" Allow backspacing
-set backspace=indent,eol,start
+" Toggle paste mode
+set pastetoggle=<F12>
+" Command-line completion
+set wildmode=longest:full,full
 " Tabstops, EOLs and Trails
 set listchars=tab:▸\ ,eol:¬,trail:·
 " Dictionary word completion
@@ -117,7 +90,7 @@ nnoremap <F1> :NERDTreeToggle<CR>
 " Toggle Tagbar panel
 nnoremap <F2> :TagbarToggle<CR>
 " Toggle NeoComplete auto
-nnoremap <F3> :NeoCompleteToggle<CR>
+" nnoremap <F3> :NeoCompleteToggle<CR>
 " Toggle Syntastic checker
 nnoremap <F4> :SyntasticToggleMode<CR>
 " Toggle GitGutter signs
@@ -225,10 +198,5 @@ if has('autocmd')
     " HTML-CSS settings
     autocmd FileType htm,html setlocal filetype=html.htmldjango
     autocmd FileType css,html setlocal tabstop=4 softtabstop=4 shiftwidth=4
-endif
-
-" Include user's local Vim config
-if filereadable(expand('~/.vim/vimrc.local'))
-    source ~/.vim/vimrc.local
 endif
 
