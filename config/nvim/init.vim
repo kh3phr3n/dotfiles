@@ -70,6 +70,8 @@ set completeopt=longest,menuone
 
 " Toggle paste mode
 set pastetoggle=<F12>
+" Enable clipboard
+set clipboard=unnamedplus
 " Command-line completion
 set wildmode=longest:full,full
 " Tabstops, EOLs and Trails

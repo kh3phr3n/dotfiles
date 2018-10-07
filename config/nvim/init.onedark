@@ -19,6 +19,8 @@ endif
 
 " Let's Go!
 colorscheme onedark
+" Fix NERDTree foreground
+highlight NERDTreeFile guifg=#AAAAAA ctermfg=145
 
 " vim: set ft=vim
 
