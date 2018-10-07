@@ -1,0 +1,41 @@
+" File: ~/.vim/vimrc.plugins
+" Description: Vim 3rd-party plugins
+" Information: https://github.com/junegunn/vim-plug
+
+" Initialize vim-plug manager
+call plug#begin('~/.vim/plugins')
+
+" Vim snippets
+Plug 'sirver/ultisnips'
+Plug 'honza/vim-snippets'
+
+" Vim tools
+Plug 'kh3phr3n/tabline'
+Plug 'majutsushi/tagbar'
+Plug 'godlygeek/tabular'
+Plug 'ctrlpvim/ctrlp.vim'
+Plug 'scrooloose/nerdtree'
+Plug 'yggdroot/indentline'
+Plug 'tpope/vim-obsession'
+Plug 'davidhalter/jedi-vim'
+Plug 'justmao945/vim-clang'
+Plug 'scrooloose/syntastic'
+Plug 'joshdick/onedark.vim'
+Plug 'raimondi/delimitmate'
+Plug 'tpope/vim-commentary'
+Plug 'kh3phr3n/vim-gitbranch'
+Plug 'kh3phr3n/python-syntax'
+Plug 'airblade/vim-gitgutter'
+Plug 'shougo/neocomplete.vim'
+Plug 'itspriddle/vim-stripper'
+
+" Vim web
+Plug 'hail2u/vim-css3-syntax'
+Plug 'othree/html5-syntax.vim'
+Plug 'pangloss/vim-javascript'
+
+" End process
+call plug#end()
+
+" vim: set ft=vim
+
