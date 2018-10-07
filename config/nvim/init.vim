@@ -128,10 +128,8 @@ nnoremap <silent> <S-H> :tabprevious<CR>
 
 " <Leader> key
 let g:mapleader=','
-
 " Disable indentLine
 let g:indentLine_enabled=0
-
 " Python syntax
 let g:python_highlight_all=1
 
@@ -157,14 +155,6 @@ let g:gitgutter_sign_removed='-'
 let g:gitgutter_sign_modified='~'
 let g:gitgutter_sign_modified_removed='±'
 
-" Jedi-vim options
-let g:jedi#popup_on_dot=0
-let g:jedi#force_py_version=3
-let g:jedi#completions_enabled=0
-let g:jedi#show_call_signatures=2
-let g:jedi#auto_vim_configuration=0
-let g:jedi#use_splits_not_buffers='winwidth'
-
 " Syntastic symbols
 let g:syntastic_error_symbol='●'
 let g:syntastic_warning_symbol='●'
@@ -189,12 +179,8 @@ if has('autocmd')
     " Change current directory
     autocmd BufEnter * silent! lcd %:p:h
 
-    " Python settings
-    autocmd FileType python setlocal completeopt-=preview
-    autocmd FileType python setlocal filetype=python.django
-    autocmd FileType python setlocal omnifunc=jedi#completions
-
-    " HTML-CSS settings
+    " HTML-CSS-Django settings
+    autocmd FileType python   setlocal filetype=python.django
     autocmd FileType htm,html setlocal filetype=html.htmldjango
     autocmd FileType css,html setlocal tabstop=4 softtabstop=4 shiftwidth=4
 endif
