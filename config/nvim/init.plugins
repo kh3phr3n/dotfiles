@@ -4,15 +4,14 @@
 " Initialize vim-plug manager
 call plug#begin('~/.config/nvim/plugins')
 
-" Vim snippets
+" Snippets
 Plug 'sirver/ultisnips'
 Plug 'honza/vim-snippets'
 
-" Vim tools
+" Tools
 Plug 'kh3phr3n/tabline'
 Plug 'majutsushi/tagbar'
 Plug 'godlygeek/tabular'
-Plug 'ctrlpvim/ctrlp.vim'
 Plug 'scrooloose/nerdtree'
 Plug 'yggdroot/indentline'
 Plug 'tpope/vim-obsession'
@@ -27,7 +26,7 @@ Plug 'kh3phr3n/python-syntax'
 Plug 'airblade/vim-gitgutter'
 Plug 'itspriddle/vim-stripper'
 
-" Vim web
+" Webdev
 Plug 'hail2u/vim-css3-syntax'
 Plug 'othree/html5-syntax.vim'
 Plug 'pangloss/vim-javascript'
