@@ -150,6 +150,11 @@ let g:gitgutter_sign_removed='-'
 let g:gitgutter_sign_modified='~'
 let g:gitgutter_sign_modified_removed='±'
 
+" UltiSnips triggers
+let g:UltiSnipsExpandTrigger='<Tab>'
+let g:UltiSnipsJumpForwardTrigger='<Tab>'
+let g:UltiSnipsJumpBackwardTrigger='<S-Tab>'
+
 " Syntastic symbols
 let g:syntastic_error_symbol='●'
 let g:syntastic_warning_symbol='●'
@@ -157,15 +162,8 @@ let g:syntastic_style_error_symbol='●'
 let g:syntastic_style_warning_symbol='●'
 " Syntastic options
 let g:syntastic_enable_highlighting=0
-" Syntastic mode
 let g:syntastic_mode_map={'mode': 'passive'}
-
-" UltiSnips options
-let g:UltiSnipsUsePythonVersion=3
-" UltiSnips triggers
-let g:UltiSnipsExpandTrigger='<Tab>'
-let g:UltiSnipsJumpForwardTrigger='<Tab>'
-let g:UltiSnipsJumpBackwardTrigger='<S-Tab>'
+let g:syntastic_javascript_checkers=['eslint']
 
 " Section: Autocommands
 " ---------------------
