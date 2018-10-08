@@ -8,11 +8,11 @@ email = rc.dev@tuxico.com
 signingkey = 170FFC6CB3D12B30
 
 [core]
-editor = vim
+editor = nvim
 pager = diff-highlight | less
 
 [merge]
-tool = vimdiff
+tool = nvim -d
 
 [push]
 default = matching
