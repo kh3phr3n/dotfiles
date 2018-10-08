@@ -13,7 +13,8 @@ let g:onedark_color_overrides  = { "white": s:white, "vertsplit": s:split }
 if has("autocmd")
     augroup colorextend
         autocmd!
-        autocmd ColorScheme * call onedark#extend_highlight("StatusLineNC", { "bg": s:split })
+        autocmd ColorScheme * call onedark#extend_highlight("MatchParen"  , { "gui": "none"  })
+        autocmd ColorScheme * call onedark#extend_highlight("StatusLineNC", { "bg" : s:split })
     augroup END
 endif
 
