@@ -1,7 +1,7 @@
 # i3 config file (v4)
 # Please see http://i3wm.org/docs/userguide.html
 
-# Super key (Win)
+# Super key
 set $mod Mod4
 
 # Workspace labels

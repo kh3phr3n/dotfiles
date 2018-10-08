@@ -54,6 +54,7 @@ alias rmpyc='find . -name "*.pyc" -type f -delete'
 alias rmdss='find . -name "*.DS_Store" -type f -delete'
 
 # System administration
+alias nv='nvim'
 alias sudo='sudo '
 alias trim='fstrim -av'
 alias hclr='history -cw'
