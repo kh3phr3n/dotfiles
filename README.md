@@ -19,7 +19,11 @@ $ sudo cp ~/.icons/default/index.theme /usr/share/icons/default
 $ ln -s /usr/share/icons/Oxygen_White/cursors ~/.icons/default/cursors
 ```
 
-## Informations
+##### Compton backend
+
+* Nouveau: `xr_glx_hybrid`
+
+##### Informations
 
 * [i3wm faq](https://faq.i3wm.org/questions/)
 * [i3wm documentation](http://i3wm.org/docs/)
