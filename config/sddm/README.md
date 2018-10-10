@@ -12,7 +12,10 @@
 
 * [sddm-slice](https://github.com/RadRussianRus/sddm-slice)
 
-##### Infos (Slice)
+##### Infos (Patch)
 
-* Remove power options: `LoopListPowerItem` in `PagePower.qml`
+```
+diff -u PagePower.qml PagePower.qml_ > PagePower.qml.patch
+patch PagePower.qml < PagePower.qml.patch
+```
 
