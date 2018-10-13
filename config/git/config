@@ -1,6 +1,5 @@
 # File: ~/.config/git/config
 # Description: Git configuration file
-# Documentation: https://git-scm.herokuapp.com/docs/git-config
 
 [user]
 name = kh3phr3n
