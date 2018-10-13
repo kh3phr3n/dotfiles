@@ -12,11 +12,19 @@
 
 ![vscode](https://static.tuxico.com/dotfiles/vscode/preview.png)
 
+##### Gitignore.io
+
+```
+sed -i "3,$d" ~/dotfiles/config/git/ignore &&\
+curl -L -# https://www.gitignore.io/api/archives,archlinuxpackages,autotools,backup,\
+c,cmake,linux,macos,node,python,qml,qt,qtcreator,tags,vim,windows >> ~/dotfiles/config/git/ignore
+```
+
 ##### Cursor themes
 
 ```
-$ sudo cp ~/.icons/default/index.theme /usr/share/icons/default
-$ ln -s /usr/share/icons/Oxygen_White/cursors ~/.icons/default/cursors
+sudo cp ~/.icons/default/index.theme /usr/share/icons/default
+ln -s /usr/share/icons/Oxygen_White/cursors ~/.icons/default/cursors
 ```
 
 ##### Compton backend
