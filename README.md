@@ -15,9 +15,8 @@
 ##### Gitignore.io
 
 ```
-sed -i '3,$d' ~/dotfiles/config/git/ignore && \
 curl -L -# https://www.gitignore.io/api/archives,archlinuxpackages,autotools,backup,\
-c,cmake,linux,macos,node,python,qml,qt,qtcreator,tags,vim,windows >> ~/dotfiles/config/git/ignore
+c,cmake,linux,macos,node,python,qml,qt,qtcreator,tags,vim,windows > ~/dotfiles/config/git/ignore
 ```
 
 ##### Cursor themes
