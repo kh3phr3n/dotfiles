@@ -1,6 +1,3 @@
-! File: ~/.config/xrdb/xft/config
-! Description: Xft configuration file
-
 ! Main settings
 Xft.dpi: 166
 Xft.rgba: rgb

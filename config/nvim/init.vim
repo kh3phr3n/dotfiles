@@ -1,6 +1,3 @@
-" File: ~/.config/nvim/init.vim
-" Description: Nvim configuration file
-
 " Plugin manager (vim-plug)
 if filereadable(expand('~/.config/nvim/init.plugins'))
     source ~/.config/nvim/init.plugins

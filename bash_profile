@@ -1,5 +1,3 @@
-# File: ~/.bash_profile
-
 # Environment variables
 export VISUAL='nvim'
 export EDITOR='nvim'
