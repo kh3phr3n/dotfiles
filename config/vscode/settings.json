@@ -37,8 +37,8 @@
         "file:///home/kh3phr3n/.vscode-oss/styles.css"
     ],
     "workbench.colorCustomizations": {
-        "statusBar.debuggingBackground": "#CC6633",
         "statusBar.debuggingForeground": "#FFFFFF",
+        "statusBar.debuggingBackground": "#CC6633",
         "statusBar.debuggingBorder": "#AD562B"
     }
 }
