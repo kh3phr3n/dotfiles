@@ -24,6 +24,8 @@
     "terminal.integrated.rendererType": "dom",
     "vim.useCtrlKeys": false,
     "vim.useSystemClipboard": true,
+    "vim.visualstar": true,
+    "vim.whichwrap": "<,>,[,]",
     "window.menuBarVisibility": "toggle",
     "window.zoomLevel": 1.0,
     "workbench.activityBar.visible": false,
