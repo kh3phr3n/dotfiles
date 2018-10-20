@@ -30,7 +30,7 @@ ln -s /usr/share/icons/Oxygen_White/cursors ~/.icons/default/cursors
 
 * Nouveau: `xr_glx_hybrid`
 
-##### Informations
+##### Information
 
 * [i3wm faq](https://www.reddit.com/r/i3wm)
 * [i3wm documentation](http://i3wm.org/docs)
