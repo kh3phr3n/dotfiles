@@ -10,9 +10,12 @@
 .extension-editor > .body > .content table code:not(:empty),
 .monaco-workbench .monaco-tree-row .expression,
 .debug-viewlet .debug-watch .monaco-inputbox,
-.monaco-workbench .repl .surveyor
+.monaco-workbench .repl .surveyor,
+.tm-metadata-value,
+.tm-theme-selector,
+.tm-token
 {
-    font-family: 'Iosevka Term Medium', monospace;
+    font-family: "Iosevka Term Medium", monospace;
 }
 
 .monaco-workbench > .part.editor > .content .welcomePage .commands li button > span,
