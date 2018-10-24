@@ -1,3 +1,20 @@
+.settings-editor > .settings-body > .settings-tree-container .setting-item.setting-item-exclude .setting-exclude-pattern,
+.settings-editor > .settings-body > .settings-tree-container .setting-item.setting-item-exclude .setting-exclude-sibling,
+.settings-editor > .settings-body > .settings-tree-container .setting-item .setting-item-description-markdown code,
+.keybindings-editor > .keybindings-body > .keybindings-list-container .monaco-list-row > .column > .code,
+.monaco-select-box-dropdown-container > .select-box-details-pane > .select-box-description-markdown code,
+.monaco-editor .zone-widget .zone-widget-container.exception-widget .description,
+.monaco-editor .zone-widget .zone-widget-container.exception-widget .stack-trace,
+.monaco-workbench > .part.editor > .content .walkThroughContent .shortcut,
+.monaco-workbench > .part.editor > .content .walkThroughContent code,
+.extension-editor > .body > .content table code:not(:empty),
+.monaco-workbench .monaco-tree-row .expression,
+.debug-viewlet .debug-watch .monaco-inputbox,
+.monaco-workbench .repl .surveyor
+{
+    font-family: 'Iosevka Term Medium', monospace;
+}
+
 .monaco-workbench > .part.editor > .content .welcomePage .commands li button > span,
 .monaco-workbench > .part.editor > .content .welcomePage .commands li button h3,
 .monaco-workbench > .part.editor > .content .welcomePage .caption,
