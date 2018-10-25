@@ -16,12 +16,15 @@
 .tm-token
 {
     font-family: "Iosevka Term Medium", monospace;
+    font-size: 100%;
 }
 
 .monaco-workbench > .part.editor > .content .welcomePage .commands li button > span,
 .monaco-workbench > .part.editor > .content .welcomePage .commands li button h3,
 .monaco-workbench > .part.editor > .content .welcomePage .caption,
 .monaco-workbench > .part > .title > .title-label h2,
+.monaco-shell .monaco-menu-container .monaco-menu,
+.monaco-workbench .terminal-message-widget,
 .monaco-panel-view .panel > .panel-header,
 .monaco-select-box,
 .monaco-shell,
