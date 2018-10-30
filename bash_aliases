@@ -1,6 +1,5 @@
-# Search | List
-alias gr='grep --color=auto'
-alias ls='ls --color=auto'
+# List directory contents
+alias ls='ls -h --color=auto'
 alias ll='ls -l'
 alias la='ll -a'
 
@@ -9,10 +8,10 @@ alias cp='cp -i'
 alias rm='rm -i'
 alias mv='mv -i'
 
-# Disk utilities
-alias df='df -h'
-alias du='du -h'
-alias ds='du -s'
+# Fundamentals!
+alias :='cd ..'
+alias nv='nvim'
+alias sudo='sudo '
 
 # Package utilities
 alias pkg='pacman'
@@ -34,7 +33,7 @@ alias search-aur='aur -s'
 alias search-local='pkg -Qs'
 alias search-online='pkg -Ss'
 
-# Update and Upgrade system
+# Update system
 alias update-aur='aur -u'
 alias update-system='pkg -Sy'
 alias upgrade-system='pkg -Syu'
@@ -49,20 +48,16 @@ alias blank='xset s on +dpms'
 alias noblank='xset s off -dpms'
 
 # Network utilities
-alias ipi='curl ipinfo.io/ip'
 alias www='python -m http.server'
 alias http='http -s paraiso-dark'
 
 # Cleanup utilities
-alias rmclh='history -cw'
 alias rmpac='DIFFPROG="nvim -d" pacdiff'
+alias rmclh='rm ~/.bash_history && history -cw'
 alias rmpyc='find . -name "*.pyc" -type f -delete'
 alias rmdss='find . -name "*.DS_Store" -type f -delete'
 
-# Sysadmin utilities
-alias nv='nvim'
-alias sudo='sudo '
-alias trim='fstrim -av'
+# Admin utilities
 alias xread='xrdb ~/.Xresources'
 alias mkcpio='mkinitcpio -p linux'
 alias srcinfo='makepkg --printsrcinfo > .SRCINFO'
