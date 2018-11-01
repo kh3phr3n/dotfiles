@@ -8,7 +8,7 @@ alias cp='cp -i'
 alias rm='rm -i'
 alias mv='mv -i'
 
-# Fundamentals!
+# Fundamentals
 alias :='cd ..'
 alias nv='nvim'
 alias sudo='sudo '
@@ -48,6 +48,7 @@ alias blank='xset s on +dpms'
 alias noblank='xset s off -dpms'
 
 # Network utilities
+alias onl='ping -c 10 1.1.1.1'
 alias www='python -m http.server'
 alias http='http -s paraiso-dark'
 
@@ -57,7 +58,7 @@ alias rmclh='rm ~/.bash_history && history -cw'
 alias rmpyc='find . -name "*.pyc" -type f -delete'
 alias rmdss='find . -name "*.DS_Store" -type f -delete'
 
-# Admin utilities
+# Update utilities
 alias xread='xrdb ~/.Xresources'
 alias mkcpio='mkinitcpio -p linux'
 alias srcinfo='makepkg --printsrcinfo > .SRCINFO'
