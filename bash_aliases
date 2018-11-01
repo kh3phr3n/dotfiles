@@ -5,8 +5,8 @@ alias la='ll -a'
 
 # Interactive mode
 alias cp='cp -i'
-alias rm='rm -i'
 alias mv='mv -i'
+alias rm='rm -i'
 
 # Fundamentals
 alias :='cd ..'
