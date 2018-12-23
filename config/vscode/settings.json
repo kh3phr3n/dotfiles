@@ -30,6 +30,7 @@
     "vim.visualstar": true,
     "vim.whichwrap": "<,>,[,]",
     "window.menuBarVisibility": "toggle",
+    "window.titleBarStyle": "native",
     "window.zoomLevel": 1.0,
     "workbench.activityBar.visible": false,
     "workbench.colorTheme": "One Dark Pro",
