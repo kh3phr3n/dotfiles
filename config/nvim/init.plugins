@@ -19,12 +19,8 @@ Plug 'sheerun/vim-polyglot'
 Plug 'tpope/vim-commentary'
 Plug 'kh3phr3n/vim-gitbranch'
 Plug 'airblade/vim-gitgutter'
-Plug 'itspriddle/vim-stripper'
-
-" Webdev
 Plug 'hail2u/vim-css3-syntax'
-Plug 'othree/html5-syntax.vim'
-Plug 'pangloss/vim-javascript'
+Plug 'itspriddle/vim-stripper'
 
 " End process
 call plug#end()
