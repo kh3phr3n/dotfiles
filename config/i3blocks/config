@@ -1,7 +1,7 @@
 [cpu-label]
 color=#33AADD
 separator=false
-full_text= Cpu
+full_text= Cpu
 
 [cpu]
 color=#EEEEEE
