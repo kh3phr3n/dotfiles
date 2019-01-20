@@ -46,7 +46,7 @@ URxvt.perl-ext-common: default,matcher,selection-to-clipboard
 ! URxvt.font: xft:Iosevka Term:Regular:size=12,xft:Monospace:Regular:size=12
 ! URxvt.boldFont: xft:Iosevka Term:Regular:size=12,xft:Monospace:Regular:size=12
 
-! Medium fonts
-URxvt.font: xft:Iosevka Term:Medium:size=12,xft:Monospace:Medium:size=12
-URxvt.boldFont: xft:Iosevka Term:Medium:size=12,xft:Monospace:Medium:size=12
+! Semibold fonts
+URxvt.font: xft:Iosevka Term:Semibold:size=12,xft:Monospace:Semibold:size=12
+URxvt.boldFont: xft:Iosevka Term:Semibold:size=12,xft:Monospace:Semibold:size=12
 

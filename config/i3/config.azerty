@@ -20,7 +20,7 @@ hide_edge_borders both
 workspace_layout tabbed
 
 # Window titles font
-font pango:Iosevka Term Medium 12
+font pango:Iosevka Term Semibold 12
 
 # Split horizontal/vertical
 bindsym $mod+g split h
@@ -109,7 +109,7 @@ bindsym $mod+Shift+e exec "i3-nagbar -t warning -m 'Do you really want to exit i
 
 # Locker, Launcher
 bindsym $mod+F9 exec --no-startup-id i3lock --color=000000
-bindsym $mod+d exec --no-startup-id dmenu_run -b -p ' run:' -fn 'Iosevka Term-12:style=Medium' -nb '#21252B' -nf '#999999' -sb '#33AADD' -sf '#EEEEEE'
+bindsym $mod+d exec --no-startup-id dmenu_run -b -p ' run:' -fn 'Iosevka Term-12:style=Semibold' -nb '#21252B' -nf '#999999' -sb '#33AADD' -sf '#EEEEEE'
 
 # Resize window
 mode "  " {
@@ -155,7 +155,7 @@ client.unfocused        #282C34 #21252B #3B4048 #495162
 client.focused_inactive #282C34 #21252B #3B4048 #495162
 
 # Specific actions
-for_window [class=".*"] title_format "<span font='Iosevka Term Medium 12'>  %title</span>"
+for_window [class=".*"] title_format "<span font='Iosevka Term Semibold 12'>  %title</span>"
 
 # Start applications
 exec --no-startup-id start-pulseaudio-x11 &
