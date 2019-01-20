@@ -24,7 +24,7 @@
 .debug-viewlet .debug-watch .monaco-inputbox,
 .monaco-workbench .repl .surveyor
 {
-    font-family: "Iosevka Term Medium", monospace;
+    font-family: "Iosevka Term Semibold", monospace;
 }
 
 .monaco-editor .detected-link-active,
