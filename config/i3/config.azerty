@@ -1,5 +1,5 @@
 # Super key
-set $mod Mod4
+set $mod Mod1
 
 # Workspace labels
 set $workspace1 1
