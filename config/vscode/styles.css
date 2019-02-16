@@ -3,6 +3,7 @@
 .monaco-workbench > .part.editor > .content .welcomePage .caption,
 .monaco-workbench > .part > .title > .title-label h2,
 .monaco-panel-view .panel > .panel-header,
+.monaco-shell.linux,
 .monaco-select-box,
 .monaco-shell,
 .search-box,
