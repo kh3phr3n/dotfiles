@@ -49,8 +49,12 @@ alias noblank='xset s off -dpms'
 
 # Network utilities
 alias onl='ping -c 10 1.1.1.1'
-alias www='python -m http.server'
 alias http='http -s paraiso-dark'
+
+# Webdev utilities
+alias pysrv='python -m http.server'
+alias phpsrv='php -S localhost:8000'
+alias sqlsrv='ssh -L 3306:127.0.0.1:3306'
 
 # Cleanup utilities
 alias rmpac='DIFFPROG="nvim -d" pacdiff'
