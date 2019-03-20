@@ -12,6 +12,7 @@
     "editor.letterSpacing": 0.2,
     "editor.lightbulb.enabled": false,
     "editor.minimap.enabled": false,
+    "editor.renderFinalNewline": true,
     "editor.renderIndentGuides": false,
     "editor.renderWhitespace": "none",
     "editor.showUnused": false,
