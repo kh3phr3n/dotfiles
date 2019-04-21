@@ -15,7 +15,7 @@
 ##### Gitignore.io
 
 ```
-curl -L -# https://www.gitignore.io/api/archives,archlinuxpackages,autotools,backup,\
+curl -L -# https://www.gitignore.io/api/archives,autotools,backup,\
 c,cmake,linux,macos,node,python,qml,qt,qtcreator,tags,vim,windows > ~/dotfiles/config/git/ignore
 ```
 

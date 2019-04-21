@@ -28,16 +28,6 @@
 *.msm
 *.msp
 
-### ArchLinuxPackages ###
-*.tar.*
-*.exe
-*.log
-*.log.*
-*.sig
-
-pkg/
-src/
-
 ### Autotools ###
 # http://www.gnu.org/software/automake
 
@@ -89,6 +79,7 @@ m4/lt~obsolete.m4
 *.bak
 *.gho
 *.ori
+*.orig
 *.tmp
 
 ### C ###
@@ -123,6 +114,7 @@ m4/lt~obsolete.m4
 *.dylib
 
 # Executables
+*.exe
 *.out
 *.app
 *.i*86
@@ -145,6 +137,7 @@ Mkfile.old
 dkms.conf
 
 ### CMake ###
+CMakeLists.txt.user
 CMakeCache.txt
 CMakeFiles
 CMakeScripts
@@ -154,6 +147,11 @@ cmake_install.cmake
 install_manifest.txt
 compile_commands.json
 CTestTestfile.cmake
+_deps
+
+### CMake Patch ###
+# External projects
+*-prefix/
 
 ### Linux ###
 *~
@@ -201,9 +199,14 @@ Temporary Items
 ### Node ###
 # Logs
 logs
+*.log
 npm-debug.log*
 yarn-debug.log*
 yarn-error.log*
+lerna-debug.log*
+
+# Diagnostic reports (https://nodejs.org/api/report.html)
+report.[0-9]*.[0-9]*.[0-9]*.[0-9]*.json
 
 # Runtime data
 pids
@@ -254,7 +257,7 @@ typings/
 .yarn-integrity
 
 # dotenv environment variables file
-.env
+.env.test
 
 # parcel-bundler cache (https://parceljs.org/)
 .cache
@@ -269,7 +272,13 @@ typings/
 .vuepress/dist
 
 # Serverless directories
-.serverless
+.serverless/
+
+# FuseBox cache
+.fusebox/
+
+# DynamoDB Local files
+.dynamodb/
 
 ### Python ###
 # Byte-compiled / optimized / DLL files
@@ -293,6 +302,8 @@ parts/
 sdist/
 var/
 wheels/
+pip-wheel-metadata/
+share/python-wheels/
 *.egg-info/
 .installed.cfg
 MANIFEST
@@ -350,6 +361,13 @@ ipython_config.py
 # pyenv
 .python-version
 
+# pipenv
+#   According to pypa/pipenv#598, it is recommended to include Pipfile.lock in version control.
+#   However, in case of collaboration, if having platform-specific dependencies or dependencies
+#   having no cross-platform support, pipenv may install dependencies that don’t work, or not
+#   install all needed dependencies.
+#Pipfile.lock
+
 # celery beat schedule file
 celerybeat-schedule
 
@@ -379,22 +397,9 @@ venv.bak/
 .dmypy.json
 dmypy.json
 
-### Python Patch ###
-.venv/
+# Pyre type checker
+.pyre/
 
-### Python.VirtualEnv Stack ###
-# Virtualenv
-# http://iamzed.com/2009/05/07/a-primer-on-virtualenv/
-[Bb]in
-[Ii]nclude
-[Ll]ib
-[Ll]ib64
-[Ll]ocal
-[Ss]cripts
-pyvenv.cfg
-pip-selfcheck.json
-
-### QML ###
 ### QML ###
 # Cached binary representations of QML and JS files
 *.qmlc
@@ -435,6 +440,11 @@ target_wrapper.*
 
 # QtCreator CMake
 CMakeLists.txt.user*
+
+# QtCreator 4.8< compilation database
+
+# QtCreator local machine specific files for imported projects
+*creator.user*
 
 ### QtCreator ###
 # gitignore for Qt Creator like IDE for pure C/C++ project without Qt
