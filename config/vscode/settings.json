@@ -21,6 +21,8 @@
     "html.format.enable": false,
     "javascript.suggestionActions.enabled": false,
     "keyboard.dispatch": "keyCode",
+    "php.suggest.basic": false,
+    "php.validate.enable": false,
     "telemetry.enableCrashReporter": false,
     "telemetry.enableTelemetry": false,
     "terminal.external.linuxExec": "urxvt",
@@ -41,10 +43,18 @@
     "workbench.iconTheme": "vscode-great-icons",
     "workbench.settings.editor": "json",
     "workbench.statusBar.visible": false,
+    "workbench.tree.indent": 16,
 
     "vscode_custom_css.imports": [
         "file:///home/kh3phr3n/.vscode-oss/styles.css"
     ],
+
+    "files.associations": {
+        "*.html": "twig"
+    },
+    "emmet.includeLanguages": {
+        "twig": "html"
+    },
     "workbench.colorCustomizations": {
         "focusBorder": "#21252B",
         "dropdown.border": "#21252B",
