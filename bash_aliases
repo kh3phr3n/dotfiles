@@ -15,10 +15,9 @@ alias sudo='sudo '
 
 # Package utilities
 alias pkg='pacman'
-alias aur='cower -vc'
+alias aur='auracle'
 
 # Package information
-alias show-aur='aur -i'
 alias show-pkg='pkg -Qo'
 alias show-files='pkg -Ql'
 alias show-local='pkg -Qi'
@@ -29,12 +28,10 @@ alias install-local='pkg -U'
 alias install-online='pkg -S'
 
 # Search packages
-alias search-aur='aur -s'
 alias search-local='pkg -Qs'
 alias search-online='pkg -Ss'
 
 # Update system
-alias update-aur='aur -u'
 alias update-system='pkg -Sy'
 alias upgrade-system='pkg -Syu'
 
@@ -53,6 +50,7 @@ alias http='http -s paraiso-dark'
 
 # Webdev utilities
 alias sf='php bin/console'
+alias sft='php bin/phpunit'
 alias pysrv='python -m http.server'
 alias phpsrv='php -S localhost:8000'
 alias sqlsrv='ssh -L 3306:127.0.0.1:3306'
