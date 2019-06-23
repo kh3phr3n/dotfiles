@@ -10,8 +10,7 @@
 .input,
 .linux
 {
-    font-family: Roboto, sans-serif;
-    font-weight: 500;
+    font-family: 'PT Sans Pro', sans-serif;
 }
 
 .monaco-editor .suggest-widget:not(.frozen) .monaco-highlighted-label .highlight,
@@ -19,7 +18,7 @@
 .parameter-hints-widget,
 .suggest-widget
 {
-    font-weight: 400;
+    font-family: 'PT Sans', sans-serif;
 }
 
 .monaco-workbench .monaco-list-row .expression,
@@ -37,7 +36,6 @@
 
 .debug-viewlet .scope
 {
-    font-weight: 500;
     font-size: 12px;
 }
 
