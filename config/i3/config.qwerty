@@ -69,7 +69,8 @@ bindsym $mod+e layout toggle split
 bindsym $mod+p scratchpad show
 bindsym $mod+Shift+p move scratchpad
 
-# Toggle tiling/floating windows
+# Toggle dock mode and floating windows
+bindsym $mod+b bar mode toggle
 bindsym $mod+f fullscreen toggle
 bindsym $mod+space focus mode_toggle
 bindsym $mod+Shift+space floating toggle
