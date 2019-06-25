@@ -1,6 +1,6 @@
 ! Main settings
 URxvt.depth: 32
-URxvt.letterSpace: 0
+URxvt.letterSpace: 1
 URxvt.imLocale: en_US.UTF-8
 
 ! Borders
@@ -43,10 +43,10 @@ URxvt.url-launcher: chromium
 URxvt.perl-ext-common: default,matcher,selection-to-clipboard
 
 ! Regular fonts
-! URxvt.font: xft:Iosevka Term:Regular:size=12,xft:Monospace:Regular:size=12
-! URxvt.boldFont: xft:Iosevka Term:Regular:size=12,xft:Monospace:Regular:size=12
+! URxvt.font: xft:Iosevka Term:Regular:size=11,xft:Monospace:Regular:size=11
+! URxvt.boldFont: xft:Iosevka Term:Regular:size=11,xft:Monospace:Regular:size=11
 
 ! Semibold fonts
-URxvt.font: xft:Iosevka Term:Semibold:size=12,xft:Monospace:Semibold:size=12
-URxvt.boldFont: xft:Iosevka Term:Semibold:size=12,xft:Monospace:Semibold:size=12
+URxvt.font: xft:Iosevka Term:Semibold:size=11,xft:Monospace:Semibold:size=11
+URxvt.boldFont: xft:Iosevka Term:Semibold:size=11,xft:Monospace:Semibold:size=11
 

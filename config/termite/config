@@ -1,7 +1,7 @@
 [options]
 allow_bold = false
 mouse_autohide = true
-font = Iosevka Term Semibold 12
+font = Iosevka Term Semibold 11
 
 [colors]
 foreground = #AAAAAA
