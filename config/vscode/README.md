@@ -14,7 +14,6 @@ $HOME/.vscode-oss/styles.css
 * [PHP Intelephense](https://marketplace.visualstudio.com/items?itemName=bmewburn.vscode-intelephense-client)
 * [Twig Language 2](https://marketplace.visualstudio.com/items?itemName=mblode.twig-language-2)
 * [ESLint](https://marketplace.visualstudio.com/items?itemName=dbaeumer.vscode-eslint)
-* [Python](https://marketplace.visualstudio.com/items?itemName=ms-python.python)
 * [Vim](https://marketplace.visualstudio.com/items?itemName=vscodevim.vim)
 
 ##### Extensions (Styles)

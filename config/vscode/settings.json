@@ -1,5 +1,6 @@
 {
     "breadcrumbs.enabled": false,
+    "debug.console.fontSize": 13,
     "debug.internalConsoleOptions": "openOnSessionStart",
     "debug.openDebug": "openOnDebugBreak",
     "debug.toolBarLocation": "docked",
@@ -36,7 +37,7 @@
     "vim.whichwrap": "<,>,[,]",
     "window.menuBarVisibility": "toggle",
     "window.titleBarStyle": "native",
-    "window.zoomLevel": 0.9,
+    "window.zoomLevel": 0.8,
     "workbench.activityBar.visible": false,
     "workbench.colorTheme": "One Dark Pro",
     "workbench.editor.showTabs": false,
