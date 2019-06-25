@@ -14,7 +14,7 @@ tool = nvim -d
 default = matching
 
 [web]
-browser = chromium
+browser = firefox
 
 [color]
 grep = auto
