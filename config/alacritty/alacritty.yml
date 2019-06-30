@@ -1,0 +1,61 @@
+window:
+  # Window padding
+  padding:
+    x: 2
+    y: 2
+
+  # Window title
+  title: Shell
+
+font:
+  # Point size
+  size: 11.0
+
+  # Letter spacing offset
+  offset:
+    x: 1
+    y: 0
+
+  # Normal font face
+  normal:
+    style: Semibold
+    family: 'Iosevka Term'
+
+  # Bold font face
+  bold:
+    style: Semibold
+    family: 'Iosevka Term'
+
+  # Italic font face
+  italic:
+    style: Semibold Italic
+    family: 'Iosevka Term'
+
+colors:
+  # Default colors
+  primary:
+    background: '0x282C34'
+    foreground: '0xAAAAAA'
+
+  # Normal colors
+  normal:
+    black:   '0x495162'
+    red:     '0x7D4C4C'
+    green:   '0x5F9159'
+    yellow:  '0x7A7D4B'
+    blue:    '0x4C727D'
+    magenta: '0x6D4C7D'
+    cyan:    '0x55ABAB'
+    white:   '0xCCCCCC'
+
+  # Bright colors
+  bright:
+    black:   '0x495162'
+    red:     '0x7D4C4C'
+    green:   '0x5F9159'
+    yellow:  '0x7A7D4B'
+    blue:    '0x4C727D'
+    magenta: '0x6D4C7D'
+    cyan:    '0x55ABAB'
+    white:   '0xCCCCCC'
+
