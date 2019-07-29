@@ -46,6 +46,15 @@
     "workbench.statusBar.visible": false,
     "workbench.tree.indent": 16,
 
+    "intelephense.files.exclude": [
+        "**/.git/**",
+        "**/.svn/**",
+        "**/.hg/**",
+        "**/CVS/**",
+        "**/.DS_Store/**",
+        "**/node_modules/**",
+        "**/bower_components/**"
+    ],
     "vscode_custom_css.imports": [
         "file:///home/kh3phr3n/.vscode-oss/styles.css"
     ],
@@ -55,6 +64,9 @@
     },
     "emmet.includeLanguages": {
         "twig": "html"
+    },
+    "editor.quickSuggestions": {
+        "comments": true
     },
     "workbench.colorCustomizations": {
         "focusBorder": "#21252B",

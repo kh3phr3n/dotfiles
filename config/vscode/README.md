@@ -13,6 +13,7 @@ $HOME/.vscode-oss/styles.css
 * [PHP Namespace Resolver](https://marketplace.visualstudio.com/items?itemName=MehediDracula.php-namespace-resolver)
 * [PHP Intelephense](https://marketplace.visualstudio.com/items?itemName=bmewburn.vscode-intelephense-client)
 * [Twig Language 2](https://marketplace.visualstudio.com/items?itemName=mblode.twig-language-2)
+* [SQLTools](https://marketplace.visualstudio.com/items?itemName=mtxr.sqltools)
 * [ESLint](https://marketplace.visualstudio.com/items?itemName=dbaeumer.vscode-eslint)
 * [Vim](https://marketplace.visualstudio.com/items?itemName=vscodevim.vim)
 

@@ -13,6 +13,9 @@
 
     { "key": "ctrl+meta+b",          "command": "breadcrumbs.toggle" },
     { "key": "ctrl+meta+s",          "command": "workbench.action.toggleStatusbarVisibility" },
+
+    { "key": "ctrl+alt+h",           "command": "intelephense.index.workspace" },
+    { "key": "ctrl+shift+q",         "command": "workbench.view.extension.SQLToolsExplorer" },
     { "key": "ctrl+l",               "command": "workbench.debug.panel.action.clearReplAction" }
 ]
 
