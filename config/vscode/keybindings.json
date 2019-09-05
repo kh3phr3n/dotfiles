@@ -11,11 +11,16 @@
     { "key": "ctrl+-",               "command": "editor.action.fontZoomOut" },
     { "key": "ctrl+=",               "command": "editor.action.fontZoomReset" },
 
+    { "key": "f1",                   "command": "-workbench.action.showCommands" },
+    { "key": "f1",                   "command": "workbench.action.toggleSidebarVisibility" },
+    { "key": "ctrl+b",               "command": "-workbench.action.toggleSidebarVisibility" },
+
     { "key": "ctrl+meta+b",          "command": "breadcrumbs.toggle" },
     { "key": "ctrl+meta+s",          "command": "workbench.action.toggleStatusbarVisibility" },
 
     { "key": "ctrl+alt+h",           "command": "intelephense.index.workspace" },
     { "key": "ctrl+shift+q",         "command": "workbench.view.extension.SQLToolsExplorer" },
     { "key": "ctrl+l",               "command": "workbench.debug.panel.action.clearReplAction" }
+
 ]
 
