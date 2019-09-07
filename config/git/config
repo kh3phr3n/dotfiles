@@ -1,7 +1,7 @@
 [user]
 name = kh3phr3n
 email = kh3phr3n@nixsys.fr
-signingkey = 170FFC6CB3D12B30
+signingkey = F185DC316E659F24
 
 [core]
 editor = nvim
