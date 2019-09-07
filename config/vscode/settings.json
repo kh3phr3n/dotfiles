@@ -37,14 +37,16 @@
     "vim.whichwrap": "<,>,[,]",
     "window.menuBarVisibility": "toggle",
     "window.titleBarStyle": "native",
-    "window.zoomLevel": 0.8,
+    "window.zoomLevel": 0.7,
     "workbench.activityBar.visible": false,
     "workbench.colorTheme": "One Dark Pro",
     "workbench.editor.showTabs": false,
     "workbench.iconTheme": "vscode-great-icons",
     "workbench.settings.editor": "json",
+    "workbench.startupEditor": "none",
     "workbench.statusBar.visible": false,
     "workbench.tree.indent": 16,
+    "workbench.tree.renderIndentGuides": "none",
 
     "intelephense.files.exclude": [
         "**/.git/**",
