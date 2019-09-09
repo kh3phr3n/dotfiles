@@ -6,7 +6,7 @@ full_text= Cpu
 [cpu]
 color=#EEEEEE
 interval=1
-command=/usr/lib/i3blocks/cpu_usage
+command=/usr/local/bin/cpu_usage
 
 [ram-label]
 color=#33AADD
@@ -16,7 +16,7 @@ full_text= Ram
 [ram]
 color=#EEEEEE
 interval=1
-command=free | awk '/Mem/{printf("%.2f%"), $3/$2*100}'
+command=free | awk '/Mem/{printf("%.2f%\n"), $3/$2*100}'
 
 [luks-label]
 color=#33AADD
