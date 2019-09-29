@@ -45,6 +45,7 @@ alias blank='xset s on +dpms'
 alias noblank='xset s off -dpms'
 
 # Network utilities
+alias cm='connmanctl'
 alias onl='ping -c 10 1.1.1.1'
 alias http='http -s paraiso-dark'
 
