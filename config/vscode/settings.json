@@ -4,7 +4,7 @@
     "debug.internalConsoleOptions": "openOnSessionStart",
     "debug.openDebug": "openOnDebugBreak",
     "debug.toolBarLocation": "docked",
-    "editor.autoIndent": false,
+    "editor.autoIndent": "none",
     "editor.colorDecorators": false,
     "editor.fontFamily": "'Iosevka Term Semibold'",
     "editor.fontSize": 13,
@@ -22,15 +22,12 @@
     "html.format.enable": false,
     "javascript.suggestionActions.enabled": false,
     "keyboard.dispatch": "keyCode",
-    "php.suggest.basic": false,
-    "php.validate.enable": false,
     "telemetry.enableCrashReporter": false,
     "telemetry.enableTelemetry": false,
     "terminal.external.linuxExec": "urxvt",
     "terminal.integrated.fontSize": 13,
     "terminal.integrated.fontWeightBold": "normal",
     "terminal.integrated.rendererType": "dom",
-    "twig-language-2.formatting": false,
     "vim.useCtrlKeys": false,
     "vim.useSystemClipboard": true,
     "vim.visualstar": true,
@@ -40,13 +37,41 @@
     "window.zoomLevel": 0.7,
     "workbench.activityBar.visible": false,
     "workbench.colorTheme": "One Dark Pro",
-    "workbench.editor.showTabs": false,
     "workbench.iconTheme": "vscode-great-icons",
     "workbench.settings.editor": "json",
     "workbench.startupEditor": "none",
     "workbench.statusBar.visible": false,
     "workbench.tree.indent": 16,
     "workbench.tree.renderIndentGuides": "none",
+
+    "vscode_custom_css.imports": [
+        "file:///home/kh3phr3n/.vscode-oss/styles.css"
+    ],
+
+    "workbench.colorCustomizations": {
+        "focusBorder": "#21252B",
+        "dropdown.border": "#21252B",
+        "statusBar.debuggingBorder": "#AD562B",
+        "statusBar.debuggingBackground": "#CC6633",
+        "statusBar.debuggingForeground": "#EEEEEE"
+    },
+
+    // PHP
+    "php.suggest.basic": false,
+    "php.validate.enable": false,
+    "twig-language-2.formatting": false,
+
+    "editor.quickSuggestions": {
+        "comments": true
+    },
+
+    "emmet.includeLanguages": {
+        "twig": "html"
+    },
+
+    "files.associations": {
+        "*.html": "twig"
+    },
 
     "intelephense.files.exclude": [
         "**/.git/**",
@@ -56,26 +81,6 @@
         "**/.DS_Store/**",
         "**/node_modules/**",
         "**/bower_components/**"
-    ],
-    "vscode_custom_css.imports": [
-        "file:///home/kh3phr3n/.vscode-oss/styles.css"
-    ],
-
-    "files.associations": {
-        "*.html": "twig"
-    },
-    "emmet.includeLanguages": {
-        "twig": "html"
-    },
-    "editor.quickSuggestions": {
-        "comments": true
-    },
-    "workbench.colorCustomizations": {
-        "focusBorder": "#21252B",
-        "dropdown.border": "#21252B",
-        "statusBar.debuggingBorder": "#AD562B",
-        "statusBar.debuggingBackground": "#CC6633",
-        "statusBar.debuggingForeground": "#EEEEEE"
-    }
+    ]
 }
 
