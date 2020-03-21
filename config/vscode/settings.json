@@ -40,7 +40,7 @@
     "window.zoomLevel": 0.7,
     "workbench.activityBar.visible": false,
     "workbench.colorTheme": "One Dark Pro",
-    "workbench.iconTheme": "vscode-great-icons",
+    "workbench.iconTheme": "material-icon-theme",
     "workbench.settings.editor": "json",
     "workbench.startupEditor": "none",
     "workbench.statusBar.visible": false,
