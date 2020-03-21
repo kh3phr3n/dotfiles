@@ -10,6 +10,7 @@ $HOME/.vscode-oss/styles.css
 
 ##### Extensions (Javascript)
 
+* [Vscode NestJs Snippets](https://marketplace.visualstudio.com/items?itemName=ashinzekene.nestjs)
 * [Angular Snippets](https://marketplace.visualstudio.com/items?itemName=johnpapa.Angular2)
 * [ESLint](https://marketplace.visualstudio.com/items?itemName=dbaeumer.vscode-eslint)
 
