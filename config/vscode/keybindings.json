@@ -17,6 +17,15 @@
 
     { "key": "ctrl+meta+b",          "command": "breadcrumbs.toggle" },
     { "key": "ctrl+meta+s",          "command": "workbench.action.toggleStatusbarVisibility" },
-    { "key": "ctrl+l",               "command": "workbench.debug.panel.action.clearReplAction" }
+    { "key": "ctrl+l",               "command": "workbench.debug.panel.action.clearReplAction" },
+
+    { "key": "ctrl+shift+left",      "command": "workbench.action.navigateBack" },
+    { "key": "ctrl+alt+-",           "command": "-workbench.action.navigateBack" },
+    { "key": "ctrl+shift+right",     "command": "workbench.action.navigateForward" },
+    { "key": "ctrl+shift+-",         "command": "-workbench.action.navigateForward" },
+    { "key": "ctrl+shift+left",      "command": "-cursorWordStartLeftSelect", "when": "textInputFocus" },
+    { "key": "ctrl+shift+right",     "command": "-cursorWordEndRightSelect",  "when": "textInputFocus" },
+    { "key": "ctrl+shift+left",      "command": "-workbench.action.terminal.resizePaneLeft",  "when": "terminalFocus" },
+    { "key": "ctrl+shift+right",     "command": "-workbench.action.terminal.resizePaneRight", "when": "terminalFocus" }
 ]
 
