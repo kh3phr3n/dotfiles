@@ -110,15 +110,15 @@ vnoremap <C-S> <C-C>:update<CR>
 inoremap <C-S> <C-O>:update<CR>
 
 " Splits navigation
-nnoremap <silent> <C-H> :wincmd h<CR>
-nnoremap <silent> <C-J> :wincmd j<CR>
-nnoremap <silent> <C-K> :wincmd k<CR>
-nnoremap <silent> <C-L> :wincmd l<CR>
+nnoremap <silent> <S-Up>    :wincmd k<CR>
+nnoremap <silent> <S-Down>  :wincmd j<CR>
+nnoremap <silent> <S-Left>  :wincmd h<CR>
+nnoremap <silent> <S-Right> :wincmd l<CR>
 
 " Tabs navigation
-nnoremap <silent> <S-T> :tabnew<CR>
-nnoremap <silent> <S-L> :tabnext<CR>
-nnoremap <silent> <S-H> :tabprevious<CR>
+nnoremap <silent> <C-T>     :tabnew<CR>
+nnoremap <silent> <C-Right> :tabnext<CR>
+nnoremap <silent> <C-Left>  :tabprevious<CR>
 
 " Section: Plugins
 " ----------------
