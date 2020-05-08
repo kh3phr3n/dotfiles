@@ -1,6 +1,3 @@
-# Alacritty terminfo
-export TERM='xterm-256color'
-
 # Common env variables
 export VISUAL='nvim'
 export EDITOR='nvim'
