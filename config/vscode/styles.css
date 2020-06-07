@@ -21,11 +21,17 @@
     font-family: 'PT Sans', sans-serif;
 }
 
+.lines-content.monaco-editor-background div.view-lines,
 .monaco-workbench .monaco-list-row .expression,
 .debug-viewlet .debug-watch .monaco-inputbox,
 .monaco-workbench .repl .surveyor
 {
     font-family: "Iosevka Term Semibold", monospace !important;
+}
+
+.monaco-editor .debug-hover-widget .value
+{
+    font-family: "Iosevka Term Medium", monospace !important;
 }
 
 .monaco-editor .detected-link-active,

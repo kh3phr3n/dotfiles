@@ -35,6 +35,7 @@
     "vim.useSystemClipboard": true,
     "vim.visualstar": true,
     "vim.whichwrap": "<,>,[,]",
+    "vscode_custom_css.policy": true,
     "window.menuBarVisibility": "toggle",
     "window.titleBarStyle": "native",
     "window.zoomLevel": 0.7,
