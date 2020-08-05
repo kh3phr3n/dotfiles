@@ -11,6 +11,9 @@ $HOME/.vscode-oss/styles.css
 ##### Extensions (Javascript)
 
 * [ESLint](https://marketplace.visualstudio.com/items?itemName=dbaeumer.vscode-eslint)
+* [TSLint](https://marketplace.visualstudio.com/items?itemName=ms-vscode.vscode-typescript-tslint-plugin)
+* [Angular Snippets](https://marketplace.visualstudio.com/items?itemName=johnpapa.Angular2)
+* [Angular Language Service](https://marketplace.visualstudio.com/items?itemName=Angular.ng-template)
 
 ##### Extensions (PHP)
 
