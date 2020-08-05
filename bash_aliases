@@ -46,6 +46,7 @@ alias noblank='xset s off -dpms'
 
 # Network utilities
 alias cm='connmanctl'
+alias bt='bluetoothctl'
 alias onl='ping -c 10 1.1.1.1'
 alias http='http -s paraiso-dark'
 
