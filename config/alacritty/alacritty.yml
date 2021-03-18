@@ -22,18 +22,18 @@ font:
 
   # Normal font face
   normal:
+    family: Iosevka Term
     style: Semibold
-    family: 'Iosevka Term'
 
   # Bold font face
   bold:
+    family: Iosevka Term
     style: Semibold
-    family: 'Iosevka Term'
 
   # Italic font face
   italic:
+    family: Iosevka Term
     style: Semibold Italic
-    family: 'Iosevka Term'
 
 colors:
   # Default colors
