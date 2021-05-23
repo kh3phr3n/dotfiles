@@ -2,8 +2,8 @@
 gtk-xft-hinting=1
 gtk-xft-rgba="rgb"
 gtk-xft-antialias=1
-gtk-xft-lcdfilter="lcdlight"
 gtk-xft-hintstyle="hintslight"
+gtk-xft-lcdfilter="lcddefault"
 
 # Global Theme
 gtk-font-name="PT Sans 11"
