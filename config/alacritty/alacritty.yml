@@ -63,3 +63,17 @@ colors:
     cyan:    '#55ABAB'
     white:   '#CCCCCC'
 
+  # Search colors
+  search:
+    bar:
+      background: '#21252B'
+      foreground: '#AAAAAA'
+
+    matches:
+      background: '#404859'
+      foreground: '#AAAAAA'
+
+    focused_match:
+      background: '#AAAAAA'
+      foreground: '#282C34'
+
