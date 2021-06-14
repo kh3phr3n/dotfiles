@@ -1,6 +1,6 @@
 ! Main settings
 URxvt.depth: 32
-URxvt.letterSpace: 1
+URxvt.letterSpace: 0
 URxvt.imLocale: en_US.UTF-8
 
 ! Borders
