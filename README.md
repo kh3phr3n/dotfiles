@@ -2,15 +2,15 @@
 
 ##### Ranger
 
-![ranger](https://cdn.nixsys.fr/dotfiles/ranger/preview.png)
+![ranger](https://cdn.nixsys.fr/static/github/dotfiles/ranger/preview.png)
 
 ##### URxvt
 
-![urxvt](https://cdn.nixsys.fr/dotfiles/urxvt/preview.png)
+![urxvt](https://cdn.nixsys.fr/static/github/dotfiles/urxvt/preview.png)
 
 ##### VSCode
 
-![vscode](https://cdn.nixsys.fr/dotfiles/vscode/preview.png)
+![vscode](https://cdn.nixsys.fr/static/github/dotfiles/vscode/preview.png)
 
 ##### Gitignore.io
 
