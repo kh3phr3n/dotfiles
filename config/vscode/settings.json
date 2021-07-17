@@ -40,7 +40,7 @@
     "vscode_custom_css.policy": true,
     "window.menuBarVisibility": "toggle",
     "window.titleBarStyle": "native",
-    "window.zoomLevel": 0.7,
+    "window.zoomLevel": 0.6,
     "workbench.activityBar.visible": false,
     "workbench.colorTheme": "One Dark Pro",
     "workbench.editor.untitled.hint": "hidden",
