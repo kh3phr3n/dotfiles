@@ -8,9 +8,6 @@ window:
     x: 2
     y: 2
 
-  # Window title
-  title: Shell
-
 font:
   # Point size
   size: 11.0
