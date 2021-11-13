@@ -5,10 +5,12 @@ gtk-xft-antialias=1
 gtk-xft-hintstyle="hintslight"
 gtk-xft-lcdfilter="lcddefault"
 
+# Global font
+gtk-font-name="PT Sans Pro Demi 11"
+
 # Global Theme
 gtk-theme-name="Arc-Darker"
 gtk-icon-theme-name="Papirus"
-gtk-font-name="PT Sans Pro Demi 11"
 gtk-cursor-theme-name="Oxygen_White"
 
 # Look and Feel
