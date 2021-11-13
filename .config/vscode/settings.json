@@ -11,7 +11,7 @@
     "editor.fontSize": 13,
     "editor.formatOnPaste": false,
     "editor.hover.enabled": true,
-    "editor.letterSpacing": 0.2,
+    "editor.letterSpacing": 0.3,
     "editor.lightbulb.enabled": false,
     "editor.minimap.enabled": false,
     "editor.renderFinalNewline": true,
