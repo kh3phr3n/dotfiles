@@ -57,6 +57,10 @@ alias pysrv='python -m http.server'
 alias phpsrv='php -S localhost:8000'
 alias sqlsrv='ssh -L 3306:127.0.0.1:3306'
 
+# Docker utilities
+alias docker='sudo docker'
+alias docker-compose='sudo docker-compose'
+
 # Cleanup utilities
 alias rmpac='DIFFPROG="nvim -d" pacdiff'
 alias rmclh='rm ~/.bash_history && history -cw'
