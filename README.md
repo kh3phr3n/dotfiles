@@ -15,7 +15,7 @@
 ##### Gitignore.io
 
 ```
-curl -L -# https://www.gitignore.io/api/archives,backup,linux,macos,windows > config/git/ignore
+curl -L -# https://www.gitignore.io/api/archives,backup,linux,macos,windows > .config/git/ignore
 ```
 
 ##### Cursor themes

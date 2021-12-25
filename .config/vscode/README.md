@@ -11,8 +11,6 @@ $HOME/.vscode-oss/styles.css
 ##### Extensions (Javascript)
 
 * [ESLint](https://marketplace.visualstudio.com/items?itemName=dbaeumer.vscode-eslint)
-* [TSLint](https://marketplace.visualstudio.com/items?itemName=ms-vscode.vscode-typescript-tslint-plugin)
-* [Angular Snippets](https://marketplace.visualstudio.com/items?itemName=johnpapa.Angular2)
 * [Angular Language Service](https://marketplace.visualstudio.com/items?itemName=Angular.ng-template)
 
 ##### Extensions (PHP)
@@ -20,6 +18,10 @@ $HOME/.vscode-oss/styles.css
 * [Twig Language 2](https://marketplace.visualstudio.com/items?itemName=mblode.twig-language-2)
 * [PHP Intelephense](https://marketplace.visualstudio.com/items?itemName=bmewburn.vscode-intelephense-client)
 * [PHP Namespace Resolver](https://marketplace.visualstudio.com/items?itemName=MehediDracula.php-namespace-resolver)
+
+##### Extensions (Rust)
+
+* [Rust-analyzer](https://marketplace.visualstudio.com/items?itemName=matklad.rust-analyzer)
 
 ##### Extensions (Java)
 
