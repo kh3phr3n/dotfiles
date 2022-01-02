@@ -5,16 +5,16 @@ signingkey = F185DC316E659F24
 
 [core]
 editor = nvim
-pager = diff-highlight | less
+pager = diff-so-fancy | less
+
+[interactive]
+diffFilter = diff-so-fancy --patch
 
 [merge]
 tool = nvim -d
 
 [push]
 default = matching
-
-[web]
-browser = firefox
 
 [color]
 grep = auto
