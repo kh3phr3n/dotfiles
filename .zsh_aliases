@@ -1,0 +1,26 @@
+# List directory contents
+alias ls='ls -hG'
+alias ll='ls -l'
+alias la='ll -a'
+
+# Interactive mode
+alias cp='cp -i'
+alias mv='mv -i'
+alias rm='rm -i'
+
+# Fundamentals
+alias :='cd ..'
+alias sudo='sudo '
+
+# Network utilities
+alias onl='ping -c 10 1.1.1.1'
+alias http='http -s paraiso-dark'
+
+# Webdev utilities
+alias pysrv='python -m http.server'
+
+# Cleanup utilities
+alias rmclh='rm ~/.zsh_history && history -p'
+alias rmpyc='find . -name "*.pyc" -type f -delete'
+alias rmdss='find . -name "*.DS_Store" -type f -delete'
+
