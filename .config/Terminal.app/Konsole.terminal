@@ -449,6 +449,8 @@
 	</data>
 	<key>FontAntialias</key>
 	<true/>
+	<key>FontHeightSpacing</key>
+	<real>1.004</real>
 	<key>FontWidthSpacing</key>
 	<real>1.004032258064516</real>
 	<key>ProfileCurrentVersion</key>
