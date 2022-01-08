@@ -6,7 +6,7 @@ gtk-xft-hintstyle="hintslight"
 gtk-xft-lcdfilter="lcddefault"
 
 # Global font
-gtk-font-name="PT Sans Pro Demi 11"
+gtk-font-name="PT Sans Pro Demi 10"
 
 # Global Theme
 gtk-theme-name="Arc-Darker"

@@ -1,5 +1,5 @@
 ! Main settings
-Xft.dpi: 156
+Xft.dpi: 158
 Xft.rgba: rgb
 Xft.hinting: true
 Xft.autohint: false

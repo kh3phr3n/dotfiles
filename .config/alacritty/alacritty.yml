@@ -10,7 +10,7 @@ window:
 
 font:
   # Point size
-  size: 11.0
+  size: 10.0
 
   # Letter spacing offset
   offset:

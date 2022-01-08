@@ -43,10 +43,10 @@ URxvt.url-launcher: firefox
 URxvt.perl-ext-common: default,matcher,selection-to-clipboard
 
 ! Regular fonts
-! URxvt.font: xft:Iosevka Term:Regular:size=11,xft:Monospace:Regular:size=11
-! URxvt.boldFont: xft:Iosevka Term:Regular:size=11,xft:Monospace:Regular:size=11
+! URxvt.font: xft:Iosevka Term:Regular:size=10,xft:Monospace:Regular:size=10
+! URxvt.boldFont: xft:Iosevka Term:Regular:size=10,xft:Monospace:Regular:size=10
 
 ! Semibold fonts
-URxvt.font: xft:Iosevka Term:Semibold:size=11,xft:Monospace:Semibold:size=11
-URxvt.boldFont: xft:Iosevka Term:Semibold:size=11,xft:Monospace:Semibold:size=11
+URxvt.font: xft:Iosevka Term:Semibold:size=10,xft:Monospace:Semibold:size=10
+URxvt.boldFont: xft:Iosevka Term:Semibold:size=10,xft:Monospace:Semibold:size=10
 
