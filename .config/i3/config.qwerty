@@ -159,13 +159,11 @@ client.focused_inactive #282C34 #21252B #3B4048 #495162
 for_window [class=".*"] title_format "<span font='Iosevka Term Semibold 11'>  %title</span>"
 
 # Start applications
+exec --no-startup-id xrdb ~/.Xresources
 exec --no-startup-id start-pulseaudio-x11 &
 exec --no-startup-id picom -b > /dev/null 2>&1 &
 
 # (Re)Start applications
 exec_always --no-startup-id feh --bg-scale $HOME/.background.png &
-
-# System settings
-exec --no-startup-id xrdb ~/.Xresources
-exec --no-startup-id setxkbmap -layout us -option caps:swapescape,compose:rctrl,terminate:ctrl_alt_bksp
+exec_always --no-startup-id setxkbmap -layout us -option caps:swapescape,compose:rctrl,terminate:ctrl_alt_bksp
 
