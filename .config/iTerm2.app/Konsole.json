@@ -323,11 +323,11 @@
   },
   "Name" : "Konsole",
   "Cursor Text Color" : {
-    "Red Component" : 0.93725490196078431,
+    "Red Component" : 0.15686274509803921,
     "Color Space" : "sRGB",
-    "Blue Component" : 0.93725490196078431,
+    "Blue Component" : 0.20392156862745098,
     "Alpha Component" : 1,
-    "Green Component" : 0.93725490196078431
+    "Green Component" : 0.17254901960784313
   },
   "Shortcut" : "",
   "Cursor Color" : {
