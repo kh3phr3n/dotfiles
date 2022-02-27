@@ -10,3 +10,6 @@ export HISTCONTROL='erasedups'
 # Load ~/.bashrc
 [[ -f ~/.bashrc ]] && source ~/.bashrc
 
+# Add Cargo bin to PATH
+[[ -d ~/.cargo/bin ]] && export PATH=~/.cargo/bin:$PATH
+
