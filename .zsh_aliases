@@ -10,6 +10,7 @@ alias rm='rm -i'
 
 # Fundamentals
 alias :='cd ..'
+alias nv='nvim'
 alias sudo='sudo '
 
 # Network utilities
