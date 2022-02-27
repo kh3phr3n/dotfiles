@@ -40,6 +40,7 @@
     "vim.useSystemClipboard": true,
     "vim.visualstar": true,
     "vim.whichwrap": "<,>,[,]",
+    "vscode_custom_css.imports": ["file:///home/kh3phr3n/.vscode-oss/styles.css"],
     "vscode_custom_css.policy": true,
     "window.menuBarVisibility": "toggle",
     "window.titleBarStyle": "native",
@@ -54,9 +55,18 @@
     "workbench.tree.indent": 16,
     "workbench.tree.renderIndentGuides": "none",
 
-    "vscode_custom_css.imports": [
-        "file:///home/kh3phr3n/.vscode-oss/styles.css"
-    ],
+    "[markdown]": {
+        "files.trimTrailingWhitespace": false
+    },
+
+    "editor.semanticTokenColorCustomizations": {
+        "enabled": true,
+        "rules": {
+            "*.mutable": {
+                "underline": false
+            }
+        }
+    },
 
     "workbench.colorCustomizations": {
         "focusBorder": "#21252B",
