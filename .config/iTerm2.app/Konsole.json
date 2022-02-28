@@ -25,7 +25,7 @@
     "Alpha Component" : 1,
     "Green Component" : 0.66666666666666663
   },
-  "Normal Font" : "SFMonoPowerline-Bold 14",
+  "Normal Font" : "SFMonoPowerline-Semibold 14",
   "Ansi 6 Color" : {
     "Red Component" : 0.33333333333333331,
     "Color Space" : "sRGB",
@@ -107,7 +107,7 @@
   "Brighten Bold Text" : false,
   "Custom Command" : "No",
   "ASCII Anti Aliased" : true,
-  "Non Ascii Font" : "SFMonoPowerline-Bold 14",
+  "Non Ascii Font" : "SFMonoPowerline-Semibold 14",
   "Vertical Spacing" : 1.1799999999999999,
   "Use Bold Font" : false,
   "Option Key Sends" : 0,
