@@ -8,9 +8,11 @@ $HOME/.config/Code - OSS/User/settings.json
 $HOME/.vscode-oss/styles.css
 ```
 
-##### Extensions (Javascript)
+##### Extensions (JS)
 
 * [ESLint](https://marketplace.visualstudio.com/items?itemName=dbaeumer.vscode-eslint)
+* [AdonisJS](https://marketplace.visualstudio.com/items?itemName=jripouteau.adonis-vscode-extension)
+* [Alpine.js](https://marketplace.visualstudio.com/items?itemName=adrianwilczynski.alpine-js-intellisense)
 * [Angular Language Service](https://marketplace.visualstudio.com/items?itemName=Angular.ng-template)
 
 ##### Extensions (PHP)
@@ -18,6 +20,10 @@ $HOME/.vscode-oss/styles.css
 * [Twig Language 2](https://marketplace.visualstudio.com/items?itemName=mblode.twig-language-2)
 * [PHP Intelephense](https://marketplace.visualstudio.com/items?itemName=bmewburn.vscode-intelephense-client)
 * [PHP Namespace Resolver](https://marketplace.visualstudio.com/items?itemName=MehediDracula.php-namespace-resolver)
+
+##### Extensions (CSS)
+
+* [Tailwind CSS](https://marketplace.visualstudio.com/items?itemName=bradlc.vscode-tailwindcss)
 
 ##### Extensions (Rust)
 
@@ -39,4 +45,35 @@ $HOME/.vscode-oss/styles.css
 * [Material Icon Theme](https://marketplace.visualstudio.com/items?itemName=PKief.material-icon-theme)
 * [Fix VSCode Checksums](https://marketplace.visualstudio.com/items?itemName=lehni.vscode-fix-checksums)
 * [Custom CSS and JS Loader](https://marketplace.visualstudio.com/items?itemName=be5invis.vscode-custom-css)
+
+##### Extra Settings
+
+```
+// PHP
+"php.suggest.basic": false,
+"php.validate.enable": false,
+"twig-language-2.formatting": false,
+
+"editor.quickSuggestions": {
+    "comments": true
+},
+
+"emmet.includeLanguages": {
+    "twig": "html"
+},
+
+"files.associations": {
+    "*.html": "twig"
+},
+
+"intelephense.files.exclude": [
+    "**/.git/**",
+    "**/.svn/**",
+    "**/.hg/**",
+    "**/CVS/**",
+    "**/.DS_Store/**",
+    "**/node_modules/**",
+    "**/bower_components/**"
+]
+```
 

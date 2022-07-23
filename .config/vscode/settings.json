@@ -6,6 +6,7 @@
     "debug.openDebug": "openOnDebugBreak",
     "debug.toolBarLocation": "docked",
     "editor.autoIndent": "none",
+    "editor.bracketPairColorization.enabled": false,
     "editor.colorDecorators": false,
     "editor.fontFamily": "'Iosevka Term Semibold'",
     "editor.fontSize": 13,
@@ -59,6 +60,10 @@
         "files.trimTrailingWhitespace": false
     },
 
+    "emmet.includeLanguages": {
+        "edge": "html"
+    },
+
     "editor.semanticTokenColorCustomizations": {
         "enabled": true,
         "rules": {
@@ -71,36 +76,10 @@
     "workbench.colorCustomizations": {
         "focusBorder": "#21252B",
         "dropdown.border": "#21252B",
+        "tab.activeBorder": "#00000000",
         "statusBar.debuggingBorder": "#AD562B",
         "statusBar.debuggingBackground": "#CC6633",
         "statusBar.debuggingForeground": "#EEEEEE"
-    },
-
-    // PHP
-    "php.suggest.basic": false,
-    "php.validate.enable": false,
-    "twig-language-2.formatting": false,
-
-    "editor.quickSuggestions": {
-        "comments": true
-    },
-
-    "emmet.includeLanguages": {
-        "twig": "html"
-    },
-
-    "files.associations": {
-        "*.html": "twig"
-    },
-
-    "intelephense.files.exclude": [
-        "**/.git/**",
-        "**/.svn/**",
-        "**/.hg/**",
-        "**/CVS/**",
-        "**/.DS_Store/**",
-        "**/node_modules/**",
-        "**/bower_components/**"
-    ]
+    }
 }
 
