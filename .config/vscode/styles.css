@@ -10,7 +10,7 @@
 .input,
 .linux
 {
-    font-family: 'PT Sans Pro', sans-serif;
+    font-family: 'PT Sans Pro', sans-serif !important;
 }
 
 .monaco-editor .suggest-widget:not(.frozen) .monaco-highlighted-label .highlight,
@@ -18,7 +18,7 @@
 .parameter-hints-widget,
 .suggest-widget
 {
-    font-family: 'PT Sans', sans-serif;
+    font-family: 'PT Sans', sans-serif !important;
 }
 
 .lines-content.monaco-editor-background div.view-lines,
@@ -40,6 +40,7 @@
     text-decoration: none;
 }
 
+.monaco-workbench .debug-pane .monaco-list-row .expression,
 .debug-viewlet .scope
 {
     font-size: 12px;
