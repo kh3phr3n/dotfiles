@@ -8,10 +8,11 @@
     "editor.autoIndent": "none",
     "editor.bracketPairColorization.enabled": false,
     "editor.colorDecorators": false,
-    "editor.fontFamily": "'Iosevka Term Semibold'",
+    "editor.fontFamily": "Iosevka Term Semibold",
     "editor.fontSize": 13,
     "editor.formatOnPaste": false,
     "editor.hover.enabled": true,
+    "editor.inlayHints.fontSize": 10,
     "editor.letterSpacing": 0.5,
     "editor.lightbulb.enabled": false,
     "editor.lineHeight": 17,
@@ -47,7 +48,7 @@
     "window.titleBarStyle": "native",
     "window.zoomLevel": 0,
     "workbench.activityBar.visible": false,
-    "workbench.colorTheme": "One Dark Pro",
+    "workbench.colorTheme": "One Dark Pro Flat",
     "workbench.editor.untitled.hint": "hidden",
     "workbench.iconTheme": "material-icon-theme",
     "workbench.settings.editor": "json",
@@ -74,12 +75,12 @@
     },
 
     "workbench.colorCustomizations": {
+        "editorCursor.foreground": "#8D95A7",
+        "editorInlayHint.background": "#282C34",
+        "editorInlayHint.foreground": "#999999",
         "focusBorder": "#21252B",
-        "dropdown.border": "#21252B",
         "tab.activeBorder": "#00000000",
-        "statusBar.debuggingBorder": "#AD562B",
-        "statusBar.debuggingBackground": "#CC6633",
-        "statusBar.debuggingForeground": "#EEEEEE"
+        "terminalCursor.foreground": "#8D95A7"
     }
 }
 
