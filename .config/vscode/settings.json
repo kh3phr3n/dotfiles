@@ -64,6 +64,9 @@
     "editor.semanticTokenColorCustomizations": {
         "enabled": true,
         "rules": {
+            "*": {
+                "fontStyle": ""
+            },
             "*.mutable": {
                 "underline": false
             }
