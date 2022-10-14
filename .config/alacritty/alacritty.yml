@@ -62,10 +62,6 @@ colors:
 
   # Search colors
   search:
-    bar:
-      background: '#21252B'
-      foreground: '#AAAAAA'
-
     matches:
       background: '#404859'
       foreground: '#AAAAAA'
@@ -73,4 +69,9 @@ colors:
     focused_match:
       background: '#AAAAAA'
       foreground: '#282C34'
+
+  # Footer bar
+  footer_bar:
+    background: '#21252B'
+    foreground: '#AAAAAA'
 
