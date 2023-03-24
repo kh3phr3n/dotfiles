@@ -14,6 +14,7 @@ $HOME/.vscode-oss/styles.css
 * [AdonisJS](https://marketplace.visualstudio.com/items?itemName=jripouteau.adonis-vscode-extension)
 * [Alpine.js](https://marketplace.visualstudio.com/items?itemName=adrianwilczynski.alpine-js-intellisense)
 * [Angular Language Service](https://marketplace.visualstudio.com/items?itemName=Angular.ng-template)
+* [Vue Language Features (Volar)](https://marketplace.visualstudio.com/items?itemName=Vue.volar)
 
 ##### Extensions (PHP)
 
@@ -37,6 +38,7 @@ $HOME/.vscode-oss/styles.css
 
 * [Vim](https://marketplace.visualstudio.com/items?itemName=vscodevim.vim)
 * [Docker](https://marketplace.visualstudio.com/items?itemName=ms-azuretools.vscode-docker)
+* [Prisma](https://marketplace.visualstudio.com/items?itemName=Prisma.prisma)
 * [EditorConfig](https://marketplace.visualstudio.com/items?itemName=EditorConfig.EditorConfig)
 
 ##### Extensions (Styles)
