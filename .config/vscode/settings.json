@@ -19,7 +19,6 @@
     "editor.renderWhitespace": "trailing",
     "editor.showUnused": false,
     "explorer.compactFolders": false,
-    "explorer.openEditors.visible": 0,
     "files.insertFinalNewline": true,
     "files.trimTrailingWhitespace": true,
     "html.format.enable": false,
@@ -52,6 +51,17 @@
     "workbench.startupEditor": "none",
     "workbench.tree.indent": 16,
     "workbench.tree.renderIndentGuides": "none",
+
+    "[go]": {
+        "editor.formatOnSave": false,
+        "editor.codeActionsOnSave": {
+            "source.organizeImports": false
+        }
+    },
+    "gopls": {
+        "ui.semanticTokens": true,
+        "completeUnimported": false
+    },
 
     "[markdown]": {
         "files.trimTrailingWhitespace": false
