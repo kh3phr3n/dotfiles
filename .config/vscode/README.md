@@ -16,6 +16,11 @@ $HOME/.vscode-oss/styles.css
 * [Angular Language Service](https://marketplace.visualstudio.com/items?itemName=Angular.ng-template)
 * [Vue Language Features (Volar)](https://marketplace.visualstudio.com/items?itemName=Vue.volar)
 
+##### Extensions (Go)
+
+* [Go](https://marketplace.visualstudio.com/items?itemName=golang.Go)
+* [Go Test Explorer](https://marketplace.visualstudio.com/items?itemName=premparihar.gotestexplorer)
+
 ##### Extensions (PHP)
 
 * [Twig Language 2](https://marketplace.visualstudio.com/items?itemName=mblode.twig-language-2)
