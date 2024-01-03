@@ -1,44 +1,16 @@
-[colors.bright]
-black = "#495162"
-blue = "#4C727D"
-cyan = "#55ABAB"
-green = "#5F9159"
-magenta = "#6D4C7D"
-red = "#7D4C4C"
-white = "#CCCCCC"
-yellow = "#7A7D4B"
-
-[colors.footer_bar]
-background = "#21252B"
-foreground = "#AAAAAA"
-
-[colors.normal]
-black = "#495162"
-blue = "#4C727D"
-cyan = "#55ABAB"
-green = "#5F9159"
-magenta = "#6D4C7D"
-red = "#7D4C4C"
-white = "#CCCCCC"
-yellow = "#7A7D4B"
-
-[colors.primary]
-background = "#282C34"
-foreground = "#AAAAAA"
-
-[colors.search.focused_match]
-background = "#AAAAAA"
-foreground = "#282C34"
-
-[colors.search.matches]
-background = "#404859"
-foreground = "#AAAAAA"
-
 [env]
 TERM = "xterm-256color"
 
+[window.padding]
+x = 2
+y = 2
+
 [font]
-size = 11.0
+size = 10.0
+
+[font.offset]
+x = 0
+y = 0
 
 [font.bold]
 family = "Iosevka Term"
@@ -52,10 +24,39 @@ style = "Semibold Italic"
 family = "Iosevka Term"
 style = "Semibold"
 
-[font.offset]
-x = 0
-y = 0
+[colors.normal]
+red = "#7D4C4C"
+blue = "#4C727D"
+cyan = "#55ABAB"
+black = "#495162"
+green = "#5F9159"
+white = "#CCCCCC"
+yellow = "#7A7D4B"
+magenta = "#6D4C7D"
 
-[window.padding]
-x = 3
-y = 3
+[colors.bright]
+red = "#7D4C4C"
+blue = "#4C727D"
+cyan = "#55ABAB"
+black = "#495162"
+green = "#5F9159"
+white = "#CCCCCC"
+yellow = "#7A7D4B"
+magenta = "#6D4C7D"
+
+[colors.primary]
+background = "#282C34"
+foreground = "#AAAAAA"
+
+[colors.footer_bar]
+background = "#21252B"
+foreground = "#AAAAAA"
+
+[colors.search.matches]
+background = "#404859"
+foreground = "#AAAAAA"
+
+[colors.search.focused_match]
+background = "#AAAAAA"
+foreground = "#282C34"
+
