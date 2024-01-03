@@ -1,0 +1,61 @@
+[colors.bright]
+black = "#495162"
+blue = "#4C727D"
+cyan = "#55ABAB"
+green = "#5F9159"
+magenta = "#6D4C7D"
+red = "#7D4C4C"
+white = "#CCCCCC"
+yellow = "#7A7D4B"
+
+[colors.footer_bar]
+background = "#21252B"
+foreground = "#AAAAAA"
+
+[colors.normal]
+black = "#495162"
+blue = "#4C727D"
+cyan = "#55ABAB"
+green = "#5F9159"
+magenta = "#6D4C7D"
+red = "#7D4C4C"
+white = "#CCCCCC"
+yellow = "#7A7D4B"
+
+[colors.primary]
+background = "#282C34"
+foreground = "#AAAAAA"
+
+[colors.search.focused_match]
+background = "#AAAAAA"
+foreground = "#282C34"
+
+[colors.search.matches]
+background = "#404859"
+foreground = "#AAAAAA"
+
+[env]
+TERM = "xterm-256color"
+
+[font]
+size = 11.0
+
+[font.bold]
+family = "Iosevka Term"
+style = "Semibold"
+
+[font.italic]
+family = "Iosevka Term"
+style = "Semibold Italic"
+
+[font.normal]
+family = "Iosevka Term"
+style = "Semibold"
+
+[font.offset]
+x = 0
+y = 0
+
+[window.padding]
+x = 3
+y = 3
