@@ -5,7 +5,7 @@
 [[ -f ~/.zsh_aliases ]] && source ~/.zsh_aliases
 
 # Set starship prompt
-[[ -x /opt/homebrew/bin/starship ]] && eval $(starship init zsh)
+[[ -x /opt/homebrew/bin/starship ]] && eval "$(starship init zsh)"
 
 # Colored man pages
 man ()
