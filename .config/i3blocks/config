@@ -55,7 +55,7 @@ full_text=
 
 [battery]
 color=#33AADD
-interval=600
+interval=60
 command=acpi -b | cut -d, -f2 | sed 's/^[ ]//'
 
 [network]
