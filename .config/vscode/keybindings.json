@@ -15,6 +15,7 @@
     { "key": "f1",                   "command": "workbench.action.toggleSidebarVisibility" },
     { "key": "ctrl+b",               "command": "-workbench.action.toggleSidebarVisibility" },
 
+    { "key": "ctrl+shift+t",         "command": "goTestExplorer.focus" },
     { "key": "ctrl+meta+b",          "command": "breadcrumbs.toggle" },
     { "key": "ctrl+meta+s",          "command": "workbench.action.toggleStatusbarVisibility" },
     { "key": "ctrl+l",               "command": "workbench.debug.panel.action.clearReplAction" },
