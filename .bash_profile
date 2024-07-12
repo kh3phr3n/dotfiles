@@ -16,6 +16,3 @@ export GOPATH=$HOME/.go
 # Add Golang bin to PATH
 [[ -d ~/.go/bin ]] && export PATH=~/.go/bin:$PATH
 
-# Add Cargo bin to PATH
-[[ -d ~/.cargo/bin ]] && export PATH=~/.cargo/bin:$PATH
-
