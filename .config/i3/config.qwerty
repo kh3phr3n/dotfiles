@@ -26,8 +26,8 @@ default_floating_border pixel 2
 font pango:Iosevka Term Semibold 10
 
 # Split horizontal/vertical
-bindsym $mod+g split h
-bindsym $mod+v split v
+bindsym $mod+z split v
+bindsym $mod+v split h
 
 # Kill/Focus window
 bindsym $mod+Shift+q kill
