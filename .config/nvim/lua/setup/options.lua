@@ -1,9 +1,7 @@
--- General settings
+-- Basic settings
 vim.opt.mouse = 'a'
 vim.opt.wrap = false
 vim.opt.showmode = false
-vim.opt.timeoutlen = 100
-vim.opt.updatetime = 300
 vim.opt.conceallevel = 0
 vim.opt.cursorline = true
 vim.opt.termguicolors = true
@@ -48,11 +46,11 @@ vim.opt.foldmethod = 'manual'
 vim.opt.encoding = 'utf-8'
 vim.opt.fileencoding = 'utf-8'
 
+-- Popup menu
+vim.opt.pumheight = 10
+vim.opt.completeopt = { 'menuone', 'preview' }
+
 -- Display hidden characters
 vim.opt.list = true
 vim.opt.listchars = { eol = '¬', tab = '▸ ', trail = '·' }
-
--- Popup menu
-vim.opt.pumheight = 10
-vim.opt.completeopt = { 'menuone', 'preview', 'noselect' }
 
