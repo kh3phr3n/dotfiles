@@ -8,7 +8,7 @@ end
 vim.opt.rtp:prepend(lazypath)
 
 -- Setup lazy.nvim
-require('lazy').setup({{ import = 'setup.plugins' }}, {
+require('lazy').setup({{ import = 'plugins' }}, {
   checker = {
     enabled = true,
     notify = false

@@ -2,10 +2,8 @@
 vim.opt.mouse = 'a'
 vim.opt.wrap = false
 vim.opt.showmode = false
-vim.opt.conceallevel = 0
 vim.opt.cursorline = true
 vim.opt.termguicolors = true
-vim.opt.clipboard = 'unnamedplus'
 
 -- Numbered lines
 vim.opt.number = true
@@ -45,6 +43,9 @@ vim.opt.foldmethod = 'manual'
 -- File encoding
 vim.opt.encoding = 'utf-8'
 vim.opt.fileencoding = 'utf-8'
+
+-- Clipboard registers *|+
+vim.opt.clipboard = 'unnamed,unnamedplus'
 
 -- Popup menu
 vim.opt.pumheight = 10

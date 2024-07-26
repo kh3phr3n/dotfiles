@@ -1,5 +1,6 @@
--- <Leader>
+-- <*Leader>
 vim.g.mapleader = ' '
+vim.g.maplocalleader = ' '
 
 -- Tabs management
 vim.keymap.set('n', '<Tab>', '<Cmd>tabnext<CR>')
