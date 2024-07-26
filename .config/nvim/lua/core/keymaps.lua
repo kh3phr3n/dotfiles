@@ -31,4 +31,5 @@ vim.keymap.set('n', '<Leader>rn', '<Cmd>set relativenumber!<CR>')
 
 -- Save current buffer
 vim.keymap.set({ 'i', 'x', 'n', 's' }, '<C-s>', '<Cmd>w<CR><Esc>')
+vim.keymap.set({ 'i', 'x', 'n', 's' }, '<Leader>s', '<Cmd>w<CR><Esc>')
 

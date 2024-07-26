@@ -36,16 +36,16 @@ vim.opt.writebackup = false
 vim.opt.spell = false
 vim.opt.spelllang = 'en_us'
 
--- Section folding
-vim.opt.foldexpr = ''
-vim.opt.foldmethod = 'manual'
-
 -- File encoding
 vim.opt.encoding = 'utf-8'
 vim.opt.fileencoding = 'utf-8'
 
 -- Clipboard registers *|+
 vim.opt.clipboard = 'unnamed,unnamedplus'
+
+-- Section folding
+vim.opt.foldmethod = 'expr'
+vim.opt.foldexpr = 'nvim_treesitter#foldexpr()'
 
 -- Popup menu
 vim.opt.pumheight = 10

@@ -1,22 +1,22 @@
 return {
   {
-    'shaunsingh/nord.nvim',
+    'folke/tokyonight.nvim',
 
     -- Specs
     lazy = false,
     priority = 1000,
 
     config = function()
-      vim.cmd('colorscheme nord')
+      vim.cmd('colorscheme tokyonight-storm')
     end
   },
 
   {
-    'folke/tokyonight.nvim'
+    'navarasu/onedark.nvim'
   },
 
   {
-    'navarasu/onedark.nvim'
+    'catppuccin/nvim'
   }
 }
 
