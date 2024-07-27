@@ -18,7 +18,7 @@ require('lazy').setup({{ import = 'plugins' }}, {
     notify = false
   },
 
-  -- Command Palette vibe!
-  vim.keymap.set('n', '<Leader><S-p>', '<Cmd>Lazy<CR>')
+  -- Open UI
+  vim.keymap.set('n', '<F2>', '<Cmd>Lazy<CR>')
 })
 

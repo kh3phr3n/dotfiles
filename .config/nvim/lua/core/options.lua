@@ -2,6 +2,7 @@
 vim.opt.mouse = 'a'
 vim.opt.wrap = false
 vim.opt.showmode = false
+vim.opt.timeoutlen = 200
 vim.opt.cursorline = true
 vim.opt.termguicolors = true
 

@@ -9,7 +9,7 @@ return {
     'nvim-tree/nvim-web-devicons'
   },
 
-  config = function()
+  init = function()
     vim.keymap.set('n', '<F1>', '<Cmd>Neotree toggle<CR>')
   end
 }

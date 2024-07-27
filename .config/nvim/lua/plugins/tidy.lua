@@ -8,7 +8,7 @@ return {
   },
 
   init = function()
-    vim.keymap.set('n', '<Leader>tt', require('tidy').toggle)
+    vim.keymap.set('n', '<F9>', require('tidy').toggle)
   end
 }
 
