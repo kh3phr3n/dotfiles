@@ -22,11 +22,10 @@ vim.keymap.set('n', '<C-l>', '<Cmd>vert resize +2<CR>')
 vim.keymap.set({ 'i', 'n' }, '<Esc>', '<Cmd>noh<CR><Esc>')
 
 -- <F*> key utilities
-vim.keymap.set('n', '<F10>', '<Cmd>set list!<CR>')
+vim.keymap.set('n', '<F9>', '<Cmd>set list!<CR>')
 vim.keymap.set('n', '<F11>', '<Cmd>set number!<CR>')
 vim.keymap.set('n', '<F12>', '<Cmd>set relativenumber!<CR>')
 
 -- Save current buffer
 vim.keymap.set({ 'i', 'x', 'n', 's' }, '<C-s>', '<Cmd>w<CR><Esc>')
-vim.keymap.set({ 'i', 'x', 'n', 's' }, '<Leader>s', '<Cmd>w<CR><Esc>')
 
