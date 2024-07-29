@@ -2,10 +2,6 @@
 vim.g.mapleader = ' '
 vim.g.maplocalleader = ' '
 
--- Tabs management
-vim.keymap.set('n', '<Tab>', '<Cmd>tabnext<CR>')
-vim.keymap.set('n', '<Leader>t', '<Cmd>tabnew<CR>')
-
 -- Splits management
 vim.keymap.set('n', '<Leader>h', '<Cmd>sp<CR>')
 vim.keymap.set('n', '<Leader>v', '<Cmd>vs<CR>')
