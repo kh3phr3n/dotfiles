@@ -56,12 +56,11 @@ vim.opt.completeopt = { 'menuone', 'preview' }
 vim.opt.list = true
 vim.opt.listchars = { eol = '¬', tab = '▸ ', trail = '·' }
 
+-- Neovim GUI
 if vim.g.neovide then
   -- Padding
-  vim.g.neovide_padding_top = 2
   vim.g.neovide_padding_left = 2
   vim.g.neovide_padding_right = 2
-  vim.g.neovide_padding_bottom = 2
 
   -- Text Gamma and Contrast
   vim.g.neovide_text_gamma = 0.8
