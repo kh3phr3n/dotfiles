@@ -8,9 +8,9 @@ return {
   },
 
   init = function()
-    vim.keymap.set('n', '<Leader>ff', '<Cmd>Telescope find_files<CR>')
-    vim.keymap.set('n', '<Leader>fg', '<Cmd>Telescope git_files<CR>')
-    vim.keymap.set('n', '<Leader>fh', '<Cmd>Telescope help_tags<CR>')
+    vim.keymap.set('n', 'fh', '<Cmd>Telescope help_tags<CR>')
+    vim.keymap.set('n', 'fg', '<Cmd>Telescope git_files<CR>')
+    vim.keymap.set('n', 'ff', '<Cmd>Telescope find_files<CR>')
   end
 }
 
