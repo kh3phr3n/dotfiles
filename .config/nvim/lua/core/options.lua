@@ -60,6 +60,7 @@ vim.o.list = true
 vim.o.listchars = 'eol:¬,tab:→ ,trail:·'
 
 -- Section folding
+vim.o.foldlevel = 99
 vim.o.foldmethod = 'expr'
 vim.o.foldexpr = 'nvim_treesitter#foldexpr()'
 
