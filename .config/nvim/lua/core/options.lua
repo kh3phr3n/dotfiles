@@ -9,15 +9,15 @@ vim.o.termguicolors = true
 vim.o.number = true
 vim.o.numberwidth = 2
 
--- Key code timeouts
-vim.o.ttimeoutlen = 0
-vim.o.timeoutlen = 200
-
 -- Indentation spaces
 vim.o.tabstop = 4
 vim.o.shiftwidth = 4
 vim.o.softtabstop = 4
 vim.o.expandtab = true
+
+-- Key code timeouts
+vim.o.ttimeoutlen = 0
+vim.o.timeoutlen = 200
 
 -- Pattern searching
 vim.o.hlsearch = true
