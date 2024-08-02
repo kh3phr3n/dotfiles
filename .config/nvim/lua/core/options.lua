@@ -1,64 +1,67 @@
 -- Basic settings
-vim.opt.mouse = 'a'
-vim.opt.wrap = false
-vim.opt.showmode = false
-vim.opt.timeoutlen = 200
-vim.opt.cursorline = true
-vim.opt.termguicolors = true
+vim.o.mouse = 'a'
+vim.o.wrap = false
+vim.o.showmode = false
+vim.o.timeoutlen = 200
+vim.o.cursorline = true
+vim.o.termguicolors = true
 
 -- Numbered lines
-vim.opt.number = true
-vim.opt.numberwidth = 2
+vim.o.number = true
+vim.o.numberwidth = 2
 
 -- Indentation spaces
-vim.opt.tabstop = 4
-vim.opt.shiftwidth = 4
-vim.opt.softtabstop = 4
-vim.opt.expandtab = true
+vim.o.tabstop = 4
+vim.o.shiftwidth = 4
+vim.o.softtabstop = 4
+vim.o.expandtab = true
 
 -- Pattern searching
-vim.opt.hlsearch = true
-vim.opt.ignorecase = true
+vim.o.hlsearch = true
+vim.o.ignorecase = true
 
 -- Scrolloff rules
-vim.opt.scrolloff = 8
-vim.opt.sidescrolloff = 8
+vim.o.scrolloff = 8
+vim.o.sidescrolloff = 8
 
 -- Splitting rules
-vim.opt.splitright = true
-vim.opt.splitbelow = true
+vim.o.splitright = true
+vim.o.splitbelow = true
 
 -- Backup files
-vim.opt.backup = false
-vim.opt.swapfile = false
-vim.opt.writebackup = false
+vim.o.backup = false
+vim.o.swapfile = false
+vim.o.writebackup = false
 
 -- Spell checker
-vim.opt.spell = false
-vim.opt.spelllang = 'en_us'
+vim.o.spell = false
+vim.o.spelllang = 'en_us'
 
 -- File encoding
-vim.opt.encoding = 'utf-8'
-vim.opt.fileencoding = 'utf-8'
-
--- Clipboard registers *|+
-vim.opt.clipboard = 'unnamed,unnamedplus'
-
--- Section folding
-vim.opt.foldmethod = 'expr'
-vim.opt.foldexpr = 'nvim_treesitter#foldexpr()'
-
--- Popup menu
-vim.opt.pumheight = 10
-vim.opt.completeopt = { 'menuone', 'preview' }
-
--- Display hidden characters
-vim.opt.list = true
-vim.opt.listchars = { eol = '¬', tab = '▸ ', trail = '·' }
+vim.o.encoding = 'utf-8'
+vim.o.fileencoding = 'utf-8'
 
 -- Checkhealth providers
 vim.g.loaded_perl_provider = 0
 vim.g.loaded_ruby_provider = 0
+
+-- Cursor movements
+vim.o.whichwrap = 'b,s,h,l,<,>,[,]'
+
+-- Popup menu
+vim.o.pumheight = 10
+vim.o.completeopt = 'menuone,preview'
+
+-- Clipboard registers *|+
+vim.o.clipboard = 'unnamed,unnamedplus'
+
+-- Display hidden characters
+vim.o.list = true
+vim.o.listchars = 'eol:¬,tab:→ ,trail:·'
+
+-- Section folding
+vim.o.foldmethod = 'expr'
+vim.o.foldexpr = 'nvim_treesitter#foldexpr()'
 
 -- Neovim GUI
 if vim.g.neovide then
@@ -69,5 +72,9 @@ if vim.g.neovide then
   -- Text Gamma and Contrast
   vim.g.neovide_text_gamma = 0.8
   vim.g.neovide_text_contrast = 0.1
+
+  -- Font options
+  vim.o.linespace = 1
+  vim.o.guifont = 'Iosevka Nerd Font Mono Extended SemiBold:h11:w0'
 end
 
