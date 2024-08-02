@@ -56,6 +56,10 @@ vim.opt.completeopt = { 'menuone', 'preview' }
 vim.opt.list = true
 vim.opt.listchars = { eol = '¬', tab = '▸ ', trail = '·' }
 
+-- Checkhealth providers
+vim.g.loaded_perl_provider = 0
+vim.g.loaded_ruby_provider = 0
+
 -- Neovim GUI
 if vim.g.neovide then
   -- Padding
