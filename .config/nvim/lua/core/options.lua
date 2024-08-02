@@ -2,13 +2,16 @@
 vim.o.mouse = 'a'
 vim.o.wrap = false
 vim.o.showmode = false
-vim.o.timeoutlen = 200
 vim.o.cursorline = true
 vim.o.termguicolors = true
 
 -- Numbered lines
 vim.o.number = true
 vim.o.numberwidth = 2
+
+-- Key code timeouts
+vim.o.ttimeoutlen = 0
+vim.o.timeoutlen = 200
 
 -- Indentation spaces
 vim.o.tabstop = 4
