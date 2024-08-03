@@ -10,7 +10,12 @@ return {
     -- Setup order is important
     require('mason').setup({
       ui = {
-        border = 'rounded'
+        border = 'rounded',
+        icons = {
+          package_pending = '●',
+          package_installed = '●',
+          package_uninstalled = '○'
+        }
       }
     })
 
