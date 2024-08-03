@@ -25,3 +25,7 @@ vim.keymap.set('n', '<F12>', '<Cmd>set relativenumber!<CR>')
 -- Save current buffer
 vim.keymap.set({ 'i', 'x', 'n', 's' }, '<C-s>', '<Cmd>w<CR><Esc>')
 
+-- Search and replace pattern
+vim.keymap.set('n', '<Leader>sa', ':%s///gc<Left><Left><Left><Left>')
+vim.keymap.set('n', '<Leader>sl', ':.s///gc<Left><Left><Left><Left>')
+
