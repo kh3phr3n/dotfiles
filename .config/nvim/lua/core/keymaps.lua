@@ -2,6 +2,10 @@
 vim.g.mapleader = ' '
 vim.g.maplocalleader = ' '
 
+-- Move block of lines
+vim.keymap.set('v', 'J', ':m \'>+1<CR>gv=gv')
+vim.keymap.set('v', 'K', ':m \'<-2<CR>gv=gv')
+
 -- Splits management
 vim.keymap.set('n', '<Leader>h', '<Cmd>sp<CR>')
 vim.keymap.set('n', '<Leader>v', '<Cmd>vs<CR>')
