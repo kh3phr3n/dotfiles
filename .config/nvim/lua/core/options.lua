@@ -44,10 +44,6 @@ vim.o.spelllang = 'en_us'
 vim.o.encoding = 'utf-8'
 vim.o.fileencoding = 'utf-8'
 
--- Checkhealth providers
-vim.g.loaded_perl_provider = 0
-vim.g.loaded_ruby_provider = 0
-
 -- Cursor movements
 vim.o.whichwrap = 'b,s,h,l,<,>,[,]'
 
