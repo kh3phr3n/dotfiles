@@ -20,7 +20,7 @@ return {
       -- Colorize!
       enable = true,
       -- Run `:h syntax` and tree-sitter at the same time
-      additional_vim_regex_highlighting = true
+      additional_vim_regex_highlighting = false
     }
   }
 }
