@@ -6,6 +6,9 @@ vim.g.maplocalleader = ' '
 vim.keymap.set('v', '<', '<gv')
 vim.keymap.set('v', '>', '>gv')
 
+-- Redo with opposite of undo
+vim.keymap.set('n', 'U', '<C-r>')
+
 -- Move block of lines
 vim.keymap.set('v', 'J', ':m \'>+1<CR>gv=gv')
 vim.keymap.set('v', 'K', ':m \'<-2<CR>gv=gv')
