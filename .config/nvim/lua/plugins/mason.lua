@@ -27,7 +27,7 @@ return {
       ensure_installed = {
         'gopls', 'lua_ls',
         'dockerls', 'docker_compose_language_service',
-        'html', 'volar', 'cssls', 'jsonls', 'eslint', 'tsserver', 'tailwindcss'
+        'html', 'volar', 'cssls', 'jsonls', 'eslint', 'tsserver', 'prismals', 'tailwindcss'
       }
     })
 
