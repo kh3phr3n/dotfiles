@@ -10,6 +10,9 @@ vim.opt.rtp:prepend(lazypath)
 -- Setup lazy.nvim
 require('lazy').setup({{ import = 'plugins' }}, {
   -- Basics
+  ui = {
+    border = 'rounded'
+  },
   checker = {
     enabled = true,
     notify = false
