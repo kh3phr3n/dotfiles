@@ -27,7 +27,7 @@ return {
     })
 
     -- Open UI
-    vim.keymap.set('n', '<F2>', '<Cmd>Mason<CR>')
+    vim.keymap.set('n', '<F3>', '<Cmd>Mason<CR>')
   end
 }
 
