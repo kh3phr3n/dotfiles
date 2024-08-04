@@ -47,16 +47,16 @@ vim.o.fileencoding = 'utf-8'
 -- Cursor movements
 vim.o.whichwrap = 'b,s,h,l,<,>,[,]'
 
--- Popup menu
-vim.o.pumheight = 10
-vim.o.completeopt = 'menuone,preview'
-
 -- Clipboard registers *|+
 vim.o.clipboard = 'unnamed,unnamedplus'
 
 -- Display hidden characters
 vim.o.list = true
 vim.o.listchars = 'eol:¬,tab:→ ,trail:·'
+
+-- Popup menu
+vim.o.pumheight = 10
+vim.o.completeopt = 'menu,menuone,noselect'
 
 -- Section folding
 vim.o.foldlevel = 99
