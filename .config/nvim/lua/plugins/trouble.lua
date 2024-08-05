@@ -2,7 +2,7 @@ return {
   'folke/trouble.nvim',
 
   -- Specs
-  cmd = 'Trouble',
+  config = true,
 
   init = function()
     vim.keymap.set('n', '<Leader>tD', '<Cmd>Trouble diagnostics toggle<CR>')
