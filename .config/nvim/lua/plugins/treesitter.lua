@@ -3,6 +3,7 @@ return {
 
   -- Specs
   build = ':TSUpdate',
+  event = { 'BufReadPre', 'BufNewFile' },
   main = 'nvim-treesitter.configs',
   opts = {
     -- A list of parser names, or 'all'
