@@ -11,6 +11,7 @@ return {
     -- Third-party
     'L3MON4D3/LuaSnip',
     'onsails/lspkind.nvim',
+    'saadparwaiz1/cmp_luasnip',
     'rafamadriz/friendly-snippets'
   },
 
