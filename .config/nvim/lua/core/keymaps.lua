@@ -40,8 +40,3 @@ vim.keymap.set({ 'i', 'x', 'n', 's' }, '<C-s>', '<Cmd>w<CR><Esc>')
 vim.keymap.set('n', '<Leader>sa', ':%s///gc<Left><Left><Left><Left>')
 vim.keymap.set('n', '<Leader>sl', ':.s///gc<Left><Left><Left><Left>')
 
--- Diagnostics are not exclusive to lsp servers
-vim.keymap.set('n', '[d', '<Cmd>lua vim.diagnostic.goto_prev()<CR>')
-vim.keymap.set('n', ']d', '<Cmd>lua vim.diagnostic.goto_next()<CR>')
-vim.keymap.set('n', 'gl', '<Cmd>lua vim.diagnostic.open_float()<CR>')
-
