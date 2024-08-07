@@ -2,12 +2,13 @@ return {
   'nvim-treesitter/nvim-treesitter',
 
   -- Specs
+  build = ':TSUpdate',
   main = 'nvim-treesitter.configs',
   opts = {
     -- A list of parser names, or 'all'
     ensure_installed = {
       'c', 'bash', 'make', 'csv', 'sql', 'toml', 'yaml',
-      'xml', 'css', 'scss', 'html', 'lua', 'luap', 'luadoc', 'go', 'gomod', 'gosum', 'gowork',
+      'css', 'scss', 'html', 'lua', 'luap', 'luadoc', 'go', 'gomod', 'gosum', 'gowork',
       'vimdoc', 'markdown', 'markdown_inline', 'dockerfile', 'vue', 'json', 'jsdoc', 'prisma', 'javascript', 'typescript'
     },
 
@@ -16,6 +17,9 @@ return {
     -- Install parsers synchronously
     sync_install = false,
 
+    indent = {
+      enable = true
+    },
     highlight = {
       -- Colorize!
       enable = true,
