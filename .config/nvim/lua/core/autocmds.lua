@@ -2,8 +2,14 @@
 vim.api.nvim_create_augroup('setIndent', { clear = true })
 vim.api.nvim_create_autocmd('Filetype', {
   group = 'setIndent',
+  command = 'setlocal noexpandtab tabstop=4 shiftwidth=4',
+  pattern = { 'go' }
+})
+
+vim.api.nvim_create_autocmd('Filetype', {
+  group = 'setIndent',
   command = 'setlocal tabstop=2 shiftwidth=2',
-  pattern = { 'xml', 'html', 'xhtml', 'css', 'scss', 'javascript', 'typescript', 'lua', 'yaml', 'md', 'markdown' }
+  pattern = { 'xml', 'html', 'css', 'scss', 'javascript', 'typescript', 'lua', 'yaml', 'md', 'markdown' }
 })
 
 -- Attach LSP actions
