@@ -1,4 +1,4 @@
--- Set indentation to 2 spaces
+-- Set indentation by filetypes
 vim.api.nvim_create_augroup('setIndent', { clear = true })
 vim.api.nvim_create_autocmd('Filetype', {
   group = 'setIndent',
