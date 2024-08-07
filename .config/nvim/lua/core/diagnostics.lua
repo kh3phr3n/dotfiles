@@ -7,7 +7,6 @@ end
 -- Diagnostics setup
 vim.diagnostic.enable(false)
 vim.diagnostic.config({
-  underline = false,
   virtual_text = false,
   severity_sort = true,
   float = {
