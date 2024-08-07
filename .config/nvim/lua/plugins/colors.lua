@@ -5,6 +5,11 @@ return {
     -- Specs
     lazy = false,
     priority = 1000,
+    opts = {
+      on_colors = function(colors)
+        colors.bg_float = colors.bg
+      end
+    },
 
     init = function()
       vim.cmd('colorscheme tokyonight-storm')
