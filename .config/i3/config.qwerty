@@ -23,7 +23,7 @@ default_border pixel 2
 default_floating_border pixel 2
 
 # Window titles font
-font pango:Iosevka Term Semibold 10
+font pango:Iosevka Term Semibold 9
 
 # Split horizontal/vertical
 bindsym $mod+z split v
@@ -113,7 +113,7 @@ bindsym $mod+Shift+e exec "i3-nagbar -t warning -m 'Do you really want to exit i
 # Locker, Launcher
 bindsym $mod+F11 exec --no-startup-id "i3lock -uc 282C34"
 bindsym $mod+F12 exec --no-startup-id "i3lock -uc 282C34 && systemctl suspend"
-bindsym $mod+d   exec --no-startup-id dmenu_run -b -p ' run:' -fn 'Iosevka Term-10:style=Semibold' -nb '#21252B' -nf '#999999' -sb '#33AADD' -sf '#EEEEEE'
+bindsym $mod+d   exec --no-startup-id dmenu_run -b -p ' run:' -fn 'Iosevka Term-9:style=Semibold' -nb '#21252B' -nf '#999999' -sb '#33AADD' -sf '#EEEEEE'
 
 # Resize window
 mode "  " {
@@ -159,7 +159,7 @@ client.unfocused        #282C34 #21252B #3B4048 #495162
 client.focused_inactive #282C34 #21252B #3B4048 #495162
 
 # Specific actions
-for_window [class=".*"] title_format "<span font='Iosevka Term Semibold 10'>  %title</span>"
+for_window [class=".*"] title_format "<span font='Iosevka Term Semibold 9'>  %title</span>"
 
 # Start applications
 exec --no-startup-id xrdb ~/.Xresources

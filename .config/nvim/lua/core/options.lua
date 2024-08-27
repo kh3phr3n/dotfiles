@@ -51,8 +51,8 @@ vim.o.foldexpr = 'nvim_treesitter#foldexpr()'
 -- Neovim GUI
 if vim.g.neovide then
   -- Padding
-  vim.g.neovide_padding_left = 3
-  vim.g.neovide_padding_right = 3
+  vim.g.neovide_padding_left = 4
+  vim.g.neovide_padding_right = 4
 
   -- Text Gamma and Contrast
   vim.g.neovide_text_gamma = 0.8
@@ -60,6 +60,6 @@ if vim.g.neovide then
 
   -- Font options
   vim.o.linespace = 1
-  vim.o.guifont = 'Iosevka Nerd Font Mono Extended SemiBold:h11:w0'
+  vim.o.guifont = 'Iosevka Nerd Font Mono Extended SemiBold:h9:w0.12'
 end
 
