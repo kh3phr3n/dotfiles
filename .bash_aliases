@@ -23,17 +23,17 @@ alias show-files='pkg -Ql'
 alias show-local='pkg -Qi'
 alias show-online='pkg -Si'
 
-# Install packages
-alias install-local='pkg -U'
-alias install-online='pkg -S'
+# Synchronize packages
+alias refresh-pkgs='pkg -Sy'
+alias upgrade-pkgs='pkg -Syu'
 
 # Search packages
 alias search-local='pkg -Qs'
 alias search-online='pkg -Ss'
 
-# Update system
-alias update-system='pkg -Sy'
-alias upgrade-system='pkg -Syu'
+# Install packages
+alias install-local='pkg -U'
+alias install-online='pkg -S'
 
 # Remove packages
 alias remove='pkg -R'
@@ -71,6 +71,6 @@ alias xread='xrdb ~/.Xresources'
 alias mkcpio='mkinitcpio -p linux'
 alias srcinfo='makepkg --printsrcinfo > .SRCINFO'
 alias mirrors='reflector -l 10 -p https --sort=rate --save=/etc/pacman.d/mirrorlist'
+alias uptodate='sh -c "pacman -Syu && paccache -rk0 && DIFFPROG=\"nvim -d\" pacdiff"'
 alias setxkbus='setxkbmap -layout us -option caps:swapescape,compose:rctrl,terminate:ctrl_alt_bksp'
-# alias full-upgrade-system='sh -c "pacman -Syu && paccache -rk0 && DIFFPROG=\"nvim -d\" pacdiff"'
 
