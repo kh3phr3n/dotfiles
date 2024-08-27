@@ -10,7 +10,7 @@ alias rm='rm -i'
 
 # Fundamentals
 alias :='cd ..'
-alias nv='nvim'
+alias vim='nvim'
 alias sudo='sudo '
 
 # Package utilities
@@ -60,6 +60,7 @@ alias rmpac='DIFFPROG="nvim -d" pacdiff'
 alias rmclh='rm ~/.bash_history && history -cw'
 alias rmpyc='find . -name "*.pyc" -type f -delete'
 alias rmdss='find . -name "*.DS_Store" -type f -delete'
+alias rmvim='rm -rf ~/.cache/nvim ~/.config/nvim ~/.local/{share,state}/nvim'
 
 # GRUB utilities
 alias grubcfg='grub-mkconfig --output=/boot/grub/grub.cfg'
@@ -71,4 +72,5 @@ alias mkcpio='mkinitcpio -p linux'
 alias srcinfo='makepkg --printsrcinfo > .SRCINFO'
 alias mirrors='reflector -l 10 -p https --sort=rate --save=/etc/pacman.d/mirrorlist'
 alias setxkbus='setxkbmap -layout us -option caps:swapescape,compose:rctrl,terminate:ctrl_alt_bksp'
+# alias full-upgrade-system='sh -c "pacman -Syu && paccache -rk0 && DIFFPROG=\"nvim -d\" pacdiff"'
 
