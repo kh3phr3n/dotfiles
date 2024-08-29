@@ -38,16 +38,6 @@ color=#EEEEEE
 interval=1
 command=date '+%a %d %b %H:%M'
 
-[updates-label]
-color=#33AADD
-separator=false
-full_text=Updates
-
-[updates]
-color=#EEEEEE
-interval=600
-command=checkupdates | wc -l
-
 [battery-label]
 color=#33AADD
 separator=false
