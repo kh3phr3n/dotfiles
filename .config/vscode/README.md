@@ -30,6 +30,7 @@ $HOME/.vscode-oss/styles.css
 ##### Extensions (CSS)
 
 * [Tailwind CSS](https://marketplace.visualstudio.com/items?itemName=bradlc.vscode-tailwindcss)
+* [Tailwind Fold](https://marketplace.visualstudio.com/items?itemName=stivo.tailwind-fold)
 
 ##### Extensions (Rust)
 
@@ -48,6 +49,7 @@ $HOME/.vscode-oss/styles.css
 
 ##### Extensions (Styles)
 
+* [Nord](https://marketplace.visualstudio.com/items?itemName=arcticicestudio.nord-visual-studio-code)
 * [One Dark Pro](https://marketplace.visualstudio.com/items?itemName=zhuangtongfa.Material-theme)
 * [Material Icon Theme](https://marketplace.visualstudio.com/items?itemName=PKief.material-icon-theme)
 * [Fix VSCode Checksums](https://marketplace.visualstudio.com/items?itemName=lehni.vscode-fix-checksums)
