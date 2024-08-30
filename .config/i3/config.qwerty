@@ -26,7 +26,7 @@ default_floating_border pixel 2
 font pango:Iosevka Term Semibold 9
 
 # Split horizontal/vertical
-bindsym $mod+z split v
+bindsym $mod+x split v
 bindsym $mod+v split h
 
 # Kill/Focus window
@@ -111,9 +111,9 @@ bindsym $mod+Shift+r restart
 bindsym $mod+Shift+e exec "i3-nagbar -t warning -m 'Do you really want to exit i3?' -b 'Yes, exit i3' 'i3-msg exit'"
 
 # Locker, Launcher
-bindsym $mod+F11 exec --no-startup-id "i3lock -uc 282C34"
-bindsym $mod+F12 exec --no-startup-id "i3lock -uc 282C34 && systemctl suspend"
-bindsym $mod+d   exec --no-startup-id dmenu_run -b -p 'run:' -fn 'Iosevka Term-9:style=Semibold' -nb '#21252B' -nf '#999999' -sb '#33AADD' -sf '#EEEEEE'
+bindsym $mod+F11 exec --no-startup-id "i3lock -uc 2E3440"
+bindsym $mod+F12 exec --no-startup-id "i3lock -uc 2E3440 && systemctl suspend"
+bindsym $mod+d   exec --no-startup-id dmenu_run -b -p '🠊 run:' -fn 'Iosevka Term-9:style=Semibold' -nb '#242933' -nf '#BFC9DB' -sb '#81A1C1' -sf '#2E3440'
 
 # Resize window
 mode "  " {
@@ -142,21 +142,21 @@ bar {
     status_command i3blocks
 
     colors {
-        separator  #21252B
-        background #21252B
-        statusline #21252B
-        active_workspace   #282C34 #282C34 #EEEEEE
-        urgent_workspace   #21252B #21252B #7D4C4C
-        focused_workspace  #33AADD #33AADD #EEEEEE
-        inactive_workspace #282C34 #282C34 #999999
+        separator  #242933
+        background #242933
+        statusline #242933
+        urgent_workspace   #242933 #242933 #BF616A
+        active_workspace   #81A1C1 #81A1C1 #2E3440
+        focused_workspace  #81A1C1 #81A1C1 #2E3440
+        inactive_workspace #2E3440 #2E3440 #7F90A6
     }
 }
 
-# Archlinux light colors
-client.urgent           #282C34 #21252B #7D4C4C #495162
-client.focused          #282C34 #21252B #999999 #495162
-client.unfocused        #282C34 #21252B #3B4048 #495162
-client.focused_inactive #282C34 #21252B #3B4048 #495162
+# Nord colors
+client.urgent           #2E3440 #242933 #BF616A #4C566A
+client.focused          #2E3440 #242933 #7F90A6 #4C566A
+client.unfocused        #2E3440 #242933 #3B4252 #4C566A
+client.focused_inactive #2E3440 #242933 #3B4252 #4C566A
 
 # Specific actions
 for_window [class=".*"] title_format "<span font='Iosevka Term Semibold 9'> • %title</span>"
