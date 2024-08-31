@@ -9,7 +9,7 @@ gtk-xft-lcdfilter="lcddefault"
 gtk-font-name="PT Sans Pro Demi 9"
 
 # Global Theme
-gtk-theme-name="Arc-Dark"
+gtk-theme-name="Nordic"
 gtk-icon-theme-name="Papirus"
 gtk-cursor-theme-name="Oxygen_White"
 
