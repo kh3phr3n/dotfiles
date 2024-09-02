@@ -26,12 +26,12 @@
 .debug-viewlet .debug-watch .monaco-inputbox,
 .monaco-workbench .repl .surveyor
 {
-    font-family: "Iosevka Term Semibold", monospace !important;
+    font-family: "Iosevka NFM Extended SemiBold", monospace !important;
 }
 
 .monaco-editor .debug-hover-widget .value
 {
-    font-family: "Iosevka Term Medium", monospace !important;
+    font-family: "Iosevka NFM Extended SemiBold", monospace !important;
 }
 
 .monaco-editor .detected-link-active,

@@ -60,6 +60,6 @@ if vim.g.neovide then
 
   -- Font options
   vim.o.linespace = 1
-  vim.o.guifont = 'Iosevka Nerd Font Mono Extended SemiBold:h9:w0.12'
+  vim.o.guifont = 'Iosevka NFM Extended SemiBold:h9:w0.12'
 end
 

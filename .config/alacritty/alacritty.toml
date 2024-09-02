@@ -13,16 +13,16 @@ x = 0
 y = 0
 
 [font.bold]
-family = "Iosevka Term"
-style = "Semibold"
+family = "Iosevka NFM"
+style = "Extended SemiBold"
 
 [font.italic]
-family = "Iosevka Term"
-style = "Semibold Italic"
+family = "Iosevka NFM"
+style = "Extended SemiBold"
 
 [font.normal]
-family = "Iosevka Term"
-style = "Semibold"
+family = "Iosevka NFM"
+style = "Extended SemiBold"
 
 [colors.normal]
 red = "#BF616A"
