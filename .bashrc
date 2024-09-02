@@ -11,7 +11,7 @@
 [[ ${GITPROMPT} != 0 ]] && source /usr/share/git/completion/git-prompt.sh
 
 # Colored man pages
-man ()
+man()
 {
     env \
     GROFF_NO_SGR=1 \
@@ -26,7 +26,7 @@ man ()
 }
 
 # Bash Prompt (PS1)
-setPrompt ()
+setPrompt()
 {
     # Initialize PS1
     PS1=''
