@@ -4,7 +4,7 @@ separator=false
 full_text=• Cpu
 
 [cpu]
-color=#D8DEE9
+color=#9FC6C5
 interval=1
 command=/usr/local/bin/cpu_usage
 
@@ -14,7 +14,7 @@ separator=false
 full_text=• Ram
 
 [ram]
-color=#D8DEE9
+color=#9FC6C5
 interval=1
 command=free | awk '/Mem/{printf("%.2f%\n"), $3/$2*100}'
 
@@ -24,27 +24,27 @@ separator=false
 full_text=• r00t
 
 [luks]
-color=#D8DEE9
+color=#9FC6C5
 interval=60
 command=df /dev/mapper/r00t | awk '(NR>1) {print $5}'
 
 [date-label]
-color=#B1C89D
+color=#81A1C1
 separator=false
 full_text=• Date
 
 [date]
-color=#D8DEE9
+color=#9FC6C5
 interval=1
 command=date '+%a %d %b %H:%M'
 
 [battery-label]
-color=#EFD49F
+color=#B1C89D
 separator=false
 full_text=•
 
 [battery]
-color=#EFD49F
+color=#B1C89D
 interval=60
 command=acpi -b | cut -d, -f2 | sed 's/^[ ]//'
 
