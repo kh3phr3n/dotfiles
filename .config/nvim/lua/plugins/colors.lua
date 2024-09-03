@@ -1,25 +1,25 @@
 return {
   {
-    'folke/tokyonight.nvim',
+    'gbprod/nord.nvim',
 
     -- Specs
     lazy = false,
+    config = true,
     priority = 1000,
-    opts = {
-      on_colors = function(colors)
-        colors.bg_float = colors.bg
-      end
-    },
 
     init = function()
-      vim.cmd('colorscheme tokyonight-storm')
-      -- Custom colors
-      vim.api.nvim_set_hl(0, '@variable', { fg = '#9EAEF0' })
-    end
-  },
+      vim.cmd.colorscheme('nord')
 
-  {
-    'catppuccin/nvim'
+      -- Custom colors
+      vim.api.nvim_set_hl(0, '@module', { fg = '#CBD3E2' })
+      vim.api.nvim_set_hl(0, '@variable', { fg = '#CBD3E2' })
+      vim.api.nvim_set_hl(0, '@property', { fg = '#70A9A8' })
+      vim.api.nvim_set_hl(0, '@variable.member', { fg = '#70A9A8' })
+
+      vim.api.nvim_set_hl(0, 'BufferLineFill', { bg = '#242933' })
+      vim.api.nvim_set_hl(0, 'NeoTreeFileName', { fg = '#CBD3E2' })
+      vim.api.nvim_set_hl(0, 'NeoTreeDirectoryName', { fg = '#81A1C1' })
+    end
   }
 }
 
