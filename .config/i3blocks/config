@@ -4,8 +4,10 @@ separator=false
 full_text=• Cpu
 
 [cpu]
-color=#9FC6C5
 interval=1
+COLOR_CRIT=#C5727A
+COLOR_WARN=#D79784
+COLOR_NORMAL=#EFD49F
 command=/usr/local/bin/cpu_usage
 
 [ram-label]
