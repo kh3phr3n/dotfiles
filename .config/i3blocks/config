@@ -41,17 +41,17 @@ interval=1
 command=date '+%a %d %b %H:%M'
 
 [battery-label]
-color=#B1C89D
+color=#BE9DB8
 separator=false
 full_text=•
 
 [battery]
-color=#B1C89D
+color=#BE9DB8
 interval=60
 command=acpi -b | cut -d, -f2 | sed 's/^[ ]//'
 
 [network]
-color=#BE9DB8
+color=#D79784
 interval=30
 command=[[ $(connmanctl state) =~ 'online' ]] && echo '• Online ' || echo '• Offline '
 
