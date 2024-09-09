@@ -37,8 +37,8 @@ return {
         })
       end,
 
-      ['tsserver'] = function()
-        lspconfig['tsserver'].setup({
+      ['ts_ls'] = function()
+        lspconfig['ts_ls'].setup({
           capabilities = default_capabilities,
           filetypes = {
             'vue',
