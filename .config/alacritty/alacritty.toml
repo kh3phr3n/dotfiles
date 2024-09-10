@@ -46,7 +46,7 @@ magenta = "#A97EA1"
 
 [colors.primary]
 background = "#2E3440"
-foreground = "#BFC9DB"
+foreground = "#CBD3E2"
 
 [colors.footer_bar]
 background = "#80B3B2"
