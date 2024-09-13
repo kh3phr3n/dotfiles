@@ -9,6 +9,7 @@ return {
     vim.keymap.set('n', '<Leader>gr', '<Cmd>Gitsigns reset_hunk<CR>')
     vim.keymap.set('n', '<Leader>gR', '<Cmd>Gitsigns reset_buffer<CR>')
     vim.keymap.set('n', '<Leader>gp', '<Cmd>Gitsigns preview_hunk<CR>')
+    vim.keymap.set('n', '<Leader>gn', '<Cmd>Gitsigns nav_hunk next<CR>')
   end
 }
 
