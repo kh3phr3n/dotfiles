@@ -88,8 +88,8 @@
 
     "workbench.colorCustomizations": {
         "focusBorder": "#242933",
-        "terminalCursor.foreground": "#CBD3E2",
-        "editorCursor.foreground": "#CBD3E2",
+        "terminalCursor.foreground": "#D2D9E6",
+        "editorCursor.foreground": "#D2D9E6",
         "editorInlayHint.background": "#2E3440",
         "editorInlayHint.foreground": "#60728A"
     }
