@@ -113,7 +113,7 @@ bindsym $mod+Shift+e exec "i3-nagbar -t warning -m 'Do you really want to exit i
 # Locker, Launcher
 bindsym $mod+F11 exec --no-startup-id "i3lock -uc 2E3440"
 bindsym $mod+F12 exec --no-startup-id "i3lock -uc 2E3440 && systemctl suspend"
-bindsym $mod+d   exec --no-startup-id dmenu_run -b -p '🠊 run:' -fn 'Iosevka NFM-9:style=Extended SemiBold' -nb '#242933' -nf '#D2D9E6' -sb '#81A1C1' -sf '#242933'
+bindsym $mod+d   exec --no-startup-id dmenu_run -b -p '🠊 run:' -fn 'Iosevka NFM-9:style=Extended SemiBold' -nb '#242933' -nf '#D1D8E5' -sb '#81A1C1' -sf '#242933'
 
 # Resize window
 mode "  " {
