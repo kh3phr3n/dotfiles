@@ -29,7 +29,7 @@ return {
       ensure_installed = {
         'gopls', 'ts_ls', 'lua_ls',
         'dockerls', 'docker_compose_language_service',
-        'cssls', 'jsonls', 'emmet_ls', 'prismals', 'tailwindcss'
+        'cssls', 'jsonls', 'eslint', 'emmet_ls', 'prismals', 'tailwindcss'
       }
     })
 
