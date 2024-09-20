@@ -37,6 +37,7 @@ vim.o.whichwrap = 'b,s,h,l,<,>,[,]'
 vim.o.clipboard = 'unnamed,unnamedplus'
 
 -- Display hidden characters
+vim.o.fillchars = 'fold: '
 vim.o.listchars = 'eol:¬,tab:→ ,trail:·'
 
 -- Popup menu
