@@ -46,12 +46,12 @@ separator=false
 full_text=•
 
 [battery]
-color=#BE9DB8
+color=#BBC3D4
 interval=60
 command=acpi -b | cut -d, -f2 | sed 's/^[ ]//'
 
 [network]
-color=#D79784
+color=#BE9DB8
 interval=30
 command=[[ $(connmanctl state) =~ 'online' ]] && echo '• Online ' || echo '• Offline '
 
