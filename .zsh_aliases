@@ -10,7 +10,7 @@ alias rm='rm -i'
 
 # Fundamentals
 alias :='cd ..'
-alias nv='nvim'
+alias vim='nvim'
 alias sudo='sudo '
 
 # Network utilities
@@ -22,4 +22,5 @@ alias pysrv='python -m http.server'
 alias rmclh='rm ~/.zsh_history && history -p'
 alias rmpyc='find . -name "*.pyc" -type f -delete'
 alias rmdss='find . -name "*.DS_Store" -type f -delete'
+alias rmvim='rm -rf ~/.cache/nvim ~/.config/nvim ~/.local/{share,state}/nvim'
 
