@@ -1,6 +1,6 @@
 # Common env variables
-export VISUAL='vim'
-export EDITOR='vim'
+export VISUAL='nvim'
+export EDITOR='nvim'
 
 # Golang workspace
 export GOPATH=$HOME/.go
