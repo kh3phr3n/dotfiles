@@ -1,16 +1,16 @@
 # Arch Linux dotfiles
 
+##### i3wm
+
+![i3wm](https://cdn.nixsys.fr/static/github/dotfiles/i3wm.png)
+
 ##### Ranger
 
-![ranger](https://cdn.nixsys.fr/static/github/dotfiles/ranger/preview.png)
+![ranger](https://cdn.nixsys.fr/static/github/dotfiles/ranger.png)
 
-##### URxvt
+##### Neovim
 
-![urxvt](https://cdn.nixsys.fr/static/github/dotfiles/urxvt/preview.png)
-
-##### VSCode
-
-![vscode](https://cdn.nixsys.fr/static/github/dotfiles/vscode/preview.png)
+![neovim](https://cdn.nixsys.fr/static/github/dotfiles/neovim.png)
 
 ##### Gitignore.io
 
