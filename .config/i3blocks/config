@@ -41,7 +41,7 @@ interval=1
 command=date '+%a %d %b %H:%M'
 
 [battery-label]
-color=#BE9DB8
+color=#BBC3D4
 separator=false
 full_text=•
 
