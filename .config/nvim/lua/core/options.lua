@@ -19,8 +19,8 @@ vim.o.timeoutlen = 200
 vim.o.ttimeoutlen = 20
 
 -- Scrolloff rules
-vim.o.scrolloff = 8
-vim.o.sidescrolloff = 8
+vim.o.scrolloff = 3
+vim.o.sidescrolloff = 3
 
 -- Splitting rules
 vim.o.splitright = true
