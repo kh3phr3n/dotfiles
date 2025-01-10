@@ -57,6 +57,7 @@
 ### macOS ###
 # General
 .DS_Store
+.localized
 .AppleDouble
 .LSOverride
 
