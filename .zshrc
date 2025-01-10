@@ -1,6 +1,9 @@
 # XON flow control
 [[ -x /bin/stty ]] && stty -ixon
 
+# Zsh completion
+autoload -Uz compinit && compinit
+
 # Custom aliases
 [[ -f ~/.zsh_aliases ]] && source ~/.zsh_aliases
 
