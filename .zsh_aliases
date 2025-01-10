@@ -22,5 +22,6 @@ alias pysrv='python -m http.server'
 alias rmclh='rm ~/.zsh_history && history -p'
 alias rmpyc='find . -name "*.pyc" -type f -delete'
 alias rmdss='find . -name "*.DS_Store" -type f -delete'
+alias rmloc='find . -name "*.localized" -type f -delete'
 alias rmvim='rm -rf ~/.cache/nvim ~/.config/nvim ~/.local/{share,state}/nvim'
 
