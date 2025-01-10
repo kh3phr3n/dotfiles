@@ -27,7 +27,7 @@ return {
 
       -- A list of servers to automatically install
       ensure_installed = {
-        'gopls', 'ts_ls', 'lua_ls',
+        'clangd', 'gopls', 'ts_ls', 'lua_ls',
         'dockerls', 'docker_compose_language_service',
         'cssls', 'jsonls', 'eslint', 'emmet_ls', 'prismals', 'tailwindcss'
       }
