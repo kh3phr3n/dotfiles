@@ -6,6 +6,16 @@ return {
   dependencies = {
     'nvim-lua/plenary.nvim'
   },
+  opts = {
+    defaults = {
+      layout_config = {
+        horizontal = {
+          width = { padding = 0 },
+          height = { padding = 0 }
+        }
+      }
+    }
+  },
 
   init = function()
     vim.keymap.set('n', '<Leader>fb', '<Cmd>Telescope buffers<CR>')

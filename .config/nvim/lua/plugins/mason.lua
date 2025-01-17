@@ -10,8 +10,8 @@ return {
     -- Setup order is important
     require('mason').setup({
       ui = {
-        width = 0.8,
-        height = 0.8,
+        width = 1.0,
+        height = 0.9,
         border = 'rounded',
         icons = {
           package_pending = '○',
