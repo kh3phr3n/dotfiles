@@ -14,7 +14,7 @@ return {
 
     -- A list of parser names, or 'all'
     ensure_installed = {
-      'luap', 'luadoc', 'go', 'gomod', 'gosum', 'gowork',
+      'cpp', 'luap', 'luadoc', 'go', 'gomod', 'gosum', 'gowork',
       'csv', 'sql', 'toml', 'yaml', 'json', 'make', 'dockerfile',
       'css', 'scss', 'html', 'vue', 'jsdoc', 'prisma', 'javascript', 'typescript'
     },
