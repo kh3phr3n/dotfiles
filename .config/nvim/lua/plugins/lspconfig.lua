@@ -50,6 +50,7 @@ return {
               {
                 name = '@vue/typescript-plugin',
                 location = '/usr/lib/node_modules/@vue/typescript-plugin',
+                -- location = '/opt/homebrew/lib/node_modules/@vue/typescript-plugin',
                 languages = {
                   'vue',
                   'javascript',
