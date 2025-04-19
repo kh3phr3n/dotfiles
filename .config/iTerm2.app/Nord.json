@@ -30,7 +30,7 @@
   },
   "Use Non-ASCII Font" : true,
   "Right Option Key Sends" : 0,
-  "Normal Font" : "IosevkaSemiboldExtraNFM-Extended 15",
+  "Normal Font" : "IosevkaSemiboldExtraNFM-Extended 14",
   "Rows" : 23,
   "Default Bookmark" : "No",
   "Ansi 6 Color" : {
@@ -120,8 +120,8 @@
   "Brighten Bold Text" : false,
   "Custom Command" : "No",
   "ASCII Anti Aliased" : true,
-  "Non Ascii Font" : "IosevkaSemiboldExtraNFM-Extended 15",
-  "Vertical Spacing" : 1.1000000000000001,
+  "Non Ascii Font" : "IosevkaSemiboldExtraNFM-Extended 14",
+  "Vertical Spacing" : 1,
   "Use Bold Font" : false,
   "Option Key Sends" : 0,
   "Selected Text Color" : {
