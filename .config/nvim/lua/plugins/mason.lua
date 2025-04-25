@@ -12,6 +12,7 @@ return {
       ui = {
         width = 1.0,
         height = 0.9,
+        backdrop = 100,
         border = 'rounded',
         icons = {
           package_pending = '○',
