@@ -47,7 +47,7 @@ vim.o.completeopt = 'menu,menuone,noselect'
 -- Section folding
 vim.o.foldlevel = 99
 vim.o.foldmethod = 'expr'
-vim.o.foldexpr = 'nvim_treesitter#foldexpr()'
+vim.o.foldexpr = 'v:lua.vim.treesitter.foldexpr()'
 
 -- Neovim GUI
 if vim.g.neovide then

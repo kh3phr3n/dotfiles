@@ -1,9 +1,9 @@
 return {
-  'williamboman/mason.nvim',
+  'mason-org/mason.nvim',
 
   -- Specs
   dependencies = {
-    'williamboman/mason-lspconfig.nvim'
+    'mason-org/mason-lspconfig.nvim'
   },
 
   init = function()
@@ -23,9 +23,6 @@ return {
     })
 
     require('mason-lspconfig').setup({
-      -- All servers set up via lspconfig are automatically installed
-      automatic_installation = true,
-
       -- A list of servers to automatically install
       ensure_installed = {
         'clangd', 'gopls', 'ts_ls', 'lua_ls',

@@ -17,19 +17,6 @@ vim.diagnostic.config({
   }
 })
 
--- LSP handlers
-vim.lsp.handlers['textDocument/hover'] = vim.lsp.with(
-  vim.lsp.handlers.hover, {
-    border = 'rounded'
-  }
-)
-
-vim.lsp.handlers['textDocument/signatureHelp'] = vim.lsp.with(
-  vim.lsp.handlers.signature_help, {
-    border = 'rounded'
-  }
-)
-
 -- Diagnostics are not exclusive to lsp servers
 vim.keymap.set('n', '[d', '<Cmd>lua vim.diagnostic.goto_prev()<CR>')
 vim.keymap.set('n', ']d', '<Cmd>lua vim.diagnostic.goto_next()<CR>')
