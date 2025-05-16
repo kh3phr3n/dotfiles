@@ -27,8 +27,11 @@ return {
     )
 
     -- LSP configs
-    vim.lsp.config('lua_ls', {
+    vim.lsp.config('*', {
       capabilities = default_capabilities,
+    })
+
+    vim.lsp.config('lua_ls', {
       settings = {
         Lua = {
           diagnostics = {
@@ -39,7 +42,6 @@ return {
     })
 
     vim.lsp.config('ts_ls', {
-      capabilities = default_capabilities,
       filetypes = {
         'vue',
         'javascript',
