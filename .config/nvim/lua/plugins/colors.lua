@@ -1,5 +1,23 @@
 return {
   {
+    'EdenEast/nightfox.nvim',
+
+    -- Specs
+    lazy = false,
+    priority = 1000,
+    opts = {
+      options = {
+        styles = {
+          comments = 'italic'
+        }
+      }
+    },
+
+    init = function()
+      vim.cmd.colorscheme('carbonfox')
+    end
+  },
+  {
     'gbprod/nord.nvim',
 
     -- Specs
@@ -25,11 +43,7 @@ return {
         -- Native groups
         highlights['Folded'] = { fg = '#616E88', bg = '#3B4252' }
       end
-    },
-
-    init = function()
-      vim.cmd.colorscheme('nord')
-    end
+    }
   }
 }
 
