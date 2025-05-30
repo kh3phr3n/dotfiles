@@ -10,6 +10,11 @@ return {
         styles = {
           comments = 'italic'
         }
+      },
+      groups = {
+        carbonfox = {
+          NeoTreeNormal = { bg = 'bg1' },
+        }
       }
     },
 

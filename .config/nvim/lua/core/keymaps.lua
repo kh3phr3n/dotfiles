@@ -21,6 +21,10 @@ vim.keymap.set('n', '<C-j>', '<Cmd>wincmd j<CR>')
 vim.keymap.set('n', '<C-h>', '<Cmd>wincmd h<CR>')
 vim.keymap.set('n', '<C-l>', '<Cmd>wincmd l<CR>')
 
+-- Windows scrolling
+vim.keymap.set('n', '<ScrollWheelLeft>', '<Nop>')
+vim.keymap.set('n', '<ScrollWheelRight>', '<Nop>')
+
 -- Windows resizing
 vim.keymap.set('n', '<C-Up>', '<Cmd>resize +2<CR>')
 vim.keymap.set('n', '<C-Down>', '<Cmd>resize -2<CR>')
