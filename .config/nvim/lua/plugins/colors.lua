@@ -13,7 +13,14 @@ return {
       },
       groups = {
         carbonfox = {
-          NeoTreeNormal = { bg = 'bg1' },
+          -- Native groups
+          LineNr = { fg = '#585858' },
+
+          -- Plugin groups
+          NeoTreeNormal = { bg = '#161616' },
+          NeoTreeDotfile = { fg = '#6E6F70' },
+          NeoTreeFileName = { fg = '#DFDFE0' },
+          NeoTreeRootName = { fg = '#BE95FF' }
         }
       }
     },
