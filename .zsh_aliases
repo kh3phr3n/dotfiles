@@ -16,7 +16,7 @@ alias sudo='sudo '
 # Network utilities
 alias onl='ping -c 10 1.1.1.1'
 alias http='http -s paraiso-dark'
-alias pysrv='python -m http.server'
+alias pysrv='python3 -m http.server'
 
 # Cleanup utilities
 alias rmclh='rm ~/.zsh_history && history -p'
@@ -24,4 +24,7 @@ alias rmpyc='find . -name "*.pyc" -type f -delete'
 alias rmdss='find . -name "*.DS_Store" -type f -delete'
 alias rmloc='find . -name "*.localized" -type f -delete'
 alias rmvim='rm -rf ~/.cache/nvim ~/.config/nvim ~/.local/{share,state}/nvim'
+
+# Update utilities
+alias uptodate='brew update; brew upgrade; brew cleanup; brew doctor; brew autoremove --dry-run'
 
