@@ -11,10 +11,18 @@ return {
           comments = 'italic'
         }
       },
+      palettes = {
+        carbonfox = {
+          fg1 = '#DFDFE0'
+        }
+      },
       groups = {
         carbonfox = {
           -- Native groups
-          LineNr = { fg = '#585858' },
+          Folded = { fg = '#484849' },
+          LineNr = { fg = '#585859' },
+          FloatBorder = { fg = '#585859' },
+          WinSeparator = { fg = '#282829' },
 
           -- Plugin groups
           NeoTreeNormal = { bg = '#161616' },
