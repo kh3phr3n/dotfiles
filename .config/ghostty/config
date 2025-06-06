@@ -1,0 +1,10 @@
+term = xterm-256color
+adjust-cell-width = -1
+window-padding-balance = true
+shell-integration-features = sudo,no-title,no-cursor
+
+cursor-style = block
+cursor-style-blink = false
+
+font-size = 14
+font-family = "IosevkaSemiboldExtra NFM Extended"
