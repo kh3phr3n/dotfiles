@@ -1,10 +1,27 @@
-term = xterm-256color
-adjust-cell-width = -1
-window-padding-balance = true
-shell-integration-features = sudo,no-title,no-cursor
+# Custom themes
+# config-file = themes/nord
+config-file = themes/carbonfox
 
+# Cell scaling
+adjust-cell-width = -1
+adjust-cell-height = 1
+
+# Cursor style
 cursor-style = block
 cursor-style-blink = false
 
+# Window sizing
+window-padding-x = 3
+window-padding-y = 3
+window-padding-balance = true
+
+# Font style
 font-size = 14
 font-family = "IosevkaSemiboldExtra NFM Extended"
+
+# Misc options
+term = xterm-256color
+split-divider-color = #282829
+selection-invert-fg-bg = true
+shell-integration-features = sudo,title,no-cursor
+
