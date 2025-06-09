@@ -5,6 +5,7 @@ config-file = themes/carbonfox
 # Cell scaling
 adjust-cell-width = -1
 adjust-cell-height = 1
+adjust-cursor-height = 1
 
 # Cursor style
 cursor-style = block
@@ -24,4 +25,7 @@ term = xterm-256color
 split-divider-color = #282829
 selection-invert-fg-bg = true
 shell-integration-features = sudo,title,no-cursor
+
+# Keybindings
+keybind = global:cmd+grave_accent=toggle_quick_terminal
 
