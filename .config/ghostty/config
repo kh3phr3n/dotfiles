@@ -26,6 +26,10 @@ split-divider-color = #282829
 selection-invert-fg-bg = true
 shell-integration-features = sudo,title,no-cursor
 
-# Keybindings
+# Keybindings: ghostty +list-keybinds
+keybind = global:cmd+k=goto_split:up
+keybind = global:cmd+j=goto_split:down
+keybind = global:cmd+h=goto_split:left
+keybind = global:cmd+l=goto_split:right
 keybind = global:cmd+grave_accent=toggle_quick_terminal
 
