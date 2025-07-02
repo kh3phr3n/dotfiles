@@ -12,6 +12,14 @@ vim.api.nvim_create_autocmd('Filetype', {
   pattern = { 'xml', 'html', 'css', 'scss', 'javascript', 'typescript', 'lua', 'yaml', 'md', 'markdown' }
 })
 
+-- Set format on save
+vim.api.nvim_create_autocmd('BufWritePre', {
+  pattern = { '*.go' },
+  callback = function()
+    vim.lsp.buf.format({ async = false })
+  end
+})
+
 -- Attach LSP actions
 vim.api.nvim_create_autocmd('LspAttach', {
   callback = function()
