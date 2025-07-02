@@ -21,6 +21,7 @@ return {
           -- Native groups
           Folded = { fg = '#484849' },
           LineNr = { fg = '#585859' },
+          PreProc = { fg = '#F277AC' },
           FloatBorder = { fg = '#585859' },
           WinSeparator = { fg = '#282829' },
 
