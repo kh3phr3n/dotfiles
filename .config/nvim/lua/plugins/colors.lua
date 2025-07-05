@@ -9,6 +9,10 @@ return {
       options = {
         styles = {
           comments = 'italic'
+        },
+        inverse = {
+          visual = true,
+          match_paren = true
         }
       },
       palettes = {
