@@ -27,6 +27,7 @@ return {
           LineNr = { fg = '#585859' },
           PreProc = { fg = '#F389B7' },
           FloatBorder = { fg = '#585859' },
+          NormalFloat = { bg = '#161616' },
           WinSeparator = { fg = '#282829' },
 
           -- Plugin groups
