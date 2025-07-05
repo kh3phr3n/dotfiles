@@ -11,7 +11,6 @@ return {
           comments = 'italic'
         },
         inverse = {
-          visual = true,
           match_paren = true
         }
       },
@@ -23,6 +22,7 @@ return {
       groups = {
         carbonfox = {
           -- Native groups
+          Visual = { bg = '#353535' },
           Folded = { fg = '#484849' },
           LineNr = { fg = '#585859' },
           PreProc = { fg = '#F389B7' },
