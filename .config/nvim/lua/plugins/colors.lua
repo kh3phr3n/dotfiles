@@ -34,7 +34,10 @@ return {
           NeoTreeNormal = { bg = '#161616' },
           NeoTreeDotfile = { fg = '#6E6F70' },
           NeoTreeFileName = { fg = '#DFDFE0' },
-          NeoTreeRootName = { fg = '#BE95FF' }
+          NeoTreeRootName = { fg = '#BE95FF' },
+
+          -- Treesitter groups
+          ['@type.builtin'] = { fg = '#0CBDBA' }
         }
       }
     },
