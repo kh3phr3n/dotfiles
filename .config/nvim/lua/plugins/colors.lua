@@ -24,6 +24,7 @@ return {
           -- Native groups
           Visual = { bg = '#353535' },
           Folded = { fg = '#484849' },
+          LineNr = { fg = '#484849' },
           Operator = { fg = '#B6B8BB' },
           FloatBorder = { fg = '#585859' },
           NormalFloat = { bg = '#161616' },
