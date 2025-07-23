@@ -24,8 +24,7 @@ return {
           -- Native groups
           Visual = { bg = '#353535' },
           Folded = { fg = '#484849' },
-          LineNr = { fg = '#585859' },
-          PreProc = { fg = '#F389B7' },
+          Operator = { fg = '#B6B8BB' },
           FloatBorder = { fg = '#585859' },
           NormalFloat = { bg = '#161616' },
           WinSeparator = { fg = '#282829' },
@@ -37,7 +36,7 @@ return {
           NeoTreeRootName = { fg = '#BE95FF' },
 
           -- Treesitter groups
-          ['@type.builtin'] = { fg = '#0CBDBA' }
+          ['@variable.parameter'] = { fg = '#519ABA' }
         }
       }
     },
