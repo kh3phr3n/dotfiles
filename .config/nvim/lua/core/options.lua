@@ -5,7 +5,7 @@ vim.o.ignorecase = true
 vim.o.termguicolors = true
 
 -- Numbered lines
-vim.o.number = false
+vim.o.number = true
 vim.o.numberwidth = 2
 
 -- Indentation spaces
