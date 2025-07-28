@@ -3,8 +3,7 @@ vim.diagnostic.enable(false)
 vim.diagnostic.config({
   severity_sort = true,
   float = {
-    source = 'always',
-    border = 'rounded'
+    source = 'always'
   },
   signs = {
     text = {

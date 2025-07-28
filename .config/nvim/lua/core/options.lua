@@ -30,6 +30,9 @@ vim.o.splitbelow = true
 vim.o.swapfile = false
 vim.o.writebackup = false
 
+-- Floating windows style
+vim.o.winborder = 'rounded'
+
 -- Cursor movements
 vim.o.whichwrap = 'b,s,h,l,<,>,[,]'
 

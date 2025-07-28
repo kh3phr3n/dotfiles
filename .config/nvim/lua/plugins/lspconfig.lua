@@ -7,24 +7,8 @@ return {
   },
 
   init = function()
-    -- Keep consistency in UI
-    require('lspconfig.ui.windows').default_options.border = 'rounded'
-
     -- Local imports
     local default_capabilities = require('cmp_nvim_lsp').default_capabilities()
-
-    -- LSP handlers
-    vim.lsp.handlers['textDocument/hover'] = vim.lsp.with(
-      vim.lsp.handlers.hover, {
-        border = 'rounded'
-      }
-    )
-
-    vim.lsp.handlers['textDocument/signatureHelp'] = vim.lsp.with(
-      vim.lsp.buf.signature_help, {
-        border = 'rounded'
-      }
-    )
 
     -- LSP configs
     vim.lsp.config('*', {
