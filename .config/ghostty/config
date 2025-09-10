@@ -4,7 +4,8 @@ config-file = themes/carbonfox
 
 # Cell scaling
 adjust-cell-width = -1
-adjust-cell-height = 2
+adjust-cell-height = 1
+# adjust-cell-height = 2
 adjust-cursor-height = 1
 
 # Cursor style
