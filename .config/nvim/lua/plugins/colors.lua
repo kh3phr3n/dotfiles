@@ -34,6 +34,7 @@ return {
           NeoTreeRootName = { fg = '#BE95FF' },
 
           -- Treesitter groups
+          ['@spell.markdown'] = { fg = '#B6B8BB' },
           ['@variable.parameter'] = { fg = '#519ABA' }
         }
       }
