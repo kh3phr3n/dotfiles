@@ -52,18 +52,3 @@ vim.o.foldlevel = 99
 vim.o.foldmethod = 'expr'
 vim.o.foldexpr = 'v:lua.vim.treesitter.foldexpr()'
 
--- Neovim GUI
-if vim.g.neovide then
-  -- Padding
-  vim.g.neovide_padding_left = 4
-  vim.g.neovide_padding_right = 4
-
-  -- Text Gamma and Contrast
-  vim.g.neovide_text_gamma = 0.8
-  vim.g.neovide_text_contrast = 0.1
-
-  -- Font options
-  vim.o.linespace = 1
-  vim.o.guifont = 'Iosevka NFM:h9:w0.12'
-end
-
