@@ -44,7 +44,7 @@ setPrompt()
     # Check Python virtual environments
     [[ ${VIRTUAL_ENV} != "" ]] && PS1+="${cyan}(${VIRTUAL_ENV##*/})${off} "
     # Finalize PS1 (User, Directory, Branch, Prompt symbols: $/#)
-    PS1+="${blue}\u${off} ${purple}in${off} ${green}\w${off}${cyan}${branch:-}${off} ${yellow}\\\$${off} "
+    PS1+="${blue}\u${off} ${purple}in${off} ${green}\w${off}${yellow}${branch:-}${off} ${red}\\\$${off} "
 }
 
 PROMPT_COMMAND=setPrompt

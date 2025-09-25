@@ -50,6 +50,7 @@ $HOME/.vscode-oss/styles.css
 ##### Extensions (Styles)
 
 * [Nord](https://marketplace.visualstudio.com/items?itemName=arcticicestudio.nord-visual-studio-code)
+* [Nightfox](https://marketplace.visualstudio.com/items?itemName=keifererikson.nightfox)
 * [One Dark Pro](https://marketplace.visualstudio.com/items?itemName=zhuangtongfa.Material-theme)
 * [Material Icon Theme](https://marketplace.visualstudio.com/items?itemName=PKief.material-icon-theme)
 * [Fix VSCode Checksums](https://marketplace.visualstudio.com/items?itemName=lehni.vscode-fix-checksums)

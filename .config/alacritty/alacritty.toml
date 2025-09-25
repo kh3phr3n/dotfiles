@@ -2,8 +2,8 @@
 TERM = "xterm-256color"
 
 [window.padding]
-x = 3
-y = 3
+x = 1
+y = 1
 
 [font]
 size = 8.0
@@ -25,38 +25,38 @@ family = "Iosevka NFM"
 style = "Extended SemiBold"
 
 [colors.normal]
-red = "#BF616A"
-blue = "#5E81AC"
-cyan = "#80B3B2"
-green = "#97B67C"
-black = "#242933"
-white = "#E5E9F0"
-yellow = "#EBCB8B"
-magenta = "#A97EA1"
+red = "#EE5396"
+blue = "#78A9FF"
+cyan = "#33B1FF"
+green = "#25BE6A"
+black = "#282829"
+white = "#DFDFE0"
+yellow = "#08BDBA"
+magenta = "#BE95FF"
 
 [colors.bright]
-red = "#BF616A"
-blue = "#5E81AC"
-cyan = "#80B3B2"
-green = "#97B67C"
-black = "#60728A"
-white = "#ECEFF4"
-yellow = "#EBCB8B"
-magenta = "#A97EA1"
+red = "#F16DA6"
+blue = "#8CB6FF"
+cyan = "#52BDFF"
+green = "#46C880"
+black = "#484849"
+white = "#E4E4E5"
+yellow = "#2DC7C4"
+magenta = "#C8A5FF"
 
 [colors.primary]
-background = "#2E3440"
-foreground = "#D1D8E5"
+foreground = "#DFDFE0"
+background = "#161616"
 
 [colors.footer_bar]
-background = "#80B3B2"
-foreground = "#242933"
+foreground = "#DFDFE0"
+background = "#353535"
 
 [colors.search.matches]
-background = "#3B4252"
-foreground = "#80B3B2"
+foreground = "#DFDFE0"
+background = "#525253"
 
 [colors.search.focused_match]
-background = "#80B3B2"
-foreground = "#3B4252"
+foreground = "#161616"
+background = "#3DDBD9"
 

@@ -2,15 +2,15 @@
 
 ##### i3wm
 
-![i3wm](https://cdn.nixsys.fr/static/github/dotfiles/i3wm.png)
+![i3wm](https://cdn.nixsys.fr/static/github/dotfiles/i3wm.carbonfox.png)
 
 ##### Ranger
 
-![ranger](https://cdn.nixsys.fr/static/github/dotfiles/ranger.png)
+![ranger](https://cdn.nixsys.fr/static/github/dotfiles/ranger.carbonfox.png)
 
 ##### Neovim
 
-![neovim](https://cdn.nixsys.fr/static/github/dotfiles/neovim.png)
+![neovim](https://cdn.nixsys.fr/static/github/dotfiles/neovim.carbonfox.png)
 
 ##### Gitignore.io
 

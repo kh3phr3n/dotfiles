@@ -1,57 +1,57 @@
 [cpu-label]
-color=#81A1C1
+color=#8CB6FF
 separator=false
 full_text=• Cpu
 
 [cpu]
 interval=1
-COLOR_CRIT=#C5727A
-COLOR_WARN=#D79784
-COLOR_NORMAL=#EFD49F
+COLOR_CRIT=#F16DA6
+COLOR_WARN=#F16DA6
+COLOR_NORMAL=#46C880
 command=/usr/local/bin/cpu_usage
 
 [ram-label]
-color=#81A1C1
+color=#8CB6FF
 separator=false
 full_text=• Ram
 
 [ram]
-color=#9FC6C5
+color=#2DC7C4
 interval=1
 command=free | awk '/Mem/{printf("%.2f%\n"), $3/$2*100}'
 
 [luks-label]
-color=#81A1C1
+color=#8CB6FF
 separator=false
 full_text=• r00t
 
 [luks]
-color=#9FC6C5
+color=#2DC7C4
 interval=60
 command=df /dev/mapper/r00t | awk '(NR>1) {print $5}'
 
 [date-label]
-color=#81A1C1
+color=#8CB6FF
 separator=false
 full_text=• Date
 
 [date]
-color=#9FC6C5
+color=#2DC7C4
 interval=1
 command=date '+%a %d %b %H:%M'
 
 [battery-label]
-color=#BBC3D4
+color=#B6B8BB
 separator=false
 full_text=•
 
 [battery]
-color=#BBC3D4
+color=#B6B8BB
 interval=60
 command=acpi -b | cut -d, -f2 | sed 's/^[ ]//'
 
 [network]
-color=#BE9DB8
+color=#C8A5FF
 interval=30
 command=[[ $(connmanctl state) =~ 'online' ]] && echo '• Online ' || echo '• Offline '
 
