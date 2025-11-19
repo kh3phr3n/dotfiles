@@ -17,7 +17,6 @@ return {
   init = function()
     -- Local imports
     local cmp = require('cmp')
-    local lspkind = require('lspkind')
     local luasnip = require('luasnip')
     require('luasnip.loaders.from_vscode').lazy_load()
 
@@ -26,9 +25,6 @@ return {
         expand = function(args)
           luasnip.lsp_expand(args.body)
         end
-      },
-      formatting = {
-        format = lspkind.cmp_format()
       },
       window = {
         completion = cmp.config.window.bordered(),
