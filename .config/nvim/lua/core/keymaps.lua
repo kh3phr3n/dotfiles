@@ -44,3 +44,8 @@ vim.keymap.set({ 'i', 'n' }, '<Esc>', '<Cmd>nohlsearch<CR><Esc>')
 vim.keymap.set('n', '<Leader>sa', ':%s///gc<Left><Left><Left><Left>')
 vim.keymap.set('n', '<Leader>sl', ':.s///gc<Left><Left><Left><Left>')
 
+-- Windows maximizing
+local zoomed = false vim.keymap.set('n', '<C-m>', function()
+  vim.cmd(zoomed and 'wincmd =' or 'wincmd | | wincmd _') zoomed = not zoomed
+end)
+
