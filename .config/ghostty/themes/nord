@@ -1,8 +1,6 @@
 background = #2E3440
 foreground = #D1D8E5
 cursor-color = #D1D8E5
-selection-background = #ECEFF4
-selection-foreground = #4C566A
 
 # Normal colors
 palette = 0=#242933
