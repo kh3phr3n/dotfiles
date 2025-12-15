@@ -1,4 +1,5 @@
 -- Basic settings
+vim.o.mouse = 'nv'
 vim.o.wrap = false
 vim.o.showmode = false
 vim.o.ignorecase = true
