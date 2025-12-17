@@ -2,8 +2,9 @@ return {
   'nvim-treesitter/nvim-treesitter',
 
   -- Specs
+  lazy = false,
+  branch = 'master',
   build = ':TSUpdate',
-  event = { 'BufReadPre', 'BufNewFile' },
   main = 'nvim-treesitter.configs',
   opts = {
     -- Nvim includes these parsers
